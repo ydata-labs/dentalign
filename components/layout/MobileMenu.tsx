@@ -43,7 +43,7 @@ export default function MobileMenu({
                     <div className="vl-offcanvas-header d-flex justify-content-between align-items-center mb-40">
                         <div className="vl-offcanvas-logo">
                             <Link href="/">
-                                <Image
+                                <img
                                     src="assets/img/logo/logo.png"
                                     alt="logo"
                                     width={256}

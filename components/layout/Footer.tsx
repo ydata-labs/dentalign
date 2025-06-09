@@ -23,7 +23,7 @@ export default function Footer() {
                             <div className="vl-footer-widget-1">
                                 <div className="vl-footer-logo">
                                     <Link href="/">
-                                        <Image
+                                        <img
                                             src="assets/img/logo/logo.png"
                                             alt="logo"
                                             width={256}

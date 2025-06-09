@@ -29,7 +29,7 @@ export default function Header({
                             <div className="col-lg-3 col-md-6 col-9">
                                 <div className="vl-logo">
                                     <Link href="/">
-                                        <Image
+                                        <img
                                             className="object-fit-scale"
                                             src="assets/img/logo/logo.png"
                                             alt="logo"
