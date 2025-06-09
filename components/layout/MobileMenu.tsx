@@ -44,7 +44,7 @@ export default function MobileMenu({
                         <div className="vl-offcanvas-logo">
                             <Link href="/">
                                 <Image
-                                    src="/assets/img/logo/logo.png"
+                                    src="assets/img/logo/logo.png"
                                     alt="logo"
                                     width={256}
                                     height={148}

@@ -31,7 +31,7 @@ export default function Header({
                                     <Link href="/">
                                         <Image
                                             className="object-fit-scale"
-                                            src="/assets/img/logo/logo.png"
+                                            src="assets/img/logo/logo.png"
                                             alt="logo"
                                             width={256}
                                             height={148}
