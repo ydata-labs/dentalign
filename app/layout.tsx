@@ -19,6 +19,54 @@ export const metadata: Metadata = {
     title: "Dentalign - Modern Dental Clinic & Orthodontic Care",
     description:
         "Dentalign offers comprehensive dental care services including orthodontics, cosmetic dentistry, and general dental treatments. Book your appointment today for a brighter, healthier smile.",
+    keywords:
+        "dental clinic, orthodontics, cosmetic dentistry, dental care, teeth whitening, dental implants, braces, invisalign, dental services",
+    authors: [{ name: "Dentalign" }],
+    creator: "Dentalign",
+    publisher: "Dentalign",
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+    openGraph: {
+        type: "website",
+        locale: "en_US",
+        url: "https://dentalign.be",
+        siteName: "Dentalign",
+        title: "Dentalign - Modern Dental Clinic & Orthodontic Care",
+        description:
+            "Dentalign offers comprehensive dental care services including orthodontics, cosmetic dentistry, and general dental treatments. Book your appointment today for a brighter, healthier smile.",
+        images: [
+            {
+                url: "/assets/img/og-image.jpg",
+                width: 1200,
+                height: 630,
+                alt: "Dentalign Dental Clinic",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Dentalign - Modern Dental Clinic & Orthodontic Care",
+        description:
+            "Dentalign offers comprehensive dental care services including orthodontics, cosmetic dentistry, and general dental treatments.",
+        images: ["/assets/img/og-image.jpg"],
+    },
+    viewport: {
+        width: "device-width",
+        initialScale: 1,
+        maximumScale: 1,
+    },
+    verification: {
+        google: "your-google-site-verification",
+    },
 };
 
 export default function RootLayout({
