@@ -13,10 +13,10 @@ export default function Work() {
                                     data-aos-duration={800}
                                     data-aos-delay={300}
                                 >
-                                    How It Work
+                                    Hoe het werkt
                                 </h5>
                                 <h2 className="title pt-16 text-anime-style-3">
-                                    How Our Dental Care Works
+                                    Zo werkt onze tandzorg
                                 </h2>
                             </div>
                         </div>
@@ -56,15 +56,15 @@ export default function Work() {
                                             </div>
                                             <div className="content">
                                                 <h4 className="title pb-16">
-                                                    Comfortable and Precise
-                                                    Treatment
+                                                    Comfortabele en precieze
+                                                    behandeling
                                                 </h4>
                                                 <p className="para">
-                                                    Includes follow-up care
-                                                    &amp; guidance maintaining
-                                                    your <br /> results, with
-                                                    our team always available to
-                                                    answer.
+                                                    Inclusief nazorg en
+                                                    begeleiding om uw resultaten
+                                                    te behouden; ons team staat
+                                                    altijd klaar om uw vragen te
+                                                    beantwoorden.
                                                 </p>
                                             </div>
                                         </div>
@@ -90,15 +90,14 @@ export default function Work() {
                                             </div>
                                             <div className="content">
                                                 <h4 className="title pb-16">
-                                                    Post-Treatment Care and
-                                                    Follow-Up
+                                                    Nazorg en follow-up
                                                 </h4>
                                                 <p className="para">
-                                                    Is your treatment phase,
-                                                    where we use the latest{" "}
-                                                    <br /> technology techniques
-                                                    to deliver precise, gentle
-                                                    care.
+                                                    Dit is de behandel­fase,
+                                                    waarin we de nieuwste
+                                                    technologie en technieken
+                                                    inzetten voor nauwkeurige,
+                                                    zachte zorg.
                                                 </p>
                                             </div>
                                         </div>
@@ -124,14 +123,14 @@ export default function Work() {
                                             </div>
                                             <div className="content">
                                                 <h4 className="title pb-16">
-                                                    Personalized Treatment Plan
+                                                    Persoonlijk behandelplan
                                                 </h4>
                                                 <p className="para">
-                                                    We develop a personalized
-                                                    treatment tailored to your{" "}
-                                                    <br /> specific requirement,
-                                                    ensuring informed every
-                                                    option.
+                                                    We stellen een persoonlijk
+                                                    behandelplan op, afgestemd
+                                                    op uw specifieke behoeften,
+                                                    zodat u goed geïnformeerd
+                                                    elke keuze kunt maken.
                                                 </p>
                                             </div>
                                         </div>
@@ -157,14 +156,14 @@ export default function Work() {
                                             </div>
                                             <div className="content">
                                                 <h4 className="title pb-16">
-                                                    Your First Consultation
+                                                    Uw eerste consult
                                                 </h4>
                                                 <p className="para">
-                                                    Begins with a warm welcome
-                                                    &amp; thorough consultation,{" "}
-                                                    <br /> where we take the
-                                                    time to understand needs,
-                                                    goals.
+                                                    Begint met een warm welkom
+                                                    en een grondig consult,
+                                                    waarin we de tijd nemen om
+                                                    uw wensen en doelen te
+                                                    begrijpen.
                                                 </p>
                                             </div>
                                         </div>

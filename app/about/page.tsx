@@ -13,8 +13,8 @@ export default function About() {
         <>
             <Layout>
                 <SectionHeader
-                    title="About Us"
-                    current="About Us"
+                    title="Over ons"
+                    current="Over ons"
                     isGroup={false}
                     linkGroup=""
                     pageGroup=""

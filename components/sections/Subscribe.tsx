@@ -19,18 +19,19 @@ export default function Subscribe() {
                             <div className="col-lg-5">
                                 <div className="vl-cta-content">
                                     <h3 className="title text-anime-style-3 pb-32">
-                                        Don’t Wait Your Smile Deserves the Best
+                                        Wacht niet: uw glimlach verdient het
+                                        beste
                                     </h3>
                                     <div className="vl-cta-form">
                                         <form action="#">
                                             <input
                                                 name="email"
                                                 type="email"
-                                                placeholder="Enter Your Email"
+                                                placeholder="Vul uw e-mailadres in"
                                             />
                                             <div className="cta-submit-btn">
                                                 <button className="vl-btn-primary">
-                                                    Subscribe Now
+                                                    Nu abonneren
                                                 </button>
                                             </div>
                                         </form>

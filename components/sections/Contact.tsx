@@ -16,10 +16,10 @@ export default function Contact() {
                                         data-aos-duration={800}
                                         data-aos-delay={300}
                                     >
-                                        Contact Us
+                                        Neem contact op
                                     </h5>
                                     <h2 className="title pt-16 text-anime-style-3">
-                                        Book Your Appointment
+                                        Plan uw afspraak
                                     </h2>
                                 </div>
                                 <div
@@ -34,21 +34,21 @@ export default function Contact() {
                                                 <input
                                                     name="text"
                                                     type="text"
-                                                    placeholder="First Name"
+                                                    placeholder="Voornaam"
                                                 />
                                             </div>
                                             <div className="col-lg-6 mb-24">
                                                 <input
                                                     name="text"
                                                     type="text"
-                                                    placeholder="Last Name"
+                                                    placeholder="Achternaam"
                                                 />
                                             </div>
                                             <div className="col-lg-6 mb-24">
                                                 <input
                                                     name="email"
                                                     type="email"
-                                                    placeholder="Email Address"
+                                                    placeholder="E-mailadres"
                                                 />
                                             </div>
                                             <div className="col-lg-6 mb-24">
@@ -56,15 +56,15 @@ export default function Contact() {
                                                     name="select-date"
                                                     className="nice-select wide vl-select-date"
                                                 >
-                                                    <option data-display="Date">
-                                                        Monday - Friday(9AM -
-                                                        10PM)
+                                                    <option data-display="Datum">
+                                                        Maandag - Vrijdag (9.00
+                                                        - 22.00)
                                                     </option>
                                                     <option value={1}>
-                                                        Sunday(9AM - 10PM)
+                                                        Zondag (9.00 - 22.00)
                                                     </option>
                                                     <option value={2}>
-                                                        Saturday(10AM - 4PM)
+                                                        Zaterdag (10.00 - 16.00)
                                                     </option>
                                                 </select>
                                             </div>
@@ -72,7 +72,7 @@ export default function Contact() {
                                                 <textarea
                                                     name="message"
                                                     id="message"
-                                                    placeholder="Your Message"
+                                                    placeholder="Uw bericht"
                                                     defaultValue={""}
                                                 />
                                             </div>
@@ -81,7 +81,7 @@ export default function Contact() {
                                     <div className="col-lg-6">
                                         <div className="vl-contact-btn">
                                             <button className="vl-btn-primary">
-                                                Submit
+                                                Verzenden
                                             </button>
                                         </div>
                                     </div>
@@ -103,26 +103,26 @@ export default function Contact() {
                                     <div className="vl-single-info-box">
                                         <div className="vl-contact-info-box-flex">
                                             <h4 className="title">
-                                                Monday - Friday
+                                                Maandag - Vrijdag
                                             </h4>
                                             <span className="time">
-                                                9AM - 10PM
+                                                9.00 - 22.00
                                             </span>
                                         </div>
                                     </div>
                                     <div className="vl-single-info-box">
                                         <div className="vl-contact-info-box-flex">
-                                            <h4 className="title">Sunday</h4>
+                                            <h4 className="title">Zondag</h4>
                                             <span className="time">
-                                                9AM - 10PM
+                                                9.00 - 22.00
                                             </span>
                                         </div>
                                     </div>
                                     <div className="vl-single-info-box">
                                         <div className="vl-contact-info-box-flex">
-                                            <h4 className="title">Saturday</h4>
+                                            <h4 className="title">Zaterdag</h4>
                                             <span className="time">
-                                                10AM - 4PM
+                                                10.00 - 16.00
                                             </span>
                                         </div>
                                     </div>
@@ -131,7 +131,7 @@ export default function Contact() {
                                             href="tel:+11234567890"
                                             className="w-100 text-center vl-btn-primary"
                                         >
-                                            Call +1 (123) 456-7890
+                                            Bel +1 (123) 456-7890
                                         </Link>
                                     </div>
                                 </div>

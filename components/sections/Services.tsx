@@ -63,10 +63,10 @@ export default function Services() {
                                         data-aos-duration={800}
                                         data-aos-delay={300}
                                     >
-                                        Our Service
+                                        Onze diensten
                                     </h5>
                                     <h2 className="title pt-16 text-anime-style-3">
-                                        Your Complete Guide to Dental Health
+                                        Uw complete gids voor mondgezondheid
                                     </h2>
                                 </div>
                             </div>
@@ -99,20 +99,20 @@ export default function Services() {
                                     <div className="content">
                                         <h4 className="title pt-24">
                                             <Link href="/service-single">
-                                                Restorative Solutions
+                                                Herstellende behandelingen
                                             </Link>
                                         </h4>
                                         <p className="para pt-16 pb-24">
-                                            Whether you’re here for routine care
-                                            or specialized treatment, our is
-                                            committed to providing gentle,
-                                            compassionate care.
+                                            Of u nu komt voor routinezorg of
+                                            gespecialiseerde behandeling, ons
+                                            team biedt zorgzame en betrokken
+                                            zorg.
                                         </p>
                                         <Link
                                             href="/service-single"
                                             className="learnmore"
                                         >
-                                            Learn More
+                                            Meer informatie
                                             <span className="right-arow">
                                                 <i className="fa-regular fa-arrow-right" />
                                             </span>
@@ -137,20 +137,20 @@ export default function Services() {
                                     <div className="content">
                                         <h4 className="title pt-24">
                                             <Link href="/service-single">
-                                                Periodontal Therapy
+                                                Parodontale therapie
                                             </Link>
                                         </h4>
                                         <p className="para pt-16 pb-24">
-                                            For a younger patients, Pediatric
-                                            Dentistry offers a comfortable and
-                                            fun environment, helping children
-                                            build healthy habits.
+                                            Voor jongere patiënten biedt
+                                            kindertandheelkunde een comfortabele
+                                            en leuke omgeving, die helpt gezonde
+                                            gewoonten op te bouwen.
                                         </p>
                                         <Link
                                             href="/service-single"
                                             className="learnmore"
                                         >
-                                            Learn More
+                                            Meer informatie
                                             <span className="right-arow">
                                                 <i className="fa-regular fa-arrow-right" />
                                             </span>
@@ -175,20 +175,20 @@ export default function Services() {
                                     <div className="content">
                                         <h4 className="title pt-24">
                                             <Link href="/service-single">
-                                                Pediatric Dentistry
+                                                Kindertandheelkunde
                                             </Link>
                                         </h4>
                                         <p className="para pt-16 pb-24">
-                                            Our Cosmetic Dentistry options,
-                                            including whitening &amp; veneers,
-                                            are crafted enhance your confidence
-                                            with a radiant, beautiful.
+                                            Onze cosmetische tandheelkunde,
+                                            inclusief bleken en facings,
+                                            vergroot uw zelfvertrouwen met een
+                                            stralende glimlach.
                                         </p>
                                         <Link
                                             href="/service-single"
                                             className="learnmore"
                                         >
-                                            Learn More
+                                            Meer informatie
                                             <span className="right-arow">
                                                 <i className="fa-regular fa-arrow-right" />
                                             </span>
@@ -213,20 +213,20 @@ export default function Services() {
                                     <div className="content">
                                         <h4 className="title pt-24">
                                             <Link href="/service-single">
-                                                Restorative Solutions
+                                                Herstellende behandelingen
                                             </Link>
                                         </h4>
                                         <p className="para pt-16 pb-24">
-                                            Whether you’re here for routine care
-                                            or specialized treatment, our is
-                                            committed to providing gentle,
-                                            compassionate care.
+                                            Of u nu komt voor routinezorg of
+                                            gespecialiseerde behandeling, ons
+                                            team biedt zorgzame en betrokken
+                                            zorg.
                                         </p>
                                         <Link
                                             href="/service-single"
                                             className="learnmore"
                                         >
-                                            Learn More
+                                            Meer informatie
                                             <span className="right-arow">
                                                 <i className="fa-regular fa-arrow-right" />
                                             </span>

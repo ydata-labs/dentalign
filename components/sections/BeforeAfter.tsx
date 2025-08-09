@@ -17,11 +17,11 @@ export default function BeforeAfter() {
                                         data-aos-duration={800}
                                         data-aos-delay={300}
                                     >
-                                        After Before
+                                        Voor en na
                                     </h5>
                                     <h2 className="title pt-16 text-anime-style-3">
-                                        Your Complete Guide <br /> to Dental
-                                        Health
+                                        Uw complete gids <br /> voor
+                                        mondgezondheid
                                     </h2>
                                 </div>
                             </div>
@@ -30,7 +30,7 @@ export default function BeforeAfter() {
                                     href="/contact"
                                     className="vl-btn-primary"
                                 >
-                                    Contact Now
+                                    Neem contact op
                                 </Link>
                             </div>
                         </div>

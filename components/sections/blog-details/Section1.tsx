@@ -26,12 +26,12 @@ export default function Section1({
                             <div className="vl-sidebar">
                                 {/* search widget */}
                                 <div className="vl-widegt-1 vl-off-white-bg mb-30">
-                                    <h4 className="title pb-24">Search</h4>
+                                    <h4 className="title pb-24">Zoeken</h4>
                                     <div className="vl-searh-form-wid">
                                         <form action="#">
                                             <input
                                                 type="text"
-                                                placeholder="Search..."
+                                                placeholder="Zoeken..."
                                             />
                                             <span>
                                                 <i className="fa-regular fa-magnifying-glass" />
@@ -42,7 +42,7 @@ export default function Section1({
                                 {/* rec post widget */}
                                 <div className="vl-widegt-rec-post vl-off-white-bg mb-30">
                                     <h4 className="title pb-24">
-                                        Recent Blogs
+                                        Recente blogs
                                     </h4>
                                     {/* single post item */}
                                     <div className="vl-rec-post-flex">
@@ -72,8 +72,7 @@ export default function Section1({
                                             </div>
                                             <h3 className="title">
                                                 <Link href="/blog-single">
-                                                    Foods for Healthy <br />{" "}
-                                                    Teeth: What to Eat an...
+                                                    Voeding voor gezonde tanden
                                                 </Link>
                                             </h3>
                                         </div>
@@ -106,8 +105,7 @@ export default function Section1({
                                             </div>
                                             <h3 className="title">
                                                 <Link href="/blog-single">
-                                                    How to Care for Your <br />{" "}
-                                                    Teeth After a Filling or...
+                                                    Nazorg na een vulling
                                                 </Link>
                                             </h3>
                                         </div>
@@ -140,43 +138,7 @@ export default function Section1({
                                             </div>
                                             <h3 className="title">
                                                 <Link href="/blog-single">
-                                                    Braces vs. Invisalign:{" "}
-                                                    <br /> Which is Right for
-                                                    You?
-                                                </Link>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                    {/* single post item */}
-                                    <div className="vl-rec-post-flex">
-                                        <div className="vl-thumb">
-                                            <Link href="">
-                                                <img
-                                                    src="assets/img/blog/vl-rec-blog-1.4.png"
-                                                    alt=""
-                                                />
-                                            </Link>
-                                        </div>
-                                        <div className="vl-content">
-                                            <div className="meta">
-                                                <ul>
-                                                    <li>
-                                                        <Link href="#">
-                                                            <span>
-                                                                <img
-                                                                    src="assets/img/icons/vl-rec-date-icon1.1.svg"
-                                                                    alt=""
-                                                                />
-                                                            </span>
-                                                            07/10/2025
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <h3 className="title">
-                                                <Link href="/blog-single">
-                                                    Foods That Promote <br />{" "}
-                                                    Strong Teeth and Gums...
+                                                    Beugel of Invisalign?
                                                 </Link>
                                             </h3>
                                         </div>
@@ -185,38 +147,38 @@ export default function Section1({
                                 {/* tag widget */}
                                 <div className="vl-tags-widget vl-off-white-bg mb-14">
                                     <h4 className="title pb-24">
-                                        Popular Tags
+                                        Populaire tags
                                     </h4>
                                     <div className="vl-tags-list">
                                         <ul>
                                             <li>
                                                 <Link href="#">
-                                                    HealthySmiles
+                                                    GezondeGlimlachen
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="#">
-                                                    OralHealthMatters
+                                                    Mondgezondheid
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="#">
-                                                    PreventiveDentistry
+                                                    PreventieveZorg
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="#">
-                                                    BrightSmiles
+                                                    StralendeGlimlach
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="#">
-                                                    DentistryExperts
+                                                    TandheelkundeExperts
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="#">
-                                                    TeethWhitening
+                                                    TandenBleken
                                                 </Link>
                                             </li>
                                         </ul>
@@ -224,7 +186,9 @@ export default function Section1({
                                 </div>
                                 {/* auth widget */}
                                 <div className="vl-auth-widget vl-off-white-bg mb-15">
-                                    <h4 className="title pb-24">Our Author</h4>
+                                    <h4 className="title pb-24">
+                                        Onze auteurs
+                                    </h4>
                                     <div className="vl-auth-box-grid">
                                         <div className="vl-auth-thumb">
                                             <Link href="/team">
@@ -257,8 +221,8 @@ export default function Section1({
                                 {/* phone widget */}
                                 <div className="vl-widegt-3 vl-off-white-bg mb-30">
                                     <h4 className="title pb-24">
-                                        If You Need Any Help <br /> Contact With
-                                        Us
+                                        Hulp nodig? <br /> Neem contact met ons
+                                        op
                                     </h4>
                                     <Link
                                         href="tel:+1234567890"
@@ -272,7 +236,7 @@ export default function Section1({
                                 </div>
                                 {/* social widget */}
                                 <div className="vl-widegt-4 vl-off-white-bg mb-30">
-                                    <h4 className="title pb-24">Follow Us</h4>
+                                    <h4 className="title pb-24">Volg ons</h4>
                                     <div className="vl-sidebar-social">
                                         <ul>
                                             <li>
@@ -362,7 +326,7 @@ export default function Section1({
                                                         alt=""
                                                     />
                                                 </span>
-                                                Dental &amp; Dentist Clinic
+                                                Tandheelkunde &amp; kliniek
                                             </Link>
                                         </li>
                                         <li>
@@ -374,7 +338,7 @@ export default function Section1({
                                                         alt=""
                                                     />
                                                 </span>
-                                                2 Comments
+                                                2 reacties
                                             </Link>
                                         </li>
                                     </ul>
@@ -382,24 +346,23 @@ export default function Section1({
                                 {/* content one */}
                                 <div className="vl-sidebar-conten2t mb-32">
                                     <h3 className="title">
-                                        Dental Implants vs. Dentures: Which{" "}
-                                        <br /> is Right for You?
+                                        Tandimplantaten vs. kunstgebitten: wat
+                                        past bij u?
                                     </h3>
                                     <p className="para pt-16">
-                                        Welcome to our blog, where we share
-                                        valuable insights, expert tips, &amp;
-                                        the latest updates in dental care. At we
-                                        believe in empowering our patients with
-                                        knowledge make informed decisions about
-                                        their health. Whether you’re curious
-                                        about preventive care, interested.
+                                        Welkom op ons blog, waar we waardevolle
+                                        inzichten, tips van experts en het
+                                        laatste nieuws over tandheelkundige zorg
+                                        delen. We helpen patiënten met kennis om
+                                        weloverwogen beslissingen te nemen over
+                                        hun gezondheid.
                                     </p>
                                     <p className="para pt-16">
-                                        Explore topics ranging from everyday
-                                        oral hygiene tips to advanced treatment
-                                        options, all designed to help you
-                                        achieve a healthy, confident smile stay
-                                        connected for regular.
+                                        Ontdek onderwerpen van dagelijkse
+                                        mondhygiëne tot geavanceerde
+                                        behandelingen—alles om u te helpen een
+                                        gezonde, zelfverzekerde glimlach te
+                                        bereiken. Blijf verbonden voor updates.
                                     </p>
                                 </div>
                                 {/* icon block */}
@@ -416,12 +379,12 @@ export default function Section1({
                                             </div>
                                             <div className="content">
                                                 <h4 className="title pb-16">
-                                                    Advanced Dentistry
+                                                    Geavanceerde tandheelkunde
                                                 </h4>
                                                 <p className="para">
-                                                    Using the latest technology,
-                                                    we provide effective &amp;
-                                                    comfortable.
+                                                    Met de nieuwste technologie
+                                                    leveren we effectieve en
+                                                    comfortabele zorg.
                                                 </p>
                                             </div>
                                         </div>
@@ -438,12 +401,13 @@ export default function Section1({
                                             </div>
                                             <div className="content">
                                                 <h4 className="title pb-16">
-                                                    Preventive Restorative
+                                                    Preventief en restauratief
                                                 </h4>
                                                 <p className="para">
-                                                    Our clinic specializes
-                                                    maintaining oral health
-                                                    restoring functionality.
+                                                    Wij richten ons op het
+                                                    behouden van mondgezondheid
+                                                    en het herstellen van
+                                                    functionaliteit.
                                                 </p>
                                             </div>
                                         </div>
@@ -452,17 +416,15 @@ export default function Section1({
                                 {/* content one */}
                                 <div className="vl-sidebar-conten1t mb-32">
                                     <h3 className="title">
-                                        Comprehensive Dental Care for Every Need
+                                        Complete tandzorg voor elke behoefte
                                     </h3>
                                     <p className="para pt-16">
-                                        We understand that staying informed
-                                        about your oral health essential. Our
-                                        blog provides helpful articles on
-                                        everything from preventive care to the
-                                        latest advancements dentistry. Whether
-                                        you’re looking for tips on improving
-                                        your daily oral hygiene routine or
-                                        exploring.
+                                        Goed geïnformeerd blijven over uw
+                                        mondgezondheid is essentieel. In ons
+                                        blog vindt u artikelen over preventieve
+                                        zorg en de nieuwste ontwikkelingen, van
+                                        tips voor dagelijkse routines tot
+                                        uitgebreide behandelopties.
                                     </p>
                                 </div>
                                 {/* check box */}
@@ -474,42 +436,43 @@ export default function Section1({
                                                     <span>
                                                         <i className="fa-regular fa-check" />
                                                     </span>
-                                                    Tailored Care for Every
-                                                    Stage of Life
+                                                    Zorg op maat voor elke
+                                                    levensfase
                                                 </li>
                                                 <li>
                                                     <span>
                                                         <i className="fa-regular fa-check" />
                                                     </span>
-                                                    Comprehensive Care for Every
-                                                    Smile
+                                                    Complete zorg voor elke
+                                                    glimlach
                                                 </li>
                                                 <li>
                                                     <span>
                                                         <i className="fa-regular fa-check" />
                                                     </span>
-                                                    Tailored Solutions Your
-                                                    Dental Needs
+                                                    Oplossingen op maat voor uw
+                                                    tandheelkundige behoeften
                                                 </li>
                                                 <li>
                                                     <span>
                                                         <i className="fa-regular fa-check" />
                                                     </span>
-                                                    Tailored Solutions for Your
-                                                    Dental Needs
+                                                    Oplossingen op maat voor uw
+                                                    tandheelkundige behoeften
                                                 </li>
                                                 <li>
                                                     <span>
                                                         <i className="fa-regular fa-check" />
                                                     </span>
-                                                    Preventive, Restorative, and
-                                                    Cosmetic
+                                                    Preventief, restauratief en
+                                                    cosmetisch
                                                 </li>
                                                 <li>
                                                     <span>
                                                         <i className="fa-regular fa-check" />
                                                     </span>
-                                                    Expert Care for All Ages
+                                                    Deskundige zorg voor alle
+                                                    leeftijden
                                                 </li>
                                             </ul>
                                         </div>
@@ -548,21 +511,23 @@ export default function Section1({
                                 <div className="row">
                                     <div className="col-lg-7 mb-30">
                                         <div className="vl-single-tags">
-                                            <h4 className="title">Our Tags:</h4>
+                                            <h4 className="title">
+                                                Onze tags:
+                                            </h4>
                                             <ul>
                                                 <li>
                                                     <Link href="#">
-                                                        Dentist
+                                                        Tandarts
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="#">
-                                                        Creative
+                                                        Creatief
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="#">
-                                                        Development
+                                                        Ontwikkeling
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -570,7 +535,7 @@ export default function Section1({
                                     </div>
                                     <div className="col-lg-5 mb-30">
                                         <div className="vl-blog-share">
-                                            <h4 className="title">Share:</h4>
+                                            <h4 className="title">Delen:</h4>
                                             <ul>
                                                 <li>
                                                     <Link href="#">
@@ -600,7 +565,7 @@ export default function Section1({
                                 {/* blog comments */}
                                 <div className="vl-blog-comemts">
                                     <h4 className="title mb-30">
-                                        Blog Comments (2)
+                                        Reacties (2)
                                     </h4>
                                     {/* single comment */}
                                     <div className="vl-single-coments-box mb-30">
@@ -632,19 +597,18 @@ export default function Section1({
                                                                 alt=""
                                                             />
                                                         </span>
-                                                        Replay
+                                                        Beantwoorden
                                                     </Link>
                                                 </h4>
                                             </div>
                                         </div>
                                         <p className="para">
-                                            We love hearing from our readers! If
-                                            you have any questions, thoughts, or
-                                            personal experiences related to our
-                                            blog posts, feel free to share them
-                                            in the comments below. Your feedback
-                                            helps us create content that’s
-                                            meaningful and useful to you.
+                                            We horen graag van onze lezers!
+                                            Heeft u vragen, gedachten of
+                                            ervaringen die u wilt delen? Plaats
+                                            ze gerust hieronder. Uw feedback
+                                            helpt ons om nuttige content te
+                                            blijven maken.
                                         </p>
                                     </div>
                                     {/* single comment */}
@@ -677,29 +641,30 @@ export default function Section1({
                                                                 alt=""
                                                             />
                                                         </span>
-                                                        Replay
+                                                        Beantwoorden
                                                     </Link>
                                                 </h4>
                                             </div>
                                         </div>
                                         <p className="para">
-                                            Whether you want to learn more about
-                                            a topic or share your own dental
-                                            tips, we encourage an open
-                                            conversation. Our team is here to
-                                            answer any questions and engage with
-                                            you as you take charge of your oral
-                                            health.
+                                            Wilt u meer leren over een onderwerp
+                                            of uw eigen tips delen? We moedigen
+                                            een open gesprek aan. Ons team
+                                            beantwoordt graag uw vragen terwijl
+                                            u de regie neemt over uw
+                                            mondgezondheid.
                                         </p>
                                     </div>
                                 </div>
                                 {/* comments form */}
                                 <div className="vl-coments-form">
-                                    <h4 className="title">Leave a Reply</h4>
+                                    <h4 className="title">
+                                        Laat een reactie achter
+                                    </h4>
                                     <p className="para pb-32">
-                                        Provide clear contact information,
-                                        including phone number, email, and
-                                        address.
+                                        Geef duidelijke contactgegevens op,
+                                        inclusief telefoonnummer, e-mail en
+                                        adres.
                                     </p>
                                     <form action="#">
                                         <div className="vl-cmnts-form">
@@ -708,14 +673,14 @@ export default function Section1({
                                                     <input
                                                         className="mb-20"
                                                         type="text"
-                                                        placeholder="First Name"
+                                                        placeholder="Voornaam"
                                                     />
                                                 </div>
                                                 <div className="col-lg-6">
                                                     <input
                                                         className="mb-20"
                                                         type="text"
-                                                        placeholder="Last Name"
+                                                        placeholder="Achternaam"
                                                     />
                                                 </div>
                                                 <div className="col-lg-6">
@@ -723,34 +688,34 @@ export default function Section1({
                                                         className="mb-20"
                                                         name="email"
                                                         type="email"
-                                                        placeholder="Email"
+                                                        placeholder="E-mail"
                                                     />
                                                 </div>
                                                 <div className="col-lg-6">
                                                     <input
                                                         className="mb-20"
                                                         type="number"
-                                                        placeholder="Phone"
+                                                        placeholder="Telefoon"
                                                     />
                                                 </div>
                                                 <div className="col-lg-12">
                                                     <input
                                                         className="mb-20"
                                                         type="text"
-                                                        placeholder="Subject"
+                                                        placeholder="Onderwerp"
                                                     />
                                                 </div>
                                                 <div className="col-lg-12">
                                                     <textarea
                                                         name="message"
                                                         id="mesage"
-                                                        placeholder="Message"
+                                                        placeholder="Bericht"
                                                         defaultValue={""}
                                                     />
                                                 </div>
                                                 <div className="vl-cmt-btn mt-30">
                                                     <button className="vl-btn-primary">
-                                                        Send Now
+                                                        Nu verzenden
                                                     </button>
                                                 </div>
                                             </div>
@@ -763,7 +728,7 @@ export default function Section1({
                 </div>
             </section>
             {/*================= Blog Details section End =================*/}
-            {/* <ModalVideo channel="youtube" videoId="wn_wKQ_UR90" isOpen={isOpen} onClose={() => setOpen(false)} /> */}
+            {/* <ModalVideo channel="youtube" isOpen={isOpen} videoId="wn_wKQ_UR90" onClose={() => setOpen(false)} /> */}
         </>
     );
 }

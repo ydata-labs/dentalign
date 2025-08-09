@@ -33,10 +33,10 @@ export default function Footer() {
                                 </div>
                                 <div className="vl-footer-content">
                                     <p className="pt-24 pb-24 w-75">
-                                        We’re dedicated to providing
-                                        high-quality, compassionate dental care
-                                        for patients of all ages from preventive
-                                        care.
+                                        Wij zetten ons in voor het bieden van
+                                        hoogwaardige, betrokken tandheelkundige
+                                        zorg voor patiënten van alle leeftijden,
+                                        van preventieve zorg tot behandelingen.
                                     </p>
                                 </div>
                                 <div className="vl-footer-social">
@@ -91,19 +91,19 @@ export default function Footer() {
                         <div className="col-lg-2 col-md-6 mb-30">
                             <div className="vl-footer-widget-2">
                                 <h3 className="vl-footer-widget-title mb-24">
-                                    Quick Links
+                                    Snelle links
                                 </h3>
                                 <div className="vl-footer-menu">
                                     <ul>
                                         <li>
-                                            <Link href="/">Home Page</Link>
+                                            <Link href="/">Startpagina</Link>
                                         </li>
                                         <li>
-                                            <Link href="/about">About Us</Link>
+                                            <Link href="/about">Over ons</Link>
                                         </li>
                                         <li>
                                             <Link href="/contact">
-                                                Appointment
+                                                Afspraak
                                             </Link>
                                         </li>
                                         {/* <li>
@@ -121,28 +121,28 @@ export default function Footer() {
                         <div className="col-lg-2 col-md-6 mb-30">
                             <div className="vl-footer-widget-3 ml-40">
                                 <h3 className="vl-footer-widget-title mb-24">
-                                    Our Services
+                                    Onze diensten
                                 </h3>
                                 <div className="vl-footer-menu">
                                     <ul>
                                         <li>
-                                            <Link href="#">General Dental</Link>
-                                        </li>
-                                        <li>
                                             <Link href="#">
-                                                Cosmetic Dental
+                                                Algemene tandheelkunde
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">Whitening Care</Link>
-                                        </li>
-                                        <li>
                                             <Link href="#">
-                                                Dental Implants
+                                                Cosmetische tandheelkunde
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">Dental Care</Link>
+                                            <Link href="#">Tanden bleken</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Implantaten</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Tandverzorging</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -151,7 +151,7 @@ export default function Footer() {
                         <div className="col-lg-4 col-md-6 mb-30">
                             <div className="vl-footer-widget-4">
                                 <h3 className="vl-footer-widget-title mb-24">
-                                    Contact Us
+                                    Neem contact op
                                 </h3>
                                 {/* icon list */}
                                 <div className="vl-footer-icon-list">
@@ -208,20 +208,19 @@ export default function Footer() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6">
                                 <p className="para">
-                                    © 2025 Dentalign ,Inc. All Rights Reserved.
+                                    © 2025 Dentalign, Inc. Alle rechten
+                                    voorbehouden.
                                 </p>
                             </div>
                             <div className="col-lg-6 col-md-6">
                                 <div className="copy-right-menu">
                                     <ul>
                                         <li>
-                                            <Link href="#">
-                                                Privacy Policy{" "}
-                                            </Link>
+                                            <Link href="#">Privacybeleid </Link>
                                         </li>
                                         <li>
                                             <Link href="#">
-                                                Terms &amp; Conditions
+                                                Algemene voorwaarden
                                             </Link>
                                         </li>
                                     </ul>

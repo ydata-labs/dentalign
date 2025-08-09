@@ -64,7 +64,7 @@ export default function Header({
                                             </div>
                                             <div className="vl-content">
                                                 <div className="title">
-                                                    Hotline 24/7
+                                                    Hulplijn 24/7
                                                 </div>
                                                 <Link
                                                     href="tel:+49309233255"

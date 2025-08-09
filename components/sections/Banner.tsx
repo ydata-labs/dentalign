@@ -64,21 +64,42 @@ export default function Banner() {
                                     <div className="col-lg-6 fix">
                                         <div className="vl-banner-area-content fix p-relative">
                                             <h5 className="subtitle">
-                                                Confident Smile Begins Here
+                                                Een zelfverzekerde glimlach
+                                                begint hier
                                             </h5>
                                             <h1 className="title text-anime-style-3 pt-16 pb-16">
-                                                Creating Beautiful Smiles With
-                                                The Personal Touch
+                                                Prachtige glimlachen met een
+                                                persoonlijke aanpak
                                             </h1>
-                                            <p className="para pb-32">
-                                                Our dedicated team of
-                                                professionals is committed to
-                                                delivering personalized,
-                                                high-quality dental care a
-                                                comfortable &amp; friendly.
+                                            <p className="para pb-16">
+                                                Ons toegewijde team van
+                                                professionals levert
+                                                persoonlijke, hoogwaardige
+                                                tandheelkundige zorg in een
+                                                comfortabele en vriendelijke
+                                                omgeving.
                                             </p>
-                                            {/* btn */}
                                             <div
+                                                className="pb-24"
+                                                aria-label="Opening notice"
+                                                data-aos="fade-up"
+                                                data-aos-duration={800}
+                                                data-aos-delay={250}
+                                                style={{
+                                                    display: "inline-block",
+                                                    background:
+                                                        "rgba(255,255,255,0.85)",
+                                                    color: "#111",
+                                                    border: "1px solid rgba(0,0,0,0.15)",
+                                                    borderRadius: 9999,
+                                                    padding: "8px 14px",
+                                                    fontWeight: 600,
+                                                    lineHeight: 1.2,
+                                                }}
+                                            >
+                                                We openen in december 2025
+                                            </div>
+                                            {/* <div
                                                 className="vl-hero-btn"
                                                 data-aos="fade-up"
                                                 data-aos-duration={800}
@@ -88,9 +109,9 @@ export default function Banner() {
                                                     href="/contact"
                                                     className="vl-btn-primary"
                                                 >
-                                                    Book An Appoinment
+                                                    Maak een afspraak
                                                 </Link>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>

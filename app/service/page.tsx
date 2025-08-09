@@ -6,13 +6,13 @@ import SectionHeader from "@/components/layout/SectionHeader";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Our Services - Dentalign Dental Clinic",
+    title: "Onze diensten - Dentalign Tandkliniek",
     description:
-        "Explore our comprehensive dental services including orthodontics, cosmetic dentistry, dental implants, and preventive care. Expert dental solutions for your perfect smile.",
+        "Ontdek ons uitgebreide aanbod: orthodontie, cosmetische tandheelkunde, implantaten en preventieve zorg. Deskundige oplossingen voor uw perfecte glimlach.",
     openGraph: {
-        title: "Our Services - Dentalign Dental Clinic",
+        title: "Onze diensten - Dentalign Tandkliniek",
         description:
-            "Explore our comprehensive dental services including orthodontics, cosmetic dentistry, dental implants, and preventive care. Expert dental solutions for your perfect smile.",
+            "Ontdek ons uitgebreide aanbod: orthodontie, cosmetische tandheelkunde, implantaten en preventieve zorg. Deskundige oplossingen voor uw perfecte glimlach.",
         url: "https://dentalign.be/service",
     },
 };
@@ -22,11 +22,11 @@ export default function Home() {
         <>
             <Layout>
                 <SectionHeader
-                    title="Our Service Details"
+                    title="Onze dienstdetails"
                     isGroup={true}
                     linkGroup="/service"
-                    pageGroup="Our Service"
-                    current="Our Service Details"
+                    pageGroup="Onze diensten"
+                    current="Onze dienstdetails"
                 />
                 <Section1 left={true} />
                 <Section2 />

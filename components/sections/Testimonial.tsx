@@ -39,10 +39,10 @@ export default function Testimonial() {
                                     data-aos-duration={800}
                                     data-aos-delay={300}
                                 >
-                                    Testimonial
+                                    Ervaringen
                                 </h5>
                                 <h2 className="title pt-16 text-anime-style-3">
-                                    See Why Patients Love Us
+                                    Waarom patiënten ons waarderen
                                 </h2>
                             </div>
                         </div>

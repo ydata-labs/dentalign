@@ -8,10 +8,10 @@ export default function MainMenu() {
                 <Link href="/">Home</Link>
             </li>
             <li>
-                <Link href="/about">About us</Link>
+                <Link href="/about">Over ons</Link>
             </li>
             <li>
-                <Link href="/service">Services</Link>
+                <Link href="/service">Diensten</Link>
             </li>
             {/* <li className="has-dropdown">
                 <Link href="#">

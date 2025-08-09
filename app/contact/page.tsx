@@ -7,11 +7,11 @@ export default function Home() {
         <>
             <Layout>
                 <SectionHeader
-                    title="Contact Us"
+                    title="Neem contact op"
                     isGroup={false}
                     linkGroup=""
                     pageGroup=""
-                    current="Contact Us"
+                    current="Neem contact op"
                 />
                 <Section1 />
                 <Subscribe />

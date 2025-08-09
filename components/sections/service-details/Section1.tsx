@@ -20,12 +20,12 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                             <div className="vl-sidebar">
                                 {/* search widget */}
                                 <div className="vl-widegt-1 vl-off-white-bg mb-30">
-                                    <h4 className="title pb-24">Search</h4>
+                                    <h4 className="title pb-24">Zoeken</h4>
                                     <div className="vl-searh-form-wid">
                                         <form action="#">
                                             <input
                                                 type="text"
-                                                placeholder="Search..."
+                                                placeholder="Zoeken..."
                                             />
                                             <span>
                                                 <i className="fa-regular fa-magnifying-glass" />
@@ -36,13 +36,13 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                 {/* service widget */}
                                 <div className="vl-widegt-2 vl-off-white-bg mb-30">
                                     <h4 className="title pb-24">
-                                        Our Services
+                                        Onze diensten
                                     </h4>
                                     <div className="vl-service-list">
                                         <ul>
                                             <li>
                                                 <Link href="/service-single">
-                                                    Advanced Orthodontics
+                                                    Geavanceerde orthodontie
                                                     <span>
                                                         <i className="fa-regular fa-angle-right" />
                                                     </span>
@@ -50,7 +50,7 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                             </li>
                                             <li>
                                                 <Link href="/service-single">
-                                                    Periodontal Therapy
+                                                    Parodontale therapie
                                                     <span>
                                                         <i className="fa-regular fa-angle-right" />
                                                     </span>
@@ -58,7 +58,7 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                             </li>
                                             <li>
                                                 <Link href="/service-single">
-                                                    Pediatric Dentistry
+                                                    Kindertandheelkunde
                                                     <span>
                                                         <i className="fa-regular fa-angle-right" />
                                                     </span>
@@ -66,7 +66,7 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                             </li>
                                             <li>
                                                 <Link href="/service-single">
-                                                    Smile Brightening
+                                                    Wittere glimlach
                                                     <span>
                                                         <i className="fa-regular fa-angle-right" />
                                                     </span>
@@ -74,7 +74,7 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                             </li>
                                             <li>
                                                 <Link href="/service-single">
-                                                    Emergency Dental Care
+                                                    Tandheelkundige spoedzorg
                                                     <span>
                                                         <i className="fa-regular fa-angle-right" />
                                                     </span>
@@ -86,8 +86,8 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                 {/* phone widget */}
                                 <div className="vl-widegt-3 vl-off-white-bg mb-30">
                                     <h4 className="title pb-24">
-                                        If You Need Any Help <br /> Contact With
-                                        Us
+                                        Hulp nodig? <br /> Neem contact met ons
+                                        op
                                     </h4>
                                     <Link
                                         href="tel:+1234567890"
@@ -101,7 +101,7 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                 </div>
                                 {/* social widget */}
                                 <div className="vl-widegt-4 vl-off-white-bg mb-30">
-                                    <h4 className="title pb-24">Follow Us</h4>
+                                    <h4 className="title pb-24">Volg ons</h4>
                                     <div className="vl-sidebar-social">
                                         <ul>
                                             <li>
@@ -158,25 +158,24 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                 {/* content one */}
                                 <div className="vl-sidebar-conten1t mb-32">
                                     <h3 className="title">
-                                        Root Canal Therapy
+                                        Wortelkanaalbehandeling
                                     </h3>
                                     <p className="para pt-16">
-                                        we offer a comprehensive range of dental
-                                        services designed to meet the unique
-                                        needs of every patient. From preventive
-                                        care like routine cleanings and exams to
-                                        restorative treatments such as fillings,
-                                        crowns, and dental implants, we ensure
-                                        your oral health.
+                                        We bieden een uitgebreid aanbod aan
+                                        tandheelkundige diensten om aan de
+                                        unieke behoeften van elke patiënt te
+                                        voldoen. Van preventieve zorg zoals
+                                        controles en reinigingen tot
+                                        restauratieve behandelingen zoals
+                                        vullingen, kronen en implantaten.
                                     </p>
                                     <p className="para pt-16">
-                                        For those looking to enhance smile, we
-                                        provide advanced cosmetic solutions,
-                                        including teeth whitening and veneers.
-                                        Our team is dedicated to delivering
-                                        personalized care in a comfortable and
-                                        welcoming environment, using
-                                        state-of-the-art technology.
+                                        Voor wie zijn glimlach wil verbeteren,
+                                        bieden we geavanceerde cosmetische
+                                        oplossingen, waaronder tanden bleken en
+                                        facings. Ons team levert persoonlijke
+                                        zorg in een comfortabele, gastvrije
+                                        omgeving met moderne technologie.
                                     </p>
                                 </div>
                                 {/* icon block */}
@@ -193,12 +192,12 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                             </div>
                                             <div className="content">
                                                 <h4 className="title pb-16">
-                                                    Advanced Dentistry
+                                                    Geavanceerde tandheelkunde
                                                 </h4>
                                                 <p className="para">
-                                                    Using the latest technology,
-                                                    we provide effective &amp;
-                                                    comfortable.
+                                                    Met de nieuwste technologie
+                                                    leveren we effectieve en
+                                                    comfortabele zorg.
                                                 </p>
                                             </div>
                                         </div>
@@ -215,12 +214,13 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                             </div>
                                             <div className="content">
                                                 <h4 className="title pb-16">
-                                                    Preventive Restorative
+                                                    Preventief en restauratief
                                                 </h4>
                                                 <p className="para">
-                                                    Our clinic specializes
-                                                    maintaining oral health
-                                                    restoring functionality.
+                                                    Wij richten ons op het
+                                                    behouden van mondgezondheid
+                                                    en het herstellen van
+                                                    functionaliteit.
                                                 </p>
                                             </div>
                                         </div>
@@ -229,16 +229,15 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                 {/* content one */}
                                 <div className="vl-sidebar-conten1t mt-18 mb-32">
                                     <h3 className="title">
-                                        Comprehensive Dental Care for Every Need
+                                        Complete tandzorg voor elke behoefte
                                     </h3>
                                     <p className="para pt-16">
-                                        From routine check-ups to advanced
-                                        treatments, we provide a full spectrum
-                                        of services to keep your smile healthy
-                                        &amp; beautiful. Our personalized
-                                        approach ensures your specific needs are
-                                        met with care and expertise. Whatever
-                                        your dental needs, we’re here to help.
+                                        Van routinecontroles tot geavanceerde
+                                        behandelingen: wij bieden een volledig
+                                        spectrum aan zorg om uw glimlach gezond
+                                        en mooi te houden. Onze persoonlijke
+                                        aanpak zorgt ervoor dat uw wensen met
+                                        zorg en expertise worden ingevuld.
                                     </p>
                                 </div>
                                 {/* video & check box */}
@@ -267,34 +266,35 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                                     <span>
                                                         <i className="fa-regular fa-check" />
                                                     </span>
-                                                    Tailored Care for Every
-                                                    Stage of Life
+                                                    Zorg op maat voor elke
+                                                    levensfase
                                                 </li>
                                                 <li>
                                                     <span>
                                                         <i className="fa-regular fa-check" />
                                                     </span>
-                                                    Comprehensive Care for Every
-                                                    Smile
+                                                    Complete zorg voor elke
+                                                    glimlach
                                                 </li>
                                                 <li>
                                                     <span>
                                                         <i className="fa-regular fa-check" />
                                                     </span>
-                                                    Tailored Solutions Your
-                                                    Dental Needs
+                                                    Oplossingen op maat voor uw
+                                                    tandheelkundige behoeften
                                                 </li>
                                                 <li>
                                                     <span>
                                                         <i className="fa-regular fa-check" />
                                                     </span>
-                                                    TYour Smile, Our Expertise
+                                                    Uw glimlach, onze expertise
                                                 </li>
                                                 <li>
                                                     <span>
                                                         <i className="fa-regular fa-check" />
                                                     </span>
-                                                    Expert Care for All Ages
+                                                    Deskundige zorg voor alle
+                                                    leeftijden
                                                 </li>
                                             </ul>
                                         </div>
@@ -319,8 +319,8 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                                     aria-expanded="true"
                                                     aria-controls="collapseOne"
                                                 >
-                                                    What are the signs I need a
-                                                    dental check-up?
+                                                    Wat zijn signalen dat ik een
+                                                    tandartscontrole nodig heb?
                                                     <span className="vl-faqarrow">
                                                         <i className="fa-regular fa-angle-down" />
                                                     </span>
@@ -334,13 +334,13 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                             >
                                                 <div className="vl-accordion-body">
                                                     <p className="para">
-                                                        If you have a dental
-                                                        emergency, such as a
-                                                        knocked-out tooth or
-                                                        severe <br /> pain,
-                                                        contact our clinic
-                                                        immediately. We’ll guide
-                                                        you through
+                                                        Bij een tandheelkundig
+                                                        noodgeval, zoals een
+                                                        uitgeslagen tand of
+                                                        hevige pijn, neem
+                                                        onmiddellijk contact met
+                                                        ons op. We begeleiden u
+                                                        verder.
                                                     </p>
                                                 </div>
                                             </div>
@@ -358,8 +358,10 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                                     aria-expanded="false"
                                                     aria-controls="collapseTwo"
                                                 >
-                                                    Do you offer payment plans
-                                                    or insurance?
+                                                    Bieden jullie
+                                                    betalingsregelingen of
+                                                    werken jullie met
+                                                    verzekeringen?
                                                     <span className="vl-faqarrow">
                                                         <i className="fa-regular fa-angle-down" />
                                                     </span>
@@ -373,13 +375,13 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                             >
                                                 <div className="vl-accordion-body">
                                                     <p className="para">
-                                                        If you have a dental
-                                                        emergency, such as a
-                                                        knocked-out tooth or
-                                                        severe <br /> pain,
-                                                        contact our clinic
-                                                        immediately. We’ll guide
-                                                        you through
+                                                        Bij een tandheelkundig
+                                                        noodgeval, zoals een
+                                                        uitgeslagen tand of
+                                                        hevige pijn, neem
+                                                        onmiddellijk contact met
+                                                        ons op. We begeleiden u
+                                                        verder.
                                                     </p>
                                                 </div>
                                             </div>
@@ -397,8 +399,8 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                                     aria-expanded="false"
                                                     aria-controls="collapseThree"
                                                 >
-                                                    What are my options for
-                                                    replacing teeth?
+                                                    Welke opties heb ik voor het
+                                                    vervangen van tanden?
                                                     <span className="vl-faqarrow">
                                                         <i className="fa-regular fa-angle-down" />
                                                     </span>
@@ -412,13 +414,13 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                             >
                                                 <div className="vl-accordion-body">
                                                     <p className="para">
-                                                        If you have a dental
-                                                        emergency, such as a
-                                                        knocked-out tooth or
-                                                        severe <br /> pain,
-                                                        contact our clinic
-                                                        immediately. We’ll guide
-                                                        you through
+                                                        Bij een tandheelkundig
+                                                        noodgeval, zoals een
+                                                        uitgeslagen tand of
+                                                        hevige pijn, neem
+                                                        onmiddellijk contact met
+                                                        ons op. We begeleiden u
+                                                        verder.
                                                     </p>
                                                 </div>
                                             </div>
@@ -436,8 +438,8 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                                     aria-expanded="false"
                                                     aria-controls="collapse4"
                                                 >
-                                                    How long does a dental crown
-                                                    or filling last?
+                                                    Hoe lang gaat een kroon of
+                                                    vulling mee?
                                                     <span className="vl-faqarrow">
                                                         <i className="fa-regular fa-angle-down" />
                                                     </span>
@@ -451,13 +453,13 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                             >
                                                 <div className="vl-accordion-body">
                                                     <p className="para">
-                                                        If you have a dental
-                                                        emergency, such as a
-                                                        knocked-out tooth or
-                                                        severe <br /> pain,
-                                                        contact our clinic
-                                                        immediately. We’ll guide
-                                                        you through
+                                                        Bij een tandheelkundig
+                                                        noodgeval, zoals een
+                                                        uitgeslagen tand of
+                                                        hevige pijn, neem
+                                                        onmiddellijk contact met
+                                                        ons op. We begeleiden u
+                                                        verder.
                                                     </p>
                                                 </div>
                                             </div>

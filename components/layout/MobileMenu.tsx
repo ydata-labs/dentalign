@@ -69,10 +69,10 @@ export default function MobileMenu({
                                     <Link href="/">Home</Link>
                                 </li>
                                 <li>
-                                    <Link href="/about">About us</Link>
+                                    <Link href="/about">Over ons</Link>
                                 </li>
                                 <li>
-                                    <Link href="/service">Services</Link>
+                                    <Link href="/service">Diensten</Link>
                                 </li>
                                 {/* <li
                                     className={`has-dropdown ${
@@ -133,7 +133,9 @@ export default function MobileMenu({
                         </nav>
                     </div>
                     <div className="vl-offcanvas-info mb-40">
-                        <h3 className="vl-offcanvas-sm-title">Contact Us</h3>
+                        <h3 className="vl-offcanvas-sm-title">
+                            Neem contact op
+                        </h3>
                         {PHONE ? (
                             <span>
                                 <Link href="#">

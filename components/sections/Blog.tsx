@@ -18,10 +18,10 @@ export default function Blog() {
                                     data-aos-duration={800}
                                     data-aos-delay={300}
                                 >
-                                    Our Blog
+                                    Ons blog
                                 </h5>
                                 <h2 className="title pt-16 text-anime-style-3">
-                                    How to Handle a Dental Emergency Quick Tips
+                                    Snel tips bij een tandheelkundig noodgeval
                                 </h2>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ export default function Blog() {
                                             href={blogs.link}
                                             className="blog-learnmore"
                                         >
-                                            Learn more
+                                            Meer lezen
                                             <span>
                                                 <i className="fa-regular fa-arrow-right" />
                                             </span>

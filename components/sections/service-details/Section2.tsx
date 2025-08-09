@@ -10,7 +10,9 @@ export default function Section2() {
                         <div className="vl-service-sec-title-iner">
                             {/* section title */}
                             <div className="vl-section-title text-center mb-60">
-                                <h2 className="title text-anime-style-3">More Service</h2>
+                                <h2 className="title text-anime-style-3">
+                                    Meer diensten
+                                </h2>
                             </div>
                         </div>
                     </div>
@@ -20,18 +22,28 @@ export default function Section2() {
                             <div className="vl-service-icon-bo2x-iner text-center">
                                 <div className="icon">
                                     <span>
-                                        <img src="assets/img/icons/vl-service-icon-iner1.1.svg" alt="" />
+                                        <img
+                                            src="assets/img/icons/vl-service-icon-iner1.1.svg"
+                                            alt=""
+                                        />
                                     </span>
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">Restorative Solutions</Link>
+                                        <Link href="/service-single">
+                                            Herstellende behandelingen
+                                        </Link>
                                     </h4>
                                     <p className="para">
-                                        We’re proud to offer a comprehensive <br /> range of dental services designed to meet <br /> the unique needs each patient.
+                                        We zijn trots op ons brede aanbod aan
+                                        tandheelkundige diensten, afgestemd op
+                                        elke patiënt.
                                     </p>
-                                    <Link href="/service-single" className="service-learnmore">
-                                        Learn More
+                                    <Link
+                                        href="/service-single"
+                                        className="service-learnmore"
+                                    >
+                                        Meer informatie
                                         <span>
                                             <i className="fa-regular fa-arrow-right" />
                                         </span>
@@ -45,18 +57,28 @@ export default function Section2() {
                             <div className="vl-service-icon-bo2x-iner text-center">
                                 <div className="icon">
                                     <span>
-                                        <img src="assets/img/icons/vl-service-icon-iner1.2.svg" alt="" />
+                                        <img
+                                            src="assets/img/icons/vl-service-icon-iner1.2.svg"
+                                            alt=""
+                                        />
                                     </span>
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">Root Canal Therapy</Link>
+                                        <Link href="/service-single">
+                                            Wortelkanaalbehandeling
+                                        </Link>
                                     </h4>
                                     <p className="para">
-                                        Our Preventive Care services focus on <br /> regular cleanings, exams, and education to <br /> help you maintain optimal oral health.
+                                        Onze preventieve zorg richt zich op
+                                        controles, reinigingen en voorlichting
+                                        voor optimale mondgezondheid.
                                     </p>
-                                    <Link href="/service-single" className="service-learnmore">
-                                        Learn More
+                                    <Link
+                                        href="/service-single"
+                                        className="service-learnmore"
+                                    >
+                                        Meer informatie
                                         <span>
                                             <i className="fa-regular fa-arrow-right" />
                                         </span>
@@ -70,18 +92,28 @@ export default function Section2() {
                             <div className="vl-service-icon-bo2x-iner text-center">
                                 <div className="icon">
                                     <span>
-                                        <img src="assets/img/icons/vl-service-icon-iner1.3.svg" alt="" />
+                                        <img
+                                            src="assets/img/icons/vl-service-icon-iner1.3.svg"
+                                            alt=""
+                                        />
                                     </span>
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">Smile Brightening</Link>
+                                        <Link href="/service-single">
+                                            Wittere glimlach
+                                        </Link>
                                     </h4>
                                     <p className="para">
-                                        For those in need Restorative Solutions, <br /> we offer fillings, crowns, bridges, and <br /> implants, restoring function.
+                                        Voor wie restauratieve zorg nodig heeft
+                                        bieden we vullingen, kronen, bruggen en
+                                        implantaten.
                                     </p>
-                                    <Link href="/service-single" className="service-learnmore">
-                                        Learn More
+                                    <Link
+                                        href="/service-single"
+                                        className="service-learnmore"
+                                    >
+                                        Meer informatie
                                         <span>
                                             <i className="fa-regular fa-arrow-right" />
                                         </span>

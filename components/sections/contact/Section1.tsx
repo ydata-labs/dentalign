@@ -11,10 +11,10 @@ export default function Section1() {
                     <div className="row">
                         <div className="col-lg-6 mb-30">
                             <div className="vl-contact-form-iner">
-                                <h4 className="title">Send Us A Message</h4>
+                                <h4 className="title">Stuur ons een bericht</h4>
                                 <p className="para pt-16 pb-22">
-                                    Our response time is within 30 minutes
-                                    during business hours
+                                    Onze reactietijd is binnen 30 minuten
+                                    tijdens kantooruren
                                 </p>
                                 <form action="#">
                                     <div className="vl-conatct-iner-form">
@@ -23,14 +23,14 @@ export default function Section1() {
                                                 <input
                                                     className="mb-20"
                                                     type="text"
-                                                    placeholder="First Name"
+                                                    placeholder="Voornaam"
                                                 />
                                             </div>
                                             <div className="col-lg-6">
                                                 <input
                                                     className="mb-20"
                                                     type="number"
-                                                    placeholder="Phone Number"
+                                                    placeholder="Telefoonnummer"
                                                 />
                                             </div>
                                             <div className="col-lg-6">
@@ -38,31 +38,33 @@ export default function Section1() {
                                                     className="mb-20"
                                                     name="email"
                                                     type="email"
-                                                    placeholder="Email Address"
+                                                    placeholder="E-mailadres"
                                                 />
                                             </div>
                                             <div className="col-lg-6">
                                                 <select className="mb-20 nice-select wide vl-service-select-iner">
-                                                    <option data-display="Service Type">
-                                                        Preventive Care
+                                                    <option data-display="Type dienst">
+                                                        Preventieve zorg
                                                     </option>
                                                     <option value={1}>
-                                                        Restorative Dentistry
+                                                        Restauratieve
+                                                        tandheelkunde
                                                     </option>
                                                     <option value={2}>
-                                                        Cosmetic Dentistry
+                                                        Cosmetische
+                                                        tandheelkunde
                                                     </option>
                                                     <option value={3}>
-                                                        Orthodontics{" "}
+                                                        Orthodontie{" "}
                                                     </option>
                                                     <option value={4}>
-                                                        Oral Surgery
+                                                        Mondchirurgie
                                                     </option>
                                                 </select>
                                             </div>
                                             <div className="col-lg-6">
                                                 <select className="mb-20 nice-select wide vl-service-select-iner">
-                                                    <option data-display="Select Doctor">
+                                                    <option data-display="Selecteer arts">
                                                         Dr. Joseph Ayoub
                                                     </option>
                                                     <option value={1}>
@@ -83,21 +85,21 @@ export default function Section1() {
                                                 <input
                                                     className="mb-20"
                                                     type="date"
-                                                    placeholder="Date"
+                                                    placeholder="Datum"
                                                 />
                                             </div>
                                             <div className="col-lg-12">
                                                 <textarea
                                                     name="msg"
                                                     id="msg"
-                                                    placeholder="Message"
+                                                    placeholder="Bericht"
                                                     defaultValue={""}
                                                 />
                                             </div>
                                             <div className="col-lg-12">
                                                 <div className="vl-cmt-btn mt-24">
                                                     <button className="vl-btn-primary">
-                                                        Book An Appoinment
+                                                        Maak een afspraak
                                                     </button>
                                                 </div>
                                             </div>
@@ -129,7 +131,7 @@ export default function Section1() {
                                     </span>
                                 </div>
                                 <div className="content">
-                                    <h5 className="title">Contact us</h5>
+                                    <h5 className="title">Bezoek ons</h5>
                                     <Link href="#">{ADDRESS}</Link>
                                 </div>
                             </div>
@@ -147,7 +149,7 @@ export default function Section1() {
                                         </span>
                                     </div>
                                     <div className="content">
-                                        <h5 className="title">Call or text</h5>
+                                        <h5 className="title">Bel of sms</h5>
                                         {PHONE}
                                     </div>
                                 </div>
@@ -167,7 +169,7 @@ export default function Section1() {
                                     </div>
                                     <div className="content">
                                         <h5 className="title">
-                                            Email us today
+                                            Stuur ons vandaag een e-mail
                                         </h5>
                                         <Link href={`mailto:${EMAIL}`}>
                                             {EMAIL}

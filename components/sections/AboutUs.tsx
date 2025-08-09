@@ -4,7 +4,7 @@ export default function AboutUs() {
     return (
         <>
             {/*================= About section start =================*/}
-            <section id="about" className="vl-about-area pt-100 pb-70">
+            <section id="about" className="vl-about-area pt-100 pb-30">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-6 order-lg-1 order-md-2 mb-30">
@@ -36,10 +36,10 @@ export default function AboutUs() {
                                         data-aos-duration={800}
                                         data-aos-delay={300}
                                     >
-                                        About Us
+                                        Over ons
                                     </h5>
                                     <h2 className="title text-anime-style-3 pt-16 pb-16 mr-20">
-                                        Our Story Caring for Your Smile
+                                        Ons verhaal: zorg voor uw glimlach
                                     </h2>
                                     <p
                                         className="para pb-32"
@@ -47,10 +47,11 @@ export default function AboutUs() {
                                         data-aos-duration={800}
                                         data-aos-delay={300}
                                     >
-                                        We believe building lasting
-                                        relationships with our patients, taking
-                                        the time understand your unique needs
-                                        and goals from preventive care.
+                                        Wij geloven in het opbouwen van duurzame
+                                        relaties met onze patiënten en nemen de
+                                        tijd om uw unieke behoeften en doelen te
+                                        begrijpen, van preventieve zorg tot
+                                        behandelingen.
                                     </p>
                                 </div>
                                 <div
@@ -63,7 +64,7 @@ export default function AboutUs() {
                                         href="/about"
                                         className="vl-btn-primary"
                                     >
-                                        Learn More
+                                        Meer informatie
                                     </Link>
                                 </div>
                             </div>
@@ -80,16 +81,14 @@ export default function AboutUs() {
                     </div>
                     <div className="row">
                         <div className="col-lg-4" />
-                        <div className="col-lg-8">
+                        <div className="col-lg-8 mt-72">
                             <div className="vl-about-counter-block">
                                 {/* single counter box */}
                                 <div className="single-couter-box text-center mb-30">
                                     <h3>
                                         <span className="title">24X7</span>
                                     </h3>
-                                    <span className="deseg">
-                                        Emergency Service
-                                    </span>
+                                    <span className="deseg">Spoeddienst</span>
                                 </div>
                                 {/* single counter box */}
                                 <div className="single-couter-box text-center mb-30">
@@ -100,7 +99,7 @@ export default function AboutUs() {
                                         <span>K+</span>
                                     </h3>
                                     <span className="deseg">
-                                        Recover Patient
+                                        Genezen patiënten
                                     </span>
                                 </div>
                                 {/* single counter box */}
@@ -111,9 +110,7 @@ export default function AboutUs() {
                                         </span>
                                         <span>+</span>
                                     </h3>
-                                    <span className="deseg">
-                                        Years Experience
-                                    </span>
+                                    <span className="deseg">Jaar ervaring</span>
                                 </div>
                             </div>
                         </div>

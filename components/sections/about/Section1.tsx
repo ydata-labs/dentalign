@@ -35,28 +35,31 @@ export default function Section1({ background }: { background: string }) {
                             <div className="vl-choose-us-inner-content">
                                 {/* section title */}
                                 <div className="vl-section-title">
-                                    <h5 className="subtitle">Why Choose us</h5>
+                                    <h5 className="subtitle">
+                                        Waarom voor ons kiezen
+                                    </h5>
                                     <h2 className="title text-anime-style-3 pt-16 pb-12 mr-20">
-                                        Top Reason To Trust Us with Your Smile
-                                        Every Smile
+                                        Belangrijkste redenen om ons uw glimlach
+                                        toe te vertrouwen
                                     </h2>
                                     <p className="para pb-32">
-                                        We’re dedicated to providing exceptional
-                                        dental care with a personal touch. Our
-                                        team of experienced professionals
-                                        combines advanced technology.
+                                        Wij bieden uitzonderlijke
+                                        tandheelkundige zorg met een
+                                        persoonlijke aanpak. Ons ervaren team
+                                        combineert geavanceerde technologie met
+                                        aandacht voor comfort.
                                     </p>
                                 </div>
                                 {/* line progress bar item*/}
                                 <div className="vl-bar-single-item">
                                     <h4 className="title">
-                                        Endodontic Equiqment
+                                        Endodontische apparatuur
                                     </h4>
                                     <div
                                         id="bar1"
                                         className="progress barfiller"
                                         role="progressbar"
-                                        aria-label="Endodontic Equiqment"
+                                        aria-label="Endodontische apparatuur"
                                         aria-valuenow={86}
                                         aria-valuemin={0}
                                         aria-valuemax={100}
@@ -70,13 +73,13 @@ export default function Section1({ background }: { background: string }) {
                                 {/* line progress bar item*/}
                                 <div className="vl-bar-single-item">
                                     <h4 className="title">
-                                        Operatory Cabinetry
+                                        Behandelkamerkasten
                                     </h4>
                                     <div
                                         id="bar2"
                                         className="progress barfiller"
                                         role="progressbar"
-                                        aria-label="Operatory Cabinetry"
+                                        aria-label="Behandelkamerkasten"
                                         aria-valuenow={90}
                                         aria-valuemin={0}
                                         aria-valuemax={100}
@@ -90,13 +93,13 @@ export default function Section1({ background }: { background: string }) {
                                 {/* line progress bar item*/}
                                 <div className="vl-bar-single-item">
                                     <h4 className="title">
-                                        Surgical Microscopes
+                                        Chirurgische microscopen
                                     </h4>
                                     <div
                                         id="bar3"
                                         className="progress barfiller"
                                         role="progressbar"
-                                        aria-label="Surgical Microscopes"
+                                        aria-label="Chirurgische microscopen"
                                         aria-valuenow={90}
                                         aria-valuemin={0}
                                         aria-valuemax={100}
@@ -110,13 +113,13 @@ export default function Section1({ background }: { background: string }) {
                                 {/* line progress bar item*/}
                                 <div className="vl-bar-single-item">
                                     <h4 className="title">
-                                        Dental Operatory Lights
+                                        Behandelkamerverlichting
                                     </h4>
                                     <div
                                         id="bar4"
                                         className="progress barfiller"
                                         role="progressbar"
-                                        aria-label="Dental Operatory Lights"
+                                        aria-label="Behandelkamerverlichting"
                                         aria-valuenow={90}
                                         aria-valuemin={0}
                                         aria-valuemax={100}
@@ -133,7 +136,7 @@ export default function Section1({ background }: { background: string }) {
                                         href="/contact"
                                         className="vl-btn-primary"
                                     >
-                                        Contact Us
+                                        Neem contact op
                                     </Link>
                                 </div>
                             </div>
