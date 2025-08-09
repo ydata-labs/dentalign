@@ -10,10 +10,10 @@ export default function Section3() {
                         <div className="col-lg-6 mx-auto">
                             <div className="vl-work-inner-content">
                                 <div className="vl-section-title text-center mb-60">
-                                    <h5 className="subtitle">Our Work</h5>
+                                    <h5 className="subtitle">Ons werk</h5>
                                     <h2 className="title pt-16 text-anime-style-3">
-                                        Our Work Creating Healthier The Happier
-                                        Smiles
+                                        Ons werk: gezondere en gelukkigere
+                                        glimlachen
                                     </h2>
                                 </div>
                             </div>
@@ -34,11 +34,12 @@ export default function Section3() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        Ongoing Support &amp; Growth
+                                        Doorlopende ondersteuning &amp; groei
                                     </h4>
                                     <p className="para pt-16">
-                                        Post launch, provide ongoing support,
-                                        updates, and maintenance to ensure.
+                                        Na de lancering bieden we ondersteuning,
+                                        updates en onderhoud voor continu
+                                        succes.
                                     </p>
                                 </div>
                             </div>
@@ -57,11 +58,11 @@ export default function Section3() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        Development &amp; Testing
+                                        Ontwikkeling &amp; testen
                                     </h4>
                                     <p className="para pt-16">
-                                        Once the design approved developers
-                                        bring it to life with clean, responsive.
+                                        Na goedkeuring van het ontwerp bouwen we
+                                        een snelle, responsieve oplossing.
                                     </p>
                                 </div>
                             </div>
@@ -80,11 +81,11 @@ export default function Section3() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        Discovery &amp; Strategy
+                                        Verkenning &amp; strategie
                                     </h4>
                                     <p className="para pt-16">
-                                        We start learning about your business,
-                                        your goals, and your target audience.{" "}
+                                        We leren uw organisatie, doelen en
+                                        doelgroep kennen als basis voor succes.
                                     </p>
                                 </div>
                             </div>

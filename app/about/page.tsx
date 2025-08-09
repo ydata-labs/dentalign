@@ -22,7 +22,6 @@ export default function About() {
                 <Section2Home1 />
                 <Section1 background="vl-off-white-bg" />
                 <Section2 />
-                <Section3 />
                 {/* <Section6Home1 /> */}
                 {/* <Section4 /> */}
                 {/* <Team text_2="text-2" /> */}
