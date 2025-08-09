@@ -8,6 +8,7 @@ import "/public/assets/css/style.css";
 
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
+import React from "react";
 
 const figtree = Figtree({
     weight: ["400", "500", "600", "700"],
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         type: "website",
-        locale: "en_US",
+        locale: "nl_NL",
         url: "https://dentalign.be",
         siteName: "Dentalign",
         title: "Dentalign - Modern Dental Clinic & Orthodontic Care",
@@ -69,13 +70,17 @@ export const metadata: Metadata = {
     },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
     children,
+    params,
 }: Readonly<{
     children: React.ReactNode;
+    params: { lang: string };
 }>) {
+    const { lang } = await params;
+
     return (
-        <html lang="en">
+        <html lang={lang}>
             <body className={`${figtree.className}`}>{children}</body>
         </html>
     );

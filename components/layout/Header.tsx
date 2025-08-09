@@ -5,6 +5,7 @@ import MainMenuOnePage1 from "./MainMenuOnePage1";
 import { PHONE } from "@/util/config";
 import RenderConditionally from "../elements/RenderConditonally";
 import Image from "next/image";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Header({
     scroll,
@@ -100,6 +101,9 @@ export default function Header({
                     />
                 </div>
             </header>
+            <div className="vl-header-right">
+                <LanguageSwitcher />
+            </div>
         </>
     );
 }
