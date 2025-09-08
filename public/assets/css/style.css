@@ -7075,6 +7075,7 @@ textarea {
 }
 .vl-coments-form .vl-cmnts-form input[type="text"],
 .vl-coments-form .vl-cmnts-form input[type="email"],
+.vl-coments-form .vl-cmnts-form input[type="tel"],
 .vl-coments-form .vl-cmnts-form input[type="number"] {
   border-radius: 8px;
   background: var(--vkl-text-text-1);
@@ -7086,6 +7087,7 @@ textarea {
 }
 .vl-coments-form .vl-cmnts-form input[type="text"]::placeholder,
 .vl-coments-form .vl-cmnts-form input[type="email"]::placeholder,
+.vl-coments-form .vl-cmnts-form input[type="tel"]::placeholder,
 .vl-coments-form .vl-cmnts-form input[type="number"]::placeholder {
   color: #577380;
   font-size: var(--vkl-font-size-font-s16);
@@ -9285,6 +9287,7 @@ textarea {
 }
 .vl-contact-form-iner .vl-conatct-iner-form input[type="text"],
 .vl-contact-form-iner .vl-conatct-iner-form input[type="number"],
+.vl-contact-form-iner .vl-conatct-iner-form input[type="tel"],
 .vl-contact-form-iner .vl-conatct-iner-form input[type="email"],
 .vl-contact-form-iner .vl-conatct-iner-form input[type="date"] {
   height: 52px;
@@ -9300,6 +9303,7 @@ textarea {
 }
 .vl-contact-form-iner .vl-conatct-iner-form input[type="text"]::placeholder,
 .vl-contact-form-iner .vl-conatct-iner-form input[type="number"]::placeholder,
+.vl-contact-form-iner .vl-conatct-iner-form input[type="tel"]::placeholder,
 .vl-contact-form-iner .vl-conatct-iner-form input[type="email"]::placeholder,
 .vl-contact-form-iner .vl-conatct-iner-form input[type="date"]::placeholder {
   color: #5b5f61;

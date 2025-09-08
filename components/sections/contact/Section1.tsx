@@ -1,8 +1,21 @@
+"use client";
 import RenderConditionally from "@/components/elements/RenderConditonally";
 import { ADDRESS, EMAIL, PHONE } from "@/util/config";
+import emailjs from "@emailjs/browser";
 import Link from "next/link";
 
 export default function Section1() {
+    const sendEmail = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        await emailjs.sendForm(
+            process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+            process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+            e.target as HTMLFormElement,
+            process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+        );
+        (e.target as HTMLFormElement).reset();
+    };
+
     return (
         <>
             {/*================= Contact section Start =================*/}
@@ -16,11 +29,13 @@ export default function Section1() {
                                     Onze reactietijd is binnen 30 minuten
                                     tijdens kantooruren
                                 </p>
-                                <form action="#">
+                                <form action="#" onSubmit={sendEmail}>
                                     <div className="vl-conatct-iner-form">
                                         <div className="row">
                                             <div className="col-lg-6">
                                                 <input
+                                                    required
+                                                    name="name"
                                                     className="mb-20"
                                                     type="text"
                                                     placeholder="Voornaam"
@@ -28,20 +43,24 @@ export default function Section1() {
                                             </div>
                                             <div className="col-lg-6">
                                                 <input
+                                                    required
                                                     className="mb-20"
-                                                    type="number"
+                                                    type="tel"
+                                                    name="phone"
+                                                    pattern="^(?:\+32[1-9][0-9]{7,8}|\+31[0-9]{9})$"
                                                     placeholder="Telefoonnummer"
                                                 />
                                             </div>
                                             <div className="col-lg-6">
                                                 <input
+                                                    required
                                                     className="mb-20"
                                                     name="email"
                                                     type="email"
                                                     placeholder="E-mailadres"
                                                 />
                                             </div>
-                                            <div className="col-lg-6">
+                                            {/* <div className="col-lg-6">
                                                 <select className="mb-20 nice-select wide vl-service-select-iner">
                                                     <option data-display="Type dienst">
                                                         Preventieve zorg
@@ -61,8 +80,8 @@ export default function Section1() {
                                                         Mondchirurgie
                                                     </option>
                                                 </select>
-                                            </div>
-                                            <div className="col-lg-6">
+                                            </div> */}
+                                            {/* <div className="col-lg-6">
                                                 <select className="mb-20 nice-select wide vl-service-select-iner">
                                                     <option data-display="Selecteer arts">
                                                         Dr. Joseph Ayoub
@@ -80,17 +99,18 @@ export default function Section1() {
                                                         B. McCutcheon
                                                     </option>
                                                 </select>
-                                            </div>
-                                            <div className="col-lg-6">
+                                            </div> */}
+                                            {/* <div className="col-lg-6">
                                                 <input
                                                     className="mb-20"
                                                     type="date"
                                                     placeholder="Datum"
                                                 />
-                                            </div>
+                                            </div> */}
                                             <div className="col-lg-12">
                                                 <textarea
-                                                    name="msg"
+                                                    required
+                                                    name="message"
                                                     id="msg"
                                                     placeholder="Bericht"
                                                     defaultValue={""}
@@ -98,7 +118,10 @@ export default function Section1() {
                                             </div>
                                             <div className="col-lg-12">
                                                 <div className="vl-cmt-btn mt-24">
-                                                    <button className="vl-btn-primary">
+                                                    <button
+                                                        className="vl-btn-primary"
+                                                        type="submit"
+                                                    >
                                                         Maak een afspraak
                                                     </button>
                                                 </div>

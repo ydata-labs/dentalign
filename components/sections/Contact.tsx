@@ -1,6 +1,19 @@
+"use client";
+import emailjs from "@emailjs/browser";
 import Link from "next/link";
 
 export default function Contact() {
+    const sendEmail = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        await emailjs.sendForm(
+            process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+            process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+            e.target as HTMLFormElement,
+            process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+        );
+        (e.target as HTMLFormElement).reset();
+    };
+
     return (
         <>
             {/*================= Contact section start =================*/}
@@ -18,9 +31,9 @@ export default function Contact() {
                                     >
                                         Neem contact op
                                     </h5>
-                                    <h2 className="title pt-16 text-anime-style-3">
+                                    {/* <h2 className="title pt-16 text-anime-style-3">
                                         Plan uw afspraak
-                                    </h2>
+                                    </h2> */}
                                 </div>
                                 <div
                                     className="vl-contact-form"
@@ -28,20 +41,13 @@ export default function Contact() {
                                     data-aos-duration={800}
                                     data-aos-delay={300}
                                 >
-                                    <form action="#">
+                                    <form action="#" onSubmit={sendEmail}>
                                         <div className="row">
                                             <div className="col-lg-6 mb-24">
                                                 <input
-                                                    name="text"
+                                                    name="name"
                                                     type="text"
                                                     placeholder="Voornaam"
-                                                />
-                                            </div>
-                                            <div className="col-lg-6 mb-24">
-                                                <input
-                                                    name="text"
-                                                    type="text"
-                                                    placeholder="Achternaam"
                                                 />
                                             </div>
                                             <div className="col-lg-6 mb-24">
@@ -51,7 +57,14 @@ export default function Contact() {
                                                     placeholder="E-mailadres"
                                                 />
                                             </div>
-                                            <div className="col-lg-6 mb-24">
+                                            <div className="col-lg-12 mb-24">
+                                                <input
+                                                    name="title"
+                                                    type="text"
+                                                    placeholder="Onderwerp"
+                                                />
+                                            </div>
+                                            {/* <div className="col-lg-6 mb-24">
                                                 <select
                                                     name="select-date"
                                                     className="nice-select wide vl-select-date"
@@ -67,7 +80,7 @@ export default function Contact() {
                                                         Zaterdag (10.00 - 16.00)
                                                     </option>
                                                 </select>
-                                            </div>
+                                            </div> */}
                                             <div className="col-lg-12 mb-24">
                                                 <textarea
                                                     name="message"
@@ -77,14 +90,17 @@ export default function Contact() {
                                                 />
                                             </div>
                                         </div>
-                                    </form>
-                                    <div className="col-lg-6">
-                                        <div className="vl-contact-btn">
-                                            <button className="vl-btn-primary">
-                                                Verzenden
-                                            </button>
+                                        <div className="col-lg-6">
+                                            <div className="vl-contact-btn">
+                                                <button
+                                                    className="vl-btn-primary"
+                                                    type="submit"
+                                                >
+                                                    Verzenden
+                                                </button>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
