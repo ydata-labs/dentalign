@@ -119,7 +119,7 @@ export default function Contact() {
                                     <div className="vl-single-info-box">
                                         <div className="vl-contact-info-box-flex">
                                             <h4 className="title">
-                                                Maandag - Vrijdag
+                                                Maandag - Zaterdag
                                             </h4>
                                             <span className="time">
                                                 9.00 - 17.00
@@ -134,14 +134,14 @@ export default function Contact() {
                                             </span>
                                         </div>
                                     </div> */}
-                                    <div className="vl-single-info-box">
+                                    {/* <div className="vl-single-info-box">
                                         <div className="vl-contact-info-box-flex">
                                             <h4 className="title">Zaterdag</h4>
                                             <span className="time">
                                                 09.00 - 17.00
                                             </span>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="vl-contact-info-btn mt-12">
                                         <Link
                                             href="mailto:info@dentalign.be"
