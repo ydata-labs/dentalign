@@ -16,11 +16,11 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
-    title: "Dentalign - Modern Dental Clinic & Orthodontic Care",
+    title: "Dentalign - Modern Dental Clinic & Oral Care",
     description:
-        "Dentalign offers comprehensive dental care services including orthodontics, cosmetic dentistry, and general dental treatments. Book your appointment today for a brighter, healthier smile.",
+        "Dentalign offers comprehensive dental care services including oral care, cosmetic dentistry, and general dental treatments. Book your appointment today for a brighter, healthier smile.",
     keywords:
-        "dental clinic, orthodontics, cosmetic dentistry, dental care, teeth whitening, dental implants, braces, invisalign, dental services",
+        "dental clinic, cosmetic dentistry, dental care, teeth whitening, dental implants, braces, invisalign, dental services",
     authors: [{ name: "Dentalign" }],
     creator: "Dentalign",
     publisher: "Dentalign",
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
         locale: "en_US",
         url: "https://dentalign.be",
         siteName: "Dentalign",
-        title: "Dentalign - Modern Dental Clinic & Orthodontic Care",
+        title: "Dentalign - Modern Dental Clinic & Oral Care",
         description:
-            "Dentalign offers comprehensive dental care services including orthodontics, cosmetic dentistry, and general dental treatments. Book your appointment today for a brighter, healthier smile.",
+            "Dentalign offers comprehensive dental care services including oral care, cosmetic dentistry, and general dental treatments. Book your appointment today for a brighter, healthier smile.",
         images: [
             {
                 url: "/assets/img/og-image.jpg",
@@ -54,9 +54,9 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Dentalign - Modern Dental Clinic & Orthodontic Care",
+        title: "Dentalign - Modern Dental Clinic & Oral Care",
         description:
-            "Dentalign offers comprehensive dental care services including orthodontics, cosmetic dentistry, and general dental treatments.",
+            "Dentalign offers comprehensive dental care services including oral care, cosmetic dentistry, and general dental treatments.",
         images: ["/assets/img/og-image.jpg"],
     },
     viewport: {
