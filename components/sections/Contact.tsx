@@ -122,32 +122,32 @@ export default function Contact() {
                                                 Maandag - Vrijdag
                                             </h4>
                                             <span className="time">
-                                                9.00 - 22.00
+                                                9.00 - 17.00
                                             </span>
                                         </div>
                                     </div>
-                                    <div className="vl-single-info-box">
+                                    {/* <div className="vl-single-info-box">
                                         <div className="vl-contact-info-box-flex">
                                             <h4 className="title">Zondag</h4>
                                             <span className="time">
                                                 9.00 - 22.00
                                             </span>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="vl-single-info-box">
                                         <div className="vl-contact-info-box-flex">
                                             <h4 className="title">Zaterdag</h4>
                                             <span className="time">
-                                                10.00 - 16.00
+                                                09.00 - 17.00
                                             </span>
                                         </div>
                                     </div>
                                     <div className="vl-contact-info-btn mt-12">
                                         <Link
-                                            href="tel:+11234567890"
+                                            href="mailto:info@dentalign.be"
                                             className="w-100 text-center vl-btn-primary"
                                         >
-                                            Bel +1 (123) 456-7890
+                                            info@dentalign.be
                                         </Link>
                                     </div>
                                 </div>
