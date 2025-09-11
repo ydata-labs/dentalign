@@ -8,6 +8,44 @@ import Section6Home1 from "@/components/sections/Testimonial";
 import Section4 from "@/components/sections/about/Section4";
 import Subscribe from "@/components/sections/Subscribe";
 import Team from "@/components/sections/Team";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Over Ons",
+    description:
+        "Leer meer over Dentalign tandkliniek. Onze ervaren tandartsen en moderne faciliteiten bieden u de beste tandheelkundige zorg. Ontdek onze missie voor uw gezonde glimlach.",
+    keywords: [
+        "over ons",
+        "tandkliniek",
+        "ervaren tandartsen",
+        "moderne faciliteiten",
+        "tandheelkundige zorg",
+        "missie",
+        "visie",
+        "about us",
+        "dental clinic",
+        "experienced dentists",
+        "modern facilities",
+        "dental care",
+        "mission",
+        "vision",
+    ],
+    openGraph: {
+        title: "Over Ons - Dentalign Tandkliniek | Onze Missie & Visie",
+        description:
+            "Leer meer over Dentalign tandkliniek. Onze ervaren tandartsen en moderne faciliteiten bieden u de beste tandheelkundige zorg. Ontdek onze missie voor uw gezonde glimlach.",
+        url: "https://dentalign.be/about",
+        locale: "nl_BE",
+        alternateLocale: "en_US",
+    },
+    alternates: {
+        canonical: "https://dentalign.be/about",
+        languages: {
+            "nl-BE": "https://dentalign.be/about",
+            "en-US": "https://dentalign.be/en/about",
+        },
+    },
+};
 export default function About() {
     return (
         <>

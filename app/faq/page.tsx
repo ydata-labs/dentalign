@@ -5,14 +5,38 @@ import Subscribe from "@/components/sections/Subscribe";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Frequently Asked Questions - Dentalign Dental Clinic",
+    title: "Veelgestelde Vragen",
     description:
-        "Find answers to common questions about dental procedures, appointments, insurance, and more. Get expert information about your dental care concerns.",
+        "Vind antwoorden op veelgestelde vragen over tandheelkundige behandelingen, afspraken, verzekering en meer. Krijg deskundige informatie over uw tandheelkundige zorg.",
+    keywords: [
+        "veelgestelde vragen",
+        "FAQ",
+        "tandheelkundige behandelingen",
+        "afspraken",
+        "verzekering",
+        "tandzorg",
+        "informatie",
+        "frequently asked questions",
+        "dental treatments",
+        "appointments",
+        "insurance",
+        "dental care",
+        "information"
+    ],
     openGraph: {
-        title: "Frequently Asked Questions - Dentalign Dental Clinic",
+        title: "Veelgestelde Vragen - Dentalign Tandkliniek | FAQ",
         description:
-            "Find answers to common questions about dental procedures, appointments, insurance, and more. Get expert information about your dental care concerns.",
+            "Vind antwoorden op veelgestelde vragen over tandheelkundige behandelingen, afspraken, verzekering en meer. Krijg deskundige informatie over uw tandheelkundige zorg.",
         url: "https://dentalign.be/faq",
+        locale: "nl_BE",
+        alternateLocale: "en_US",
+    },
+    alternates: {
+        canonical: "https://dentalign.be/faq",
+        languages: {
+            "nl-BE": "https://dentalign.be/faq",
+            "en-US": "https://dentalign.be/en/faq",
+        },
     },
 };
 

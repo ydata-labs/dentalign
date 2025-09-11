@@ -5,14 +5,38 @@ import Subscribe from "@/components/sections/Subscribe";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Patient Testimonials - Dentalign Dental Clinic",
+    title: "Patiëntbeoordelingen",
     description:
-        "Read what our patients say about their experience at Dentalign. Real stories and reviews from our satisfied patients about our dental care services.",
+        "Lees wat onze patiënten zeggen over hun ervaring bij Dentalign. Echte verhalen en beoordelingen van onze tevreden patiënten over onze tandheelkundige zorg.",
+    keywords: [
+        "patiëntbeoordelingen",
+        "ervaringen",
+        "tevreden patiënten",
+        "tandheelkundige zorg",
+        "verhalen",
+        "beoordelingen",
+        "testimonials",
+        "patient reviews",
+        "experiences",
+        "satisfied patients",
+        "dental care",
+        "stories",
+        "reviews"
+    ],
     openGraph: {
-        title: "Patient Testimonials - Dentalign Dental Clinic",
+        title: "Patiëntbeoordelingen - Dentalign Tandkliniek | Ervaringen",
         description:
-            "Read what our patients say about their experience at Dentalign. Real stories and reviews from our satisfied patients about our dental care services.",
+            "Lees wat onze patiënten zeggen over hun ervaring bij Dentalign. Echte verhalen en beoordelingen van onze tevreden patiënten over onze tandheelkundige zorg.",
         url: "https://dentalign.be/testimonial",
+        locale: "nl_BE",
+        alternateLocale: "en_US",
+    },
+    alternates: {
+        canonical: "https://dentalign.be/testimonial",
+        languages: {
+            "nl-BE": "https://dentalign.be/testimonial",
+            "en-US": "https://dentalign.be/en/testimonial",
+        },
     },
 };
 

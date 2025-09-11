@@ -5,14 +5,37 @@ import Subscribe from "@/components/sections/Subscribe";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Our Team - Dentalign Dental Clinic",
+    title: "Ons Team",
     description:
-        "Meet our experienced team of dental professionals. Our skilled dentists and staff are committed to providing exceptional dental care and personalized treatment plans.",
+        "Maak kennis met ons ervaren team van tandheelkundige professionals. Onze deskundige tandartsen en medewerkers zijn toegewijd aan het bieden van uitzonderlijke tandheelkundige zorg en persoonlijke behandelplannen.",
+    keywords: [
+        "ons team",
+        "tandartsen",
+        "tandheelkundige professionals",
+        "ervaren team",
+        "deskundige zorg",
+        "persoonlijke behandeling",
+        "our team",
+        "dentists",
+        "dental professionals",
+        "experienced team",
+        "expert care",
+        "personal treatment",
+    ],
     openGraph: {
-        title: "Our Team - Dentalign Dental Clinic",
+        title: "Ons Team - Dentalign Tandkliniek | Ervaren Tandartsen",
         description:
-            "Meet our experienced team of dental professionals. Our skilled dentists and staff are committed to providing exceptional dental care and personalized treatment plans.",
+            "Maak kennis met ons ervaren team van tandheelkundige professionals. Onze deskundige tandartsen en medewerkers zijn toegewijd aan het bieden van uitzonderlijke tandheelkundige zorg en persoonlijke behandelplannen.",
         url: "https://dentalign.be/team",
+        locale: "nl_BE",
+        alternateLocale: "en_US",
+    },
+    alternates: {
+        canonical: "https://dentalign.be/team",
+        languages: {
+            "nl-BE": "https://dentalign.be/team",
+            "en-US": "https://dentalign.be/en/team",
+        },
     },
 };
 

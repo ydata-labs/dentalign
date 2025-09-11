@@ -16,11 +16,31 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
-    title: "Dentalign - Modern Dental Clinic & Oral Care",
+    title: {
+        default: "Dentalign - Moderne Tandkliniek & Mondzorg",
+        template: "%s | Dentalign Tandkliniek",
+    },
     description:
-        "Dentalign offers comprehensive dental care services including oral care, cosmetic dentistry, and general dental treatments. Book your appointment today for a brighter, healthier smile.",
-    keywords:
-        "dental clinic, cosmetic dentistry, dental care, teeth whitening, dental implants, braces, invisalign, dental services",
+        "Dentalign biedt uitgebreide tandheelkundige zorg inclusief mondzorg, cosmetische tandheelkunde en algemene tandheelkundige behandelingen. Maak vandaag nog een afspraak voor een stralende, gezonde glimlach.",
+    keywords: [
+        "tandkliniek",
+        "cosmetische tandheelkunde",
+        "tandzorg",
+        "tanden bleken",
+        "tandimplantaten",
+        "beugels",
+        "invisalign",
+        "tandheelkundige diensten",
+        "orthodontie",
+        "preventieve zorg",
+        "dental clinic",
+        "cosmetic dentistry",
+        "dental care",
+        "teeth whitening",
+        "dental implants",
+        "braces",
+        "dental services",
+    ],
     authors: [{ name: "Dentalign" }],
     creator: "Dentalign",
     publisher: "Dentalign",
@@ -37,26 +57,27 @@ export const metadata: Metadata = {
     },
     openGraph: {
         type: "website",
-        locale: "en_US",
+        locale: "nl_BE",
+        alternateLocale: "en_US",
         url: "https://dentalign.be",
         siteName: "Dentalign",
-        title: "Dentalign - Modern Dental Clinic & Oral Care",
+        title: "Dentalign - Moderne Tandkliniek & Mondzorg",
         description:
-            "Dentalign offers comprehensive dental care services including oral care, cosmetic dentistry, and general dental treatments. Book your appointment today for a brighter, healthier smile.",
+            "Dentalign biedt uitgebreide tandheelkundige zorg inclusief mondzorg, cosmetische tandheelkunde en algemene tandheelkundige behandelingen. Maak vandaag nog een afspraak voor een stralende, gezonde glimlach.",
         images: [
             {
                 url: "/assets/img/og-image.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Dentalign Dental Clinic",
+                alt: "Dentalign Tandkliniek",
             },
         ],
     },
     twitter: {
         card: "summary_large_image",
-        title: "Dentalign - Modern Dental Clinic & Oral Care",
+        title: "Dentalign - Moderne Tandkliniek & Mondzorg",
         description:
-            "Dentalign offers comprehensive dental care services including oral care, cosmetic dentistry, and general dental treatments.",
+            "Dentalign biedt uitgebreide tandheelkundige zorg inclusief mondzorg, cosmetische tandheelkunde en algemene tandheelkundige behandelingen.",
         images: ["/assets/img/og-image.jpg"],
     },
     viewport: {
@@ -75,7 +96,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang="nl">
             <body className={`${figtree.className}`}>{children}</body>
         </html>
     );
