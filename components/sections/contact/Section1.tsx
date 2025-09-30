@@ -1,6 +1,6 @@
 "use client";
 import RenderConditionally from "@/components/elements/RenderConditonally";
-import { ADDRESS, EMAIL, PHONE } from "@/util/config";
+import { ADDRESS, EMAIL, PHONE, WHATSAPP } from "@/util/config";
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
 
@@ -172,8 +172,15 @@ export default function Section1() {
                                         </span>
                                     </div>
                                     <div className="content">
-                                        <h5 className="title">Bel of sms</h5>
-                                        {PHONE}
+                                        <h5 className="title">
+                                            alleen bericht/ whatsapp
+                                        </h5>
+                                        <Link
+                                            href={`https://wa.me/${WHATSAPP}`}
+                                            target="_blank"
+                                        >
+                                            {PHONE}
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

@@ -1,9 +1,7 @@
 "use client";
 
-import { ADDRESS, EMAIL, PHONE } from "@/util/config";
-import Image from "next/image";
+import { ADDRESS, EMAIL, PHONE, WHATSAPP } from "@/util/config";
 import Link from "next/link";
-import { useState } from "react";
 
 interface MobileMenuProps {
     isMobileMenu: boolean;
@@ -20,10 +18,6 @@ export default function MobileMenu({
     offcanvas_menu,
     offcanvas_social,
 }: MobileMenuProps) {
-    const [isAccordion, setIsAccordion] = useState(0);
-    const handleAccordion = (key: any) => {
-        setIsAccordion(prevState => (prevState === key ? null : key));
-    };
     return (
         <>
             {isMobileMenu && (
@@ -138,7 +132,10 @@ export default function MobileMenu({
                         </h3>
                         {PHONE ? (
                             <span>
-                                <Link href="#">
+                                <Link
+                                    href={`https://wa.me/${WHATSAPP}`}
+                                    target="_blank"
+                                >
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-footer-icon-1.1.svg"

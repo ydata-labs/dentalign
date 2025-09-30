@@ -1,10 +1,10 @@
+"use client";
+import { PHONE, WHATSAPP } from "@/util/config";
 import Link from "next/link";
-import MobileMenu from "./MobileMenu";
+import RenderConditionally from "../elements/RenderConditonally";
 import MainMenu from "./MainMenu";
 import MainMenuOnePage1 from "./MainMenuOnePage1";
-import { PHONE } from "@/util/config";
-import RenderConditionally from "../elements/RenderConditonally";
-import Image from "next/image";
+import MobileMenu from "./MobileMenu";
 
 export default function Header({
     scroll,
@@ -67,7 +67,8 @@ export default function Header({
                                                     Hulplijn 24/7
                                                 </div>
                                                 <Link
-                                                    href="tel:+49309233255"
+                                                    href={`https://wa.me/${WHATSAPP}`}
+                                                    target="_blank"
                                                     className="number"
                                                 >
                                                     {PHONE}

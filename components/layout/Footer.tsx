@@ -1,5 +1,4 @@
-import Link from "next/link";
-import RenderConditionally from "../elements/RenderConditonally";
+"use client";
 import {
     ADDRESS,
     EMAIL,
@@ -8,9 +7,11 @@ import {
     LINKEDIN,
     PHONE,
     TWITTER,
+    WHATSAPP,
     YOUTUBE,
 } from "@/util/config";
-import Image from "next/image";
+import Link from "next/link";
+import RenderConditionally from "../elements/RenderConditonally";
 
 export default function Footer() {
     return (
@@ -158,14 +159,22 @@ export default function Footer() {
                                     <ul>
                                         <RenderConditionally condition={PHONE}>
                                             <li>
-                                                <Link href="#">
-                                                    <span>
-                                                        <img
-                                                            src="assets/img/icons/vl-footer-icon-1.1.svg"
-                                                            alt=""
-                                                        />
-                                                    </span>
-                                                    {PHONE}
+                                                <Link
+                                                    href={`https://wa.me/${WHATSAPP}`}
+                                                    target="_blank"
+                                                >
+                                                    <div>
+                                                        <span>
+                                                            <img
+                                                                src="assets/img/icons/vl-footer-icon-1.1.svg"
+                                                                alt=""
+                                                            />
+                                                        </span>
+                                                        {PHONE}
+                                                    </div>
+                                                    <div className="text-muted">
+                                                        alleen bericht/ whatsapp
+                                                    </div>
                                                 </Link>
                                             </li>
                                         </RenderConditionally>
