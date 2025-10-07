@@ -5,24 +5,17 @@ import Subscribe from "@/components/sections/Subscribe";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Contact",
+    title: "Contact & Afspraak Maken | Tandarts Maasmechelen",
     description:
-        "Neem contact op met Dentalign tandkliniek. Plan uw afspraak, stel vragen of ontdek onze locatie. Onze vriendelijke medewerkers helpen u graag verder.",
+        "Afspraak maken bij tandarts Maasmechelen ⭐ Dentalign Tandkliniek ✓ Dokter Haubenlaan 17 ✓ Ook spoedzorg ✓ Direct afspraak ✓ Bel 0494 14 31 15",
     keywords: [
-        "contact",
-        "afspraak maken",
-        "tandkliniek",
-        "locatie",
-        "telefoon",
-        "email",
-        "adres",
-        "openingstijden",
-        "appointment",
-        "dental clinic",
-        "location",
-        "phone",
-        "address",
-        "opening hours"
+        "afspraak maken tandarts maasmechelen",
+        "tandarts spoedzorg maasmechelen",
+        "contact tandarts maasmechelen",
+        "tandkliniek maasmechelen adres",
+        "tandarts dokter haubenlaan",
+        "tandarts rijksweg maasmechelen",
+        "emergency dentist maasmechelen",
     ],
     openGraph: {
         title: "Contact - Dentalign Tandkliniek | Maak een Afspraak",

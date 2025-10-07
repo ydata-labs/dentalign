@@ -2,26 +2,22 @@ import Layout from "@/components/layout/Layout";
 import Section1 from "@/components/sections/faq/Section1";
 import SectionHeader from "@/components/layout/SectionHeader";
 import Subscribe from "@/components/sections/Subscribe";
+import FAQSchema from "@/components/seo/FAQSchema";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Veelgestelde Vragen",
+    title: "Veelgestelde Vragen | Tandarts Maasmechelen",
     description:
-        "Vind antwoorden op veelgestelde vragen over tandheelkundige behandelingen, afspraken, verzekering en meer. Krijg deskundige informatie over uw tandheelkundige zorg.",
+        "FAQ Tandarts Maasmechelen ⭐ Antwoorden op vragen over behandelingen, afspraken, implantaten, Invisalign en spoedzorg ✓ Dentalign ✓ Bel 0494 14 31 15",
     keywords: [
-        "veelgestelde vragen",
-        "FAQ",
-        "tandheelkundige behandelingen",
-        "afspraken",
-        "verzekering",
-        "tandzorg",
-        "informatie",
-        "frequently asked questions",
-        "dental treatments",
-        "appointments",
-        "insurance",
-        "dental care",
-        "information"
+        "tandarts maasmechelen faq",
+        "vragen tandarts",
+        "tandimplantaten vragen",
+        "invisalign vragen",
+        "tandarts spoedzorg",
+        "kosten tandarts",
+        "afspraak maken tandarts",
+        "tandarts angst",
     ],
     openGraph: {
         title: "Veelgestelde Vragen - Dentalign Tandkliniek | FAQ",
@@ -43,13 +39,14 @@ export const metadata: Metadata = {
 export default function Home() {
     return (
         <>
+            <FAQSchema />
             <Layout>
                 <SectionHeader
-                    title="FAQ’s"
+                    title="FAQ's"
                     isGroup={false}
                     linkGroup=""
                     pageGroup=""
-                    current="FAQ’s"
+                    current="FAQ's"
                 />
                 <Section1 />
                 <Subscribe />

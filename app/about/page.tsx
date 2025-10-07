@@ -11,24 +11,17 @@ import Team from "@/components/sections/Team";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Over Ons",
+    title: "Over Dentalign | Uw Tandarts in Maasmechelen",
     description:
-        "Leer meer over Dentalign tandkliniek. Onze ervaren tandartsen en moderne faciliteiten bieden u de beste tandheelkundige zorg. Ontdek onze missie voor uw gezonde glimlach.",
+        "Tandartspraktijk Maasmechelen ⭐ Ervaren tandartsen ✓ Moderne kliniek ✓ Patiëntgericht ✓ 15+ jaar expertise ✓ Ook voor tandarts angst ✓ Bel 0494 14 31 15",
     keywords: [
-        "over ons",
-        "tandkliniek",
-        "ervaren tandartsen",
-        "moderne faciliteiten",
-        "tandheelkundige zorg",
-        "missie",
-        "visie",
-        "about us",
-        "dental clinic",
-        "experienced dentists",
-        "modern facilities",
-        "dental care",
-        "mission",
-        "vision",
+        "tandartspraktijk maasmechelen",
+        "tandartsenpraktijk maasmechelen",
+        "ervaren tandartsen maasmechelen",
+        "tandarts angst",
+        "parodontoloog maasmechelen",
+        "tandarts zonder patientenstop",
+        "dental maasmechelen",
     ],
     openGraph: {
         title: "Over Ons - Dentalign Tandkliniek | Onze Missie & Visie",
