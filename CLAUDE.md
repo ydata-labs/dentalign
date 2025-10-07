@@ -137,3 +137,31 @@ Font: Figtree (Google Fonts) with weights 400, 500, 600, 700
 - Strict mode enabled
 - Target: ES2017
 - Module resolution: bundler (Next.js App Router)
+
+## Form Handling
+
+Contact forms are located in:
+- `components/sections/Contact.tsx` - Homepage contact section
+- `components/sections/contact/Section1.tsx` - Dedicated contact page
+
+Both forms use EmailJS for email delivery and implement:
+- **Loading states**: Button shows "Bezig met verzenden..." during submission
+- **Success/error feedback**: Bootstrap alerts display submission status
+- **Form validation**: HTML5 validation with custom patterns and minimum lengths
+- **Disabled states**: All inputs disabled during submission to prevent double-submission
+- **Accessibility**: ARIA labels and busy states for screen readers
+- **Auto-reset**: Success messages auto-dismiss after 5 seconds
+
+EmailJS configuration uses environment variables:
+```
+NEXT_PUBLIC_EMAILJS_SERVICE_ID
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+```
+
+## Known Issues & Fixes
+
+### Hydration Warnings
+The app uses `suppressHydrationWarning` on `<html>` and `<body>` tags (app/layout.tsx:99-100) to suppress warnings from browser extensions that inject attributes (e.g., password managers, Grammarly).
+
+Animation components are wrapped in `ClientOnly` to ensure DOM manipulations only occur after client-side hydration, preventing server/client mismatches.

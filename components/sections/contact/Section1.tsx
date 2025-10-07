@@ -3,17 +3,38 @@ import RenderConditionally from "@/components/elements/RenderConditonally";
 import { ADDRESS, EMAIL, PHONE, WHATSAPP } from "@/util/config";
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
+import { useState } from "react";
+
+type FormStatus = "idle" | "loading" | "success" | "error";
 
 export default function Section1() {
+    const [status, setStatus] = useState<FormStatus>("idle");
+    const [errorMessage, setErrorMessage] = useState<string>("");
+
     const sendEmail = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        await emailjs.sendForm(
-            process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-            process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
-            e.target as HTMLFormElement,
-            process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
-        );
-        (e.target as HTMLFormElement).reset();
+        setStatus("loading");
+        setErrorMessage("");
+
+        try {
+            await emailjs.sendForm(
+                process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+                process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+                e.target as HTMLFormElement,
+                process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+            );
+            setStatus("success");
+            (e.target as HTMLFormElement).reset();
+
+            // Reset success message after 5 seconds
+            setTimeout(() => setStatus("idle"), 5000);
+        } catch (error) {
+            setStatus("error");
+            setErrorMessage(
+                "Er is iets misgegaan bij het verzenden van uw bericht. Probeer het later opnieuw of neem rechtstreeks contact met ons op."
+            );
+            console.error("EmailJS error:", error);
+        }
     };
 
     return (
@@ -39,6 +60,9 @@ export default function Section1() {
                                                     className="mb-20"
                                                     type="text"
                                                     placeholder="Voornaam"
+                                                    disabled={status === "loading"}
+                                                    aria-label="Voornaam"
+                                                    minLength={2}
                                                 />
                                             </div>
                                             <div className="col-lg-6">
@@ -47,8 +71,11 @@ export default function Section1() {
                                                     className="mb-20"
                                                     type="tel"
                                                     name="phone"
-                                                    pattern="^(?:\+32[1-9][0-9]{7,8}|\+31[0-9]{9})$"
+                                                    pattern="^(?:\+32[1-9][0-9]{7,8}|0[1-9][0-9]{7,8}|[0-9]{9,10})$"
                                                     placeholder="Telefoonnummer"
+                                                    disabled={status === "loading"}
+                                                    aria-label="Telefoonnummer"
+                                                    title="Voer een geldig telefoonnummer in (bijv. 0494143115 of +32494143115)"
                                                 />
                                             </div>
                                             <div className="col-lg-6">
@@ -58,6 +85,8 @@ export default function Section1() {
                                                     name="email"
                                                     type="email"
                                                     placeholder="E-mailadres"
+                                                    disabled={status === "loading"}
+                                                    aria-label="E-mailadres"
                                                 />
                                             </div>
                                             {/* <div className="col-lg-6">
@@ -114,15 +143,40 @@ export default function Section1() {
                                                     id="msg"
                                                     placeholder="Bericht"
                                                     defaultValue={""}
+                                                    disabled={status === "loading"}
+                                                    aria-label="Bericht"
+                                                    minLength={10}
+                                                    rows={5}
                                                 />
                                             </div>
+
+                                            {/* Status Messages */}
+                                            {status === "success" && (
+                                                <div className="col-lg-12">
+                                                    <div className="alert alert-success mt-3" role="alert">
+                                                        ✓ Bedankt! Uw afspraakverzoek is succesvol verzonden. We nemen binnen 30 minuten contact met u op tijdens kantooruren.
+                                                    </div>
+                                                </div>
+                                            )}
+                                            {status === "error" && (
+                                                <div className="col-lg-12">
+                                                    <div className="alert alert-danger mt-3" role="alert">
+                                                        ✗ {errorMessage}
+                                                    </div>
+                                                </div>
+                                            )}
+
                                             <div className="col-lg-12">
                                                 <div className="vl-cmt-btn mt-24">
                                                     <button
                                                         className="vl-btn-primary"
                                                         type="submit"
+                                                        disabled={status === "loading"}
+                                                        aria-busy={status === "loading"}
                                                     >
-                                                        Maak een afspraak
+                                                        {status === "loading"
+                                                            ? "Bezig met verzenden..."
+                                                            : "Maak een afspraak"}
                                                     </button>
                                                 </div>
                                             </div>

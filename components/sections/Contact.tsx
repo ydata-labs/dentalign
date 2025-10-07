@@ -1,17 +1,38 @@
 "use client";
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
+import { useState } from "react";
+
+type FormStatus = "idle" | "loading" | "success" | "error";
 
 export default function Contact() {
+    const [status, setStatus] = useState<FormStatus>("idle");
+    const [errorMessage, setErrorMessage] = useState<string>("");
+
     const sendEmail = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        await emailjs.sendForm(
-            process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-            process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
-            e.target as HTMLFormElement,
-            process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
-        );
-        (e.target as HTMLFormElement).reset();
+        setStatus("loading");
+        setErrorMessage("");
+
+        try {
+            await emailjs.sendForm(
+                process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+                process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+                e.target as HTMLFormElement,
+                process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+            );
+            setStatus("success");
+            (e.target as HTMLFormElement).reset();
+
+            // Reset success message after 5 seconds
+            setTimeout(() => setStatus("idle"), 5000);
+        } catch (error) {
+            setStatus("error");
+            setErrorMessage(
+                "Er is iets misgegaan bij het verzenden van uw bericht. Probeer het later opnieuw of neem rechtstreeks contact met ons op."
+            );
+            console.error("EmailJS error:", error);
+        }
     };
 
     return (
@@ -48,6 +69,10 @@ export default function Contact() {
                                                     name="name"
                                                     type="text"
                                                     placeholder="Voornaam"
+                                                    required
+                                                    disabled={status === "loading"}
+                                                    aria-label="Voornaam"
+                                                    minLength={2}
                                                 />
                                             </div>
                                             <div className="col-lg-6 mb-24">
@@ -55,6 +80,9 @@ export default function Contact() {
                                                     name="email"
                                                     type="email"
                                                     placeholder="E-mailadres"
+                                                    required
+                                                    disabled={status === "loading"}
+                                                    aria-label="E-mailadres"
                                                 />
                                             </div>
                                             <div className="col-lg-12 mb-24">
@@ -62,6 +90,10 @@ export default function Contact() {
                                                     name="title"
                                                     type="text"
                                                     placeholder="Onderwerp"
+                                                    required
+                                                    disabled={status === "loading"}
+                                                    aria-label="Onderwerp"
+                                                    minLength={3}
                                                 />
                                             </div>
                                             {/* <div className="col-lg-6 mb-24">
@@ -87,16 +119,36 @@ export default function Contact() {
                                                     id="message"
                                                     placeholder="Uw bericht"
                                                     defaultValue={""}
+                                                    required
+                                                    disabled={status === "loading"}
+                                                    aria-label="Uw bericht"
+                                                    minLength={10}
+                                                    rows={5}
                                                 />
                                             </div>
                                         </div>
+
+                                        {/* Status Messages */}
+                                        {status === "success" && (
+                                            <div className="alert alert-success mb-3" role="alert">
+                                                ✓ Bedankt! Uw bericht is succesvol verzonden. We nemen zo spoedig mogelijk contact met u op.
+                                            </div>
+                                        )}
+                                        {status === "error" && (
+                                            <div className="alert alert-danger mb-3" role="alert">
+                                                ✗ {errorMessage}
+                                            </div>
+                                        )}
+
                                         <div className="col-lg-6">
                                             <div className="vl-contact-btn">
                                                 <button
                                                     className="vl-btn-primary"
                                                     type="submit"
+                                                    disabled={status === "loading"}
+                                                    aria-busy={status === "loading"}
                                                 >
-                                                    Verzenden
+                                                    {status === "loading" ? "Bezig met verzenden..." : "Verzenden"}
                                                 </button>
                                             </div>
                                         </div>
