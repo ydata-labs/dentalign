@@ -1,0 +1,440 @@
+/* ========================================
+   UI Polish & Modern Enhancements
+   Custom styles for Dentalign
+   ======================================== */
+
+/* ========== Form Enhancements ========== */
+
+/* Modern Input Styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    transition: all 0.3s ease;
+    border: 2px solid #e0e6ed;
+    border-radius: 8px;
+    padding: 14px 20px;
+    font-size: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #0066ff;
+    box-shadow: 0 0 0 4px rgba(0, 102, 255, 0.1), 0 4px 8px rgba(0, 0, 0, 0.08);
+    transform: translateY(-1px);
+}
+
+input[type="text"]:disabled,
+input[type="email"]:disabled,
+input[type="tel"]:disabled,
+textarea:disabled {
+    background-color: #f5f7fa;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* Placeholder styling */
+input::placeholder,
+textarea::placeholder {
+    color: #9ca3af;
+    opacity: 1;
+}
+
+/* Textarea specific */
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* ========== Button Enhancements ========== */
+
+.vl-btn-primary {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    box-shadow: 0 4px 12px rgba(0, 102, 255, 0.2);
+}
+
+.vl-btn-primary:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 102, 255, 0.3);
+}
+
+.vl-btn-primary:active:not(:disabled) {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(0, 102, 255, 0.2);
+}
+
+.vl-btn-primary:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Ripple effect */
+.vl-btn-primary::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.vl-btn-primary:active::before {
+    width: 300px;
+    height: 300px;
+}
+
+/* ========== Alert/Status Messages ========== */
+
+.alert {
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    animation: slideInDown 0.4s ease-out;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.alert-success {
+    background: linear-gradient(135deg, #d4edda 0%, #e8f5e9 100%);
+    color: #155724;
+    border-left: 4px solid #28a745;
+}
+
+.alert-danger {
+    background: linear-gradient(135deg, #f8d7da 0%, #ffebee 100%);
+    color: #721c24;
+    border-left: 4px solid #dc3545;
+}
+
+.alert-success::before {
+    content: "✓";
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: rgba(40, 167, 69, 0.15);
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.alert-danger::before {
+    content: "✗";
+    font-size: 20px;
+    font-weight: bold;
+    color: #dc3545;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: rgba(220, 53, 69, 0.15);
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* ========== Animations ========== */
+
+@keyframes slideInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+/* Loading button animation */
+.vl-btn-primary:disabled {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* ========== Form Validation Styling ========== */
+
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+    border-color: #dc3545;
+}
+
+input:valid:not(:placeholder-shown),
+textarea:valid:not(:placeholder-shown) {
+    border-color: #28a745;
+}
+
+input:invalid:focus:not(:placeholder-shown),
+textarea:invalid:focus:not(:placeholder-shown) {
+    box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.1);
+}
+
+input:valid:focus:not(:placeholder-shown),
+textarea:valid:focus:not(:placeholder-shown) {
+    box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.1);
+}
+
+/* ========== Card & Section Enhancements ========== */
+
+.vl-contact-form,
+.vl-contact-form-iner {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.vl-footer-widget-1,
+.vl-footer-widget-2,
+.vl-footer-widget-3,
+.vl-footer-widget-4 {
+    transition: transform 0.3s ease;
+}
+
+.vl-footer-widget-1:hover,
+.vl-footer-widget-2:hover,
+.vl-footer-widget-3:hover,
+.vl-footer-widget-4:hover {
+    transform: translateY(-4px);
+}
+
+/* ========== Link Enhancements ========== */
+
+a {
+    transition: all 0.3s ease;
+}
+
+.vl-footer-menu a:hover,
+.vl-footer-icon-list a:hover {
+    color: #0066ff;
+    transform: translateX(4px);
+    display: inline-block;
+}
+
+/* ========== Header Enhancements ========== */
+
+.vl-header-area {
+    transition: all 0.3s ease;
+}
+
+.header-sticky {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.98) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Ensure menu items are visible on sticky header */
+.header-sticky .vl-main-menu ul > li > a {
+    color: #1a1a1a !important;
+}
+
+.header-sticky .vl-main-menu ul > li > a:hover {
+    color: #0066ff !important;
+}
+
+/* Ensure header style container has solid background */
+.header-sticky .header-style-1 {
+    background: transparent !important;
+}
+
+/* Fix phone number visibility */
+.header-sticky .vl-header-icon-box-flex .vl-content .number,
+.header-sticky .vl-header-icon-box-flex .vl-content .title {
+    color: #1a1a1a !important;
+}
+
+/* ========== Contact Info Box Polish ========== */
+
+.vl-contact-info-box {
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s ease;
+}
+
+.vl-contact-info-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.16);
+}
+
+.vl-contact-iner-icon-box {
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s ease;
+    border: 1px solid #e0e6ed;
+}
+
+.vl-contact-iner-icon-box:hover {
+    border-color: #0066ff;
+    box-shadow: 0 8px 24px rgba(0, 102, 255, 0.1);
+    transform: translateY(-4px);
+}
+
+/* ========== Smooth Scrolling ========== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ========== Loading Spinner (optional) ========== */
+
+.btn-loading::after {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-left: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ========== Responsive Improvements ========== */
+
+@media (max-width: 768px) {
+    .vl-contact-form,
+    .vl-contact-form-iner {
+        padding: 24px;
+        border-radius: 12px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+
+    .alert {
+        font-size: 14px;
+        padding: 14px 16px;
+    }
+}
+
+/* ========== Focus Visible for Accessibility ========== */
+
+*:focus-visible {
+    outline: 2px solid #0066ff;
+    outline-offset: 2px;
+}
+
+button:focus-visible,
+a:focus-visible {
+    outline: 2px solid #0066ff;
+    outline-offset: 4px;
+}
+
+/* ========== Typography Enhancement ========== */
+
+.vl-section-title .subtitle {
+    position: relative;
+    display: inline-block;
+}
+
+.vl-section-title .subtitle::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background: linear-gradient(90deg, #0066ff, transparent);
+    border-radius: 2px;
+}
+
+/* ========== Shadow & Depth System ========== */
+
+.shadow-sm {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.shadow-md {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.shadow-lg {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* ========== Image Enhancement ========== */
+
+img {
+    transition: transform 0.3s ease;
+}
+
+.vl-logo img:hover {
+    transform: scale(1.05);
+}
+
+/* ========== Social Media Icons ========== */
+
+.vl-footer-social a {
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vl-footer-social a:hover {
+    transform: translateY(-4px) scale(1.1);
+}
+
+/* ========== Map Container ========== */
+
+.vl-maps {
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.vl-maps:hover {
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}

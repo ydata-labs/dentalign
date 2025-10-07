@@ -83,13 +83,14 @@ public/assets/
 
 Environment variables are centralized in `util/config.ts` and prefixed with `NEXT_PUBLIC_` for client-side access:
 
-```typescript
-// Contact information
+```bash
+# Contact information
 NEXT_PUBLIC_PHONE
+NEXT_PUBLIC_WHATSAPP
 NEXT_PUBLIC_EMAIL
 NEXT_PUBLIC_ADDRESS
 
-// Social media links
+# Social media links
 NEXT_PUBLIC_FACEBOOK
 NEXT_PUBLIC_LINKEDIN
 NEXT_PUBLIC_INSTAGRAM
@@ -98,10 +99,19 @@ NEXT_PUBLIC_TWITTER
 NEXT_PUBLIC_PINTEREST
 NEXT_PUBLIC_GOOGLE_PLUS
 NEXT_PUBLIC_BLOGSPOT
-NEXT_PUBLIC_WHATSAPP
+
+# EmailJS configuration
+NEXT_PUBLIC_EMAILJS_SERVICE_ID
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+
+# SEO verification codes (optional)
+NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+NEXT_PUBLIC_BING_SITE_VERIFICATION
+NEXT_PUBLIC_YANDEX_SITE_VERIFICATION
 ```
 
-Copy `env-example` to `.env.local` and fill in values before development.
+The `.env` file is already configured with business information. Copy `env-example` to `.env.local` for local development if needed.
 
 ### Client-Side Features
 
@@ -119,9 +129,22 @@ Global styles are imported in `app/layout.tsx`:
 - Bootstrap CSS
 - AOS animations
 - Font Awesome icons
-- Custom styles from `/public/assets/css/`
+- Base styles from `/public/assets/css/style.css`
+- **Custom polish styles** from `/public/assets/css/custom-polish.css`
 
 Font: Figtree (Google Fonts) with weights 400, 500, 600, 700
+
+#### Custom UI Polish (custom-polish.css)
+
+Modern enhancements include:
+- **Form inputs**: Smooth transitions, focus states with blue glow, validation colors (green/red)
+- **Buttons**: Hover lift effect, ripple animation, loading spinner, shadow depth
+- **Alerts**: Gradient backgrounds, slide-in animation, icon indicators with badges
+- **Cards**: Rounded corners, soft shadows, hover lift effects
+- **Links**: Smooth color transitions, slide-right on hover
+- **Header**: Backdrop blur when sticky, enhanced shadow
+- **Accessibility**: Focus-visible outlines, ARIA-compliant states
+- **Responsive**: Mobile-optimized font sizes (16px to prevent iOS zoom)
 
 ### SEO Structure
 
@@ -159,9 +182,34 @@ NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
 NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
 ```
 
+## SEO Implementation
+
+### Structured Data (Schema.org)
+- **Component:** `components/seo/StructuredData.tsx`
+- **Types implemented:**
+  - Dentist (LocalBusiness)
+  - MedicalBusiness with specialties
+  - Organization with contact points
+  - WebSite schema
+  - Service catalog with offerings
+
+### Meta Tags & Social
+- **metadataBase:** https://dentalign.be
+- **Location-focused:** All titles include "Maasmechelen" for local SEO
+- **Open Graph:** Complete implementation with images
+- **Twitter Cards:** Large image format
+- **Canonical URLs:** Prevent duplicate content
+- **Hreflang:** nl-BE (primary), en-US (alternate)
+
+### Search Engine Files
+- **robots.txt:** Allows all crawlers, points to sitemap
+- **sitemap.xml:** 12 pages with priorities and change frequencies
+
+See `SEO-IMPROVEMENTS.md` for complete SEO documentation and strategy.
+
 ## Known Issues & Fixes
 
 ### Hydration Warnings
-The app uses `suppressHydrationWarning` on `<html>` and `<body>` tags (app/layout.tsx:99-100) to suppress warnings from browser extensions that inject attributes (e.g., password managers, Grammarly).
+The app uses `suppressHydrationWarning` on `<html>` and `<body>` tags (app/layout.tsx:102,106) to suppress warnings from browser extensions that inject attributes (e.g., password managers, Grammarly).
 
 Animation components are wrapped in `ClientOnly` to ensure DOM manipulations only occur after client-side hydration, preventing server/client mismatches.

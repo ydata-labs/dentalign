@@ -11,28 +11,39 @@ import Work from "@/components/sections/Work";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Home",
+    title: "Tandarts Maasmechelen - Professionele Tandheelkundige Zorg",
     description:
-        "Welkom bij Dentalign, uw vertrouwde tandkliniek voor professionele tandheelkundige zorg. Ontdek onze diensten: orthodontie, cosmetische tandheelkunde, implantaten en preventieve zorg.",
+        "Dentalign Maasmechelen ✓ Ervaren tandarts ✓ 15+ jaar expertise ✓ Orthodontie & Invisalign ✓ Cosmetische tandheelkunde ✓ Tandimplantaten ✓ Spoeddienst 24/7 ✓ Boek nu online",
     keywords: [
-        "tandkliniek",
-        "orthodontie",
-        "cosmetische tandheelkunde",
-        "tandimplantaten",
-        "preventieve zorg",
-        "dental clinic",
-        "orthodontics",
-        "cosmetic dentistry",
-        "dental implants",
-        "preventive care",
+        "tandarts Maasmechelen",
+        "tandkliniek Maasmechelen",
+        "tandheelkunde Limburg",
+        "orthodontie Maasmechelen",
+        "invisalign Maasmechelen",
+        "cosmetische tandarts",
+        "tandimplantaten België",
+        "tanden bleken Maasmechelen",
+        "spoedtandarts Limburg",
+        "preventieve tandzorg",
+        "wortelkanaalbehandeling",
+        "tandarts Lanaken",
+        "tandarts Maaseik",
     ],
     openGraph: {
-        title: "Dentalign - Moderne Tandkliniek & Mondzorg | Home",
+        title: "Dentalign Maasmechelen - Uw Vertrouwde Tandarts",
         description:
-            "Welkom bij Dentalign, uw vertrouwde tandkliniek voor professionele tandheelkundige zorg. Ontdek onze diensten: orthodontie, cosmetische tandheelkunde, implantaten en preventieve zorg.",
+            "Professionele tandheelkundige zorg in Maasmechelen. 15+ jaar ervaring, moderne technieken, 24/7 spoeddienst. Orthodontie, implantaten, cosmetische tandheelkunde.",
         url: "https://dentalign.be",
+        type: "website",
         locale: "nl_BE",
-        alternateLocale: "en_US",
+        images: [
+            {
+                url: "/assets/img/og-image.jpg",
+                width: 1200,
+                height: 630,
+                alt: "Dentalign Tandkliniek Maasmechelen",
+            },
+        ],
     },
     alternates: {
         canonical: "https://dentalign.be",

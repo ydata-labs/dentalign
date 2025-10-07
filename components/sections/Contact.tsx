@@ -131,24 +131,24 @@ export default function Contact() {
                                         {/* Status Messages */}
                                         {status === "success" && (
                                             <div className="alert alert-success mb-3" role="alert">
-                                                ✓ Bedankt! Uw bericht is succesvol verzonden. We nemen zo spoedig mogelijk contact met u op.
+                                                Bedankt! Uw bericht is succesvol verzonden. We nemen zo spoedig mogelijk contact met u op.
                                             </div>
                                         )}
                                         {status === "error" && (
                                             <div className="alert alert-danger mb-3" role="alert">
-                                                ✗ {errorMessage}
+                                                {errorMessage}
                                             </div>
                                         )}
 
                                         <div className="col-lg-6">
                                             <div className="vl-contact-btn">
                                                 <button
-                                                    className="vl-btn-primary"
+                                                    className={`vl-btn-primary ${status === "loading" ? "btn-loading" : ""}`}
                                                     type="submit"
                                                     disabled={status === "loading"}
                                                     aria-busy={status === "loading"}
                                                 >
-                                                    {status === "loading" ? "Bezig met verzenden..." : "Verzenden"}
+                                                    {status === "loading" ? "Verzenden" : "Verzenden"}
                                                 </button>
                                             </div>
                                         </div>
