@@ -127,23 +127,23 @@ export default function Footer() {
                                 <div className="vl-footer-menu">
                                     <ul>
                                         <li>
-                                            <Link href="#">
+                                            <Link href="/service">
                                                 Algemene tandheelkunde
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
+                                            <Link href="/service">
                                                 Cosmetische tandheelkunde
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">Tanden bleken</Link>
+                                            <Link href="/service">Tanden bleken</Link>
                                         </li>
                                         <li>
-                                            <Link href="#">Implantaten</Link>
+                                            <Link href="/service">Implantaten</Link>
                                         </li>
                                         <li>
-                                            <Link href="#">Tandverzorging</Link>
+                                            <Link href="/service">Tandverzorging</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -183,7 +183,7 @@ export default function Footer() {
                                             condition={ADDRESS}
                                         >
                                             <li>
-                                                <Link href="#">
+                                                <Link href="/contact">
                                                     <span>
                                                         <img
                                                             src="assets/img/icons/vl-footer-icon-1.2.svg"
@@ -196,7 +196,7 @@ export default function Footer() {
                                         </RenderConditionally>
                                         <RenderConditionally condition={EMAIL}>
                                             <li>
-                                                <Link href="#">
+                                                <Link href={`mailto:${EMAIL}`}>
                                                     <span>
                                                         <img
                                                             src="assets/img/icons/vl-footer-icon-1.3.svg"
@@ -226,10 +226,10 @@ export default function Footer() {
                                 <div className="copy-right-menu">
                                     <ul>
                                         <li>
-                                            <Link href="#">Privacybeleid </Link>
+                                            <Link href="/contact">Privacybeleid </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
+                                            <Link href="/contact">
                                                 Algemene voorwaarden
                                             </Link>
                                         </li>

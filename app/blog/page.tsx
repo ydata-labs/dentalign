@@ -8,6 +8,10 @@ export const metadata: Metadata = {
     title: "Blog",
     description:
         "Lees onze nieuwste artikelen over tandzorg, orthodontie en mondgezondheid. Deskundige inzichten en tips van onze tandheelkundige professionals.",
+    robots: {
+        index: false,
+        follow: true,
+    },
     keywords: [
         "blog",
         "tandheelkundige tips",

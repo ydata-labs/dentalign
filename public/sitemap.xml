@@ -69,33 +69,7 @@
         <priority>0.6</priority>
     </url>
 
-    <!-- Blog Pages -->
-    <url>
-        <loc>https://dentalign.be/blog</loc>
-        <lastmod>2025-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://dentalign.be/blog-left</loc>
-        <lastmod>2025-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://dentalign.be/blog-right</loc>
-        <lastmod>2025-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://dentalign.be/blog-single</loc>
-        <lastmod>2025-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
+    <!-- Blog pages excluded (marked as noindex) -->
+    <!-- Add blog URLs here when content is ready -->
 
 </urlset>

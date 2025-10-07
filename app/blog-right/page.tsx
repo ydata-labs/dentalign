@@ -6,6 +6,10 @@ import Section2 from "@/components/sections/blog-details/Section2";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+    robots: {
+        index: false,
+        follow: true,
+    },
     title: "Blog Details",
     description:
         "Lees gedetailleerde artikelen over tandheelkundige behandelingen, orthodontie en mondgezondheid. Deskundige inzichten van onze tandartsen.",
