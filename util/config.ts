@@ -1,28 +1,15 @@
-const {
-    NEXT_PUBLIC_PHONE,
-    NEXT_PUBLIC_EMAIL,
-    NEXT_PUBLIC_ADDRESS,
-    NEXT_PUBLIC_FACEBOOK,
-    NEXT_PUBLIC_LINKEDIN,
-    NEXT_PUBLIC_INSTAGRAM,
-    NEXT_PUBLIC_YOUTUBE,
-    NEXT_PUBLIC_TWITTER,
-    NEXT_PUBLIC_PINTEREST,
-    NEXT_PUBLIC_GOOGLE_PLUS,
-    NEXT_PUBLIC_BLOGSPOT,
-    NEXT_PUBLIC_WHATSAPP,
-} = process.env;
+// Access environment variables directly without destructuring
+// This ensures proper inlining during build for static export
+export const PHONE = process.env.NEXT_PUBLIC_PHONE;
+export const EMAIL = process.env.NEXT_PUBLIC_EMAIL;
+export const ADDRESS = process.env.NEXT_PUBLIC_ADDRESS;
 
-export const PHONE = NEXT_PUBLIC_PHONE;
-export const EMAIL = NEXT_PUBLIC_EMAIL;
-export const ADDRESS = NEXT_PUBLIC_ADDRESS;
-
-export const FACEBOOK = NEXT_PUBLIC_FACEBOOK;
-export const LINKEDIN = NEXT_PUBLIC_LINKEDIN;
-export const INSTAGRAM = NEXT_PUBLIC_INSTAGRAM;
-export const YOUTUBE = NEXT_PUBLIC_YOUTUBE;
-export const TWITTER = NEXT_PUBLIC_TWITTER;
-export const PINTEREST = NEXT_PUBLIC_PINTEREST;
-export const GOOGLE_PLUS = NEXT_PUBLIC_GOOGLE_PLUS;
-export const BLOGSPOT = NEXT_PUBLIC_BLOGSPOT;
-export const WHATSAPP = NEXT_PUBLIC_WHATSAPP;
+export const FACEBOOK = process.env.NEXT_PUBLIC_FACEBOOK;
+export const LINKEDIN = process.env.NEXT_PUBLIC_LINKEDIN;
+export const INSTAGRAM = process.env.NEXT_PUBLIC_INSTAGRAM;
+export const YOUTUBE = process.env.NEXT_PUBLIC_YOUTUBE;
+export const TWITTER = process.env.NEXT_PUBLIC_TWITTER;
+export const PINTEREST = process.env.NEXT_PUBLIC_PINTEREST;
+export const GOOGLE_PLUS = process.env.NEXT_PUBLIC_GOOGLE_PLUS;
+export const BLOGSPOT = process.env.NEXT_PUBLIC_BLOGSPOT;
+export const WHATSAPP = process.env.NEXT_PUBLIC_WHATSAPP;

@@ -173,7 +173,8 @@ export default function Footer() {
                                                         {PHONE}
                                                     </div>
                                                     <div className="text-muted">
-                                                        alleen bericht/ whatsapp
+                                                        alleen bericht /
+                                                        whatsapp
                                                     </div>
                                                 </Link>
                                             </li>

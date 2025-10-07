@@ -96,8 +96,10 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="nl">
-            <body className={`${figtree.className}`}>{children}</body>
+        <html lang="nl" suppressHydrationWarning>
+            <body className={`${figtree.className}`} suppressHydrationWarning>
+                {children}
+            </body>
         </html>
     );
 }

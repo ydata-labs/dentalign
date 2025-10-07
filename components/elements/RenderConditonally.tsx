@@ -11,5 +11,7 @@ export default function RenderConditionally({
     children,
     fallback = null,
 }: RenderConditionallyProps) {
-    return condition ? <>{children}</> : <>{fallback}</>;
+    // Check for both undefined and empty string
+    const shouldRender = condition !== undefined && condition !== null && condition !== "";
+    return shouldRender ? <>{children}</> : <>{fallback}</>;
 }

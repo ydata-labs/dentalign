@@ -1,25 +1,26 @@
 "use client";
-import { DataBg } from "@/util/data-bg";
-import { useAccordion } from "@/util/useAccordion";
-import useTextAnimation2 from "@/util/useTextAnimation2";
-import useTextAnimation3 from "@/util/useTextAnimation3";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import dynamic from "next/dynamic";
 import type { FC } from "react";
 import { useEffect, useState } from "react";
-import { useRevealAnimation } from "../../util/useRevealAnimation";
 import BackToTop from "../elements/BackToTop";
+import ClientOnly from "../elements/ClientOnly";
 import Footer1 from "./Footer";
 import Header from "./Header";
 // Define the props interface (same as above)
 interface BootstrapComponentsProps {}
 
-// Type the dynamic import
+// Type the dynamic imports - all animation/DOM manipulation hooks
 const BootstrapComponents = dynamic<BootstrapComponentsProps>(
     () => import("@/util/useBootstrap"),
-    { ssr: false } // Disable SSR since this is client-side only
+    { ssr: false }
 ) as FC<BootstrapComponentsProps>;
+
+const AnimationComponents = dynamic(
+    () => import("./AnimationComponents"),
+    { ssr: false }
+);
 
 interface LayoutProps {
     headerStyle?: Number;
@@ -65,15 +66,14 @@ export default function Layout({
             document.removeEventListener("scroll", handleScroll);
         };
     }, [scroll]);
-    useRevealAnimation();
-    DataBg();
-    useTextAnimation2();
-    useTextAnimation3();
-    useAccordion();
+
     return (
         <>
             <div id="top" />
-            <BootstrapComponents />
+            <ClientOnly>
+                <BootstrapComponents />
+                <AnimationComponents />
+            </ClientOnly>
 
             <Header
                 mainMenuStyle={mainMenuStyle}

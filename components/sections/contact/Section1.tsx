@@ -173,7 +173,7 @@ export default function Section1() {
                                     </div>
                                     <div className="content">
                                         <h5 className="title">
-                                            alleen bericht/ whatsapp
+                                            alleen bericht / whatsapp
                                         </h5>
                                         <Link
                                             href={`https://wa.me/${WHATSAPP}`}
