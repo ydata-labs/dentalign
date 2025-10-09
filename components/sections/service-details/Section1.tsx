@@ -41,7 +41,7 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                     <div className="vl-service-list">
                                         <ul>
                                             <li>
-                                                <Link href="/service-single">
+                                                <Link href="/service">
                                                     Geavanceerde orthodontie
                                                     <span>
                                                         <i className="fa-regular fa-angle-right" />
@@ -49,7 +49,7 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/service-single">
+                                                <Link href="/service">
                                                     Parodontale therapie
                                                     <span>
                                                         <i className="fa-regular fa-angle-right" />
@@ -57,7 +57,7 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/service-single">
+                                                <Link href="/service">
                                                     Kindertandheelkunde
                                                     <span>
                                                         <i className="fa-regular fa-angle-right" />
@@ -65,7 +65,7 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/service-single">
+                                                <Link href="/service">
                                                     Wittere glimlach
                                                     <span>
                                                         <i className="fa-regular fa-angle-right" />
@@ -73,7 +73,7 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/service-single">
+                                                <Link href="/service">
                                                     Tandheelkundige spoedzorg
                                                     <span>
                                                         <i className="fa-regular fa-angle-right" />

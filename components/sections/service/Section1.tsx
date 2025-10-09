@@ -20,7 +20,7 @@ export default function Section1() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">
+                                        <Link href="/service">
                                             Herstellende behandelingen
                                         </Link>
                                     </h4>
@@ -31,7 +31,7 @@ export default function Section1() {
                                         voldoen.
                                     </p>
                                     <Link
-                                        href="/service-single"
+                                        href="/service"
                                         className="service-learnmore"
                                     >
                                         Meer informatie
@@ -56,18 +56,18 @@ export default function Section1() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">
+                                        <Link href="/service">
                                             Wortelkanaalbehandeling
                                         </Link>
                                     </h4>
                                     <p className="para">
-                                        Onze preventieve zorg richt zich op
-                                        regelmatige controles, reinigingen en
-                                        voorlichting om optimale mondgezondheid
-                                        te behouden.
+                                        Professionele wortelkanaalbehandeling
+                                        om geïnfecteerde tanden te redden en
+                                        pijn te verlichten met moderne, zachte
+                                        technieken.
                                     </p>
                                     <Link
-                                        href="/service-single"
+                                        href="/service"
                                         className="service-learnmore"
                                     >
                                         Meer informatie
@@ -92,17 +92,18 @@ export default function Section1() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">
+                                        <Link href="/service">
                                             Wittere glimlach
                                         </Link>
                                     </h4>
                                     <p className="para">
-                                        Voor wie restauratieve zorg nodig heeft
-                                        bieden we vullingen, kronen, bruggen en
-                                        implantaten om functie te herstellen.
+                                        Professioneel tanden bleken voor een
+                                        stralend witte glimlach. Veilige en
+                                        effectieve behandelingen die uw
+                                        zelfvertrouwen vergroten.
                                     </p>
                                     <Link
-                                        href="/service-single"
+                                        href="/service"
                                         className="service-learnmore"
                                     >
                                         Meer informatie
@@ -127,18 +128,18 @@ export default function Section1() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">
+                                        <Link href="/service">
                                             Tandheelkundige spoedzorg
                                         </Link>
                                     </h4>
                                     <p className="para">
-                                        Of u nu komt voor routinezorg of
-                                        gespecialiseerde behandeling, ons team
-                                        biedt vriendelijke, zorgzame zorg voor
-                                        elke levensfase.
+                                        Directe hulp bij tandheelkundige
+                                        noodgevallen. We staan 24/7 voor u klaar
+                                        bij acute pijn, gebroken tanden of
+                                        andere spoedgevallen.
                                     </p>
                                     <Link
-                                        href="/service-single"
+                                        href="/service"
                                         className="service-learnmore"
                                     >
                                         Meer informatie
@@ -163,19 +164,18 @@ export default function Section1() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">
+                                        <Link href="/service">
                                             Geavanceerde orthodontie
                                         </Link>
                                     </h4>
                                     <p className="para">
-                                        Voor restauratieve zorg bieden we
-                                        vullingen, kronen, bruggen en
-                                        implantaten; onze cosmetische
-                                        behandelingen omvatten onder meer
-                                        bleken.
+                                        Moderne orthodontische behandelingen
+                                        zoals beugels en Invisalign voor een
+                                        perfect rechte glimlach en gezonde
+                                        tandstand.
                                     </p>
                                     <Link
-                                        href="/service-single"
+                                        href="/service"
                                         className="service-learnmore"
                                     >
                                         Meer informatie
@@ -200,17 +200,18 @@ export default function Section1() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">
+                                        <Link href="/service">
                                             Wittere glimlach
                                         </Link>
                                     </h4>
                                     <p className="para">
-                                        Voor wie restauratieve zorg nodig heeft
-                                        bieden we vullingen, kronen, bruggen en
-                                        implantaten om functie te herstellen.
+                                        Professioneel tanden bleken voor een
+                                        stralend witte glimlach. Veilige en
+                                        effectieve behandelingen die uw
+                                        zelfvertrouwen vergroten.
                                     </p>
                                     <Link
-                                        href="/service-single"
+                                        href="/service"
                                         className="service-learnmore"
                                     >
                                         Meer informatie
@@ -235,17 +236,18 @@ export default function Section1() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">
+                                        <Link href="/service">
                                             Wittere glimlach
                                         </Link>
                                     </h4>
                                     <p className="para">
-                                        Voor wie restauratieve zorg nodig heeft
-                                        bieden we vullingen, kronen, bruggen en
-                                        implantaten om functie te herstellen.
+                                        Professioneel tanden bleken voor een
+                                        stralend witte glimlach. Veilige en
+                                        effectieve behandelingen die uw
+                                        zelfvertrouwen vergroten.
                                     </p>
                                     <Link
-                                        href="/service-single"
+                                        href="/service"
                                         className="service-learnmore"
                                     >
                                         Meer informatie
@@ -270,17 +272,18 @@ export default function Section1() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">
+                                        <Link href="/service">
                                             Wittere glimlach
                                         </Link>
                                     </h4>
                                     <p className="para">
-                                        Voor wie restauratieve zorg nodig heeft
-                                        bieden we vullingen, kronen, bruggen en
-                                        implantaten om functie te herstellen.
+                                        Professioneel tanden bleken voor een
+                                        stralend witte glimlach. Veilige en
+                                        effectieve behandelingen die uw
+                                        zelfvertrouwen vergroten.
                                     </p>
                                     <Link
-                                        href="/service-single"
+                                        href="/service"
                                         className="service-learnmore"
                                     >
                                         Meer informatie

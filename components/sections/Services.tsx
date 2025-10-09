@@ -98,7 +98,7 @@ export default function Services() {
                                     </div>
                                     <div className="content">
                                         <h4 className="title pt-24">
-                                            <Link href="/service-single">
+                                            <Link href="/service">
                                                 Herstellende behandelingen
                                             </Link>
                                         </h4>
@@ -109,7 +109,7 @@ export default function Services() {
                                             zorg.
                                         </p>
                                         <Link
-                                            href="/service-single"
+                                            href="/service"
                                             className="learnmore"
                                         >
                                             Meer informatie
@@ -136,18 +136,18 @@ export default function Services() {
                                     </div>
                                     <div className="content">
                                         <h4 className="title pt-24">
-                                            <Link href="/service-single">
+                                            <Link href="/service">
                                                 Parodontale therapie
                                             </Link>
                                         </h4>
                                         <p className="para pt-16 pb-24">
-                                            Voor jongere patiënten biedt
-                                            kindertandheelkunde een comfortabele
-                                            en leuke omgeving, die helpt gezonde
-                                            gewoonten op te bouwen.
+                                            Professionele behandeling van
+                                            tandvlees en ondersteunende structuren
+                                            om tandvleesaandoeningen te voorkomen
+                                            en te behandelen.
                                         </p>
                                         <Link
-                                            href="/service-single"
+                                            href="/service"
                                             className="learnmore"
                                         >
                                             Meer informatie
@@ -174,18 +174,18 @@ export default function Services() {
                                     </div>
                                     <div className="content">
                                         <h4 className="title pt-24">
-                                            <Link href="/service-single">
+                                            <Link href="/service">
                                                 Kindertandheelkunde
                                             </Link>
                                         </h4>
                                         <p className="para pt-16 pb-24">
-                                            Onze cosmetische tandheelkunde,
-                                            inclusief bleken en facings,
-                                            vergroot uw zelfvertrouwen met een
-                                            stralende glimlach.
+                                            Voor jongere patiënten bieden we
+                                            een comfortabele en vriendelijke
+                                            omgeving die helpt bij het opbouwen
+                                            van gezonde mondgezondheidsgewoonten.
                                         </p>
                                         <Link
-                                            href="/service-single"
+                                            href="/service"
                                             className="learnmore"
                                         >
                                             Meer informatie
@@ -212,7 +212,7 @@ export default function Services() {
                                     </div>
                                     <div className="content">
                                         <h4 className="title pt-24">
-                                            <Link href="/service-single">
+                                            <Link href="/service">
                                                 Herstellende behandelingen
                                             </Link>
                                         </h4>
@@ -223,7 +223,7 @@ export default function Services() {
                                             zorg.
                                         </p>
                                         <Link
-                                            href="/service-single"
+                                            href="/service"
                                             className="learnmore"
                                         >
                                             Meer informatie

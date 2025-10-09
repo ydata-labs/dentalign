@@ -80,7 +80,7 @@ export default function Section1({
                                     {/* single post item */}
                                     <div className="vl-rec-post-flex">
                                         <div className="vl-thumb">
-                                            <Link href="">
+                                            <Link href="/blog-single">
                                                 <img
                                                     src="assets/img/blog/vl-rec-blog-1.2.png"
                                                     alt=""
@@ -113,7 +113,7 @@ export default function Section1({
                                     {/* single post item */}
                                     <div className="vl-rec-post-flex">
                                         <div className="vl-thumb">
-                                            <Link href="">
+                                            <Link href="/blog-single">
                                                 <img
                                                     src="assets/img/blog/vl-rec-blog-1.3.png"
                                                     alt=""

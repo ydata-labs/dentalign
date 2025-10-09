@@ -30,17 +30,18 @@ export default function Section2() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">
+                                        <Link href="/service">
                                             Herstellende behandelingen
                                         </Link>
                                     </h4>
                                     <p className="para">
-                                        We zijn trots op ons brede aanbod aan
-                                        tandheelkundige diensten, afgestemd op
-                                        elke patiënt.
+                                        Restauratieve zorg zoals vullingen,
+                                        kronen, bruggen en implantaten om uw
+                                        tandheelkundige functie en glimlach te
+                                        herstellen.
                                     </p>
                                     <Link
-                                        href="/service-single"
+                                        href="/service"
                                         className="service-learnmore"
                                     >
                                         Meer informatie
@@ -65,17 +66,18 @@ export default function Section2() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">
+                                        <Link href="/service">
                                             Wortelkanaalbehandeling
                                         </Link>
                                     </h4>
                                     <p className="para">
-                                        Onze preventieve zorg richt zich op
-                                        controles, reinigingen en voorlichting
-                                        voor optimale mondgezondheid.
+                                        Professionele wortelkanaalbehandeling
+                                        om geïnfecteerde tanden te redden en
+                                        pijn te verlichten met moderne, zachte
+                                        technieken.
                                     </p>
                                     <Link
-                                        href="/service-single"
+                                        href="/service"
                                         className="service-learnmore"
                                     >
                                         Meer informatie
@@ -100,17 +102,18 @@ export default function Section2() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">
+                                        <Link href="/service">
                                             Wittere glimlach
                                         </Link>
                                     </h4>
                                     <p className="para">
-                                        Voor wie restauratieve zorg nodig heeft
-                                        bieden we vullingen, kronen, bruggen en
-                                        implantaten.
+                                        Professioneel tanden bleken voor een
+                                        stralend witte glimlach. Veilige en
+                                        effectieve behandelingen die uw
+                                        zelfvertrouwen vergroten.
                                     </p>
                                     <Link
-                                        href="/service-single"
+                                        href="/service"
                                         className="service-learnmore"
                                     >
                                         Meer informatie
