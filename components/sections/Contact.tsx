@@ -21,6 +21,13 @@ export default function Contact() {
                 e.target as HTMLFormElement,
                 process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
             );
+            // await fetch(
+            //     "https://ydatalabs.app.n8n.cloud/webhook/mailjet-inbound",
+            //     {
+            //         method: "POST",
+            //         body: JSON.stringify(e.target as HTMLFormElement),
+            //     }
+            // );
             setStatus("success");
             (e.target as HTMLFormElement).reset();
 
@@ -70,7 +77,9 @@ export default function Contact() {
                                                     type="text"
                                                     placeholder="Voornaam"
                                                     required
-                                                    disabled={status === "loading"}
+                                                    disabled={
+                                                        status === "loading"
+                                                    }
                                                     aria-label="Voornaam"
                                                     minLength={2}
                                                 />
@@ -81,7 +90,9 @@ export default function Contact() {
                                                     type="email"
                                                     placeholder="E-mailadres"
                                                     required
-                                                    disabled={status === "loading"}
+                                                    disabled={
+                                                        status === "loading"
+                                                    }
                                                     aria-label="E-mailadres"
                                                 />
                                             </div>
@@ -91,7 +102,9 @@ export default function Contact() {
                                                     type="text"
                                                     placeholder="Onderwerp"
                                                     required
-                                                    disabled={status === "loading"}
+                                                    disabled={
+                                                        status === "loading"
+                                                    }
                                                     aria-label="Onderwerp"
                                                     minLength={3}
                                                 />
@@ -120,7 +133,9 @@ export default function Contact() {
                                                     placeholder="Uw bericht"
                                                     defaultValue={""}
                                                     required
-                                                    disabled={status === "loading"}
+                                                    disabled={
+                                                        status === "loading"
+                                                    }
                                                     aria-label="Uw bericht"
                                                     minLength={10}
                                                     rows={5}
@@ -130,12 +145,20 @@ export default function Contact() {
 
                                         {/* Status Messages */}
                                         {status === "success" && (
-                                            <div className="alert alert-success mb-3" role="alert">
-                                                Bedankt! Uw bericht is succesvol verzonden. We nemen zo spoedig mogelijk contact met u op.
+                                            <div
+                                                className="alert alert-success mb-3"
+                                                role="alert"
+                                            >
+                                                Bedankt! Uw bericht is succesvol
+                                                verzonden. We nemen zo spoedig
+                                                mogelijk contact met u op.
                                             </div>
                                         )}
                                         {status === "error" && (
-                                            <div className="alert alert-danger mb-3" role="alert">
+                                            <div
+                                                className="alert alert-danger mb-3"
+                                                role="alert"
+                                            >
                                                 {errorMessage}
                                             </div>
                                         )}
@@ -143,12 +166,22 @@ export default function Contact() {
                                         <div className="col-lg-6">
                                             <div className="vl-contact-btn">
                                                 <button
-                                                    className={`vl-btn-primary ${status === "loading" ? "btn-loading" : ""}`}
+                                                    className={`vl-btn-primary ${
+                                                        status === "loading"
+                                                            ? "btn-loading"
+                                                            : ""
+                                                    }`}
                                                     type="submit"
-                                                    disabled={status === "loading"}
-                                                    aria-busy={status === "loading"}
+                                                    disabled={
+                                                        status === "loading"
+                                                    }
+                                                    aria-busy={
+                                                        status === "loading"
+                                                    }
                                                 >
-                                                    {status === "loading" ? "Verzenden" : "Verzenden"}
+                                                    {status === "loading"
+                                                        ? "Verzenden"
+                                                        : "Verzenden"}
                                                 </button>
                                             </div>
                                         </div>

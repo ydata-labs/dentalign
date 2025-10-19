@@ -6,6 +6,7 @@ import type { FC } from "react";
 import { useEffect, useState } from "react";
 import BackToTop from "../elements/BackToTop";
 import ClientOnly from "../elements/ClientOnly";
+import AnnouncementModal from "../elements/AnnouncementModal";
 import Footer1 from "./Footer";
 import Header from "./Header";
 // Define the props interface (same as above)
@@ -74,6 +75,8 @@ export default function Layout({
                 <BootstrapComponents />
                 <AnimationComponents />
             </ClientOnly>
+
+            <AnnouncementModal />
 
             <Header
                 mainMenuStyle={mainMenuStyle}

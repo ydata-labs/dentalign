@@ -23,6 +23,14 @@ export default function Section1() {
                 e.target as HTMLFormElement,
                 process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
             );
+
+            // await fetch(
+            //     "https://ydatalabs.app.n8n.cloud/webhook/mailjet-inbound",
+            //     {
+            //         method: "POST",
+            //         body: JSON.stringify(e.target as HTMLFormElement),
+            //     }
+            // );
             setStatus("success");
             (e.target as HTMLFormElement).reset();
 

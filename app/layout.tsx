@@ -6,6 +6,7 @@ import "/public/assets/css/plugins/barfiller.css";
 
 import "/public/assets/css/style.css";
 import "/public/assets/css/custom-polish.css";
+import "/public/assets/css/announcement-modal.css";
 
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
