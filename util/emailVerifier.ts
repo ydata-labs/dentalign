@@ -25,13 +25,12 @@ export async function verifyEmail(email: string): Promise<EmailVerificationResul
         const timeoutId = setTimeout(() => controller.abort(), 5000);
 
         const response = await fetch(
-            `https://rapid-email-verifier.fly.dev/api/validate?email=${encodeURIComponent(email)}`,
+            `/api/verify-email?email=${encodeURIComponent(email)}`,
             {
                 method: "GET",
                 headers: {
                     accept: "application/json",
                 },
-                mode: "cors",
                 signal: controller.signal,
             }
         );
