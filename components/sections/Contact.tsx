@@ -1,12 +1,13 @@
 "use client";
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { verifyEmail } from "@/util/emailVerifier";
 
 type FormStatus = "idle" | "loading" | "success" | "error";
 
 export default function Contact() {
+    const formRef = useRef<HTMLFormElement>(null);
     const [status, setStatus] = useState<FormStatus>("idle");
     const [errorMessage, setErrorMessage] = useState<string>("");
 
@@ -15,8 +16,9 @@ export default function Contact() {
         setStatus("loading");
         setErrorMessage("");
 
-        const form = e.target as HTMLFormElement;
-        const formData = new FormData(form);
+        if (!formRef.current) return;
+
+        const formData = new FormData(formRef.current);
         const email = formData.get("email") as string;
 
         // Verify email before sending
@@ -31,11 +33,11 @@ export default function Contact() {
             await emailjs.sendForm(
                 process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
                 process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
-                form,
+                formRef.current,
                 process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
             );
             setStatus("success");
-            form.reset();
+            formRef.current.reset();
 
             // Reset success message after 5 seconds
             setTimeout(() => setStatus("idle"), 5000);
@@ -75,7 +77,7 @@ export default function Contact() {
                                     data-aos-duration={800}
                                     data-aos-delay={300}
                                 >
-                                    <form action="#" onSubmit={sendEmail}>
+                                    <form ref={formRef} onSubmit={sendEmail}>
                                         <div className="row">
                                             <div className="col-lg-6 mb-24">
                                                 <input
