@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     // SSR mode for Cloudflare Workers
-    // Removed: distDir: "out", output: "export"
+    images: {
+        loader: 'custom',
+        loaderFile: './image-loader.ts',
+    },
 };
 
 export default nextConfig;

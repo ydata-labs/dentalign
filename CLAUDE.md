@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is **Dentalign**, a Next.js-based dental clinic website built with TypeScript. The project is configured for static site generation (SSG) with static export output. The site is bilingual (Dutch/English) focused on dental services including orthodontics, cosmetic dentistry, and dental implants.
+This is **Dentalign**, a Next.js-based dental clinic website built with TypeScript. The project is configured for **Server-Side Rendering (SSR)** deployed on **Cloudflare Workers** using OpenNext. The site is bilingual (Dutch/English) focused on dental services including cosmetic dentistry and dental implants.
 
 ## Build & Development Commands
 
@@ -13,23 +13,27 @@ This is **Dentalign**, a Next.js-based dental clinic website built with TypeScri
 pnpm dev          # Start dev server at http://localhost:3000
 
 # Build & deployment
-pnpm build        # Build static site (outputs to ./out directory)
-pnpm start        # Preview production build
+pnpm build        # Build Next.js application
+pnpm start        # Preview production build locally
+pnpm preview      # Build and preview with Cloudflare Workers
+pnpm deploy       # Build and deploy to Cloudflare Workers
 
 # Code quality
 pnpm lint         # Run ESLint
+pnpm typecheck    # Run TypeScript type checking
 ```
 
-**Note:** This project uses `pnpm` as the package manager. The project is configured for static export (`output: "export"` in next.config.mjs) with output directory set to `./out`.
+**Note:** This project uses `pnpm` as the package manager. Deployment uses `@opennextjs/cloudflare` to run Next.js on Cloudflare Workers with full SSR support.
 
 ## Architecture
 
-### Static Export Configuration
+### SSR & Cloudflare Workers Configuration
 
-The Next.js project is configured for static site generation:
-- **Output directory:** `./out` (configured via `distDir` in next.config.mjs)
-- **Output mode:** Static export (`output: "export"`)
-- This means no server-side runtime features (API routes, ISR, middleware)
+The Next.js project is configured for server-side rendering on Cloudflare Workers:
+- **Runtime:** Cloudflare Workers via `@opennextjs/cloudflare`
+- **Worker config:** `wrangler.toml` with caching rules for static assets
+- **Image optimization:** Custom Cloudflare image loader (`image-loader.ts`)
+- **Full SSR support:** API routes, dynamic rendering, and middleware available
 
 ### Project Structure
 
@@ -202,8 +206,8 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
 - **Hreflang:** nl-BE (primary), en-US (alternate)
 
 ### Search Engine Files
-- **robots.txt:** Allows all crawlers, points to sitemap
-- **sitemap.xml:** 12 pages with priorities and change frequencies
+- **robots.ts:** Dynamic robots.txt generation (`app/robots.ts`)
+- **sitemap.ts:** Dynamic sitemap with auto-updated lastmod dates (`app/sitemap.ts`)
 
 See `SEO-IMPROVEMENTS.md` for complete SEO documentation and strategy.
 
