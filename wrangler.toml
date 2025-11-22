@@ -7,23 +7,3 @@ compatibility_flags = ["nodejs_compat"]
 directory = ".open-next/assets"
 binding = "ASSETS"
 
-# Cache static assets for better performance
-[assets.serve_directly]
-html_handling = "auto-trailing-slash"
-not_found_handling = "single-page-application"
-
-# Browser cache TTL for static assets (1 year)
-[[rules]]
-type = "Text"
-globs = ["**/*.css", "**/*.js"]
-browser_ttl = 31536000
-
-[[rules]]
-type = "Data"
-globs = ["**/*.json", "**/*.xml"]
-browser_ttl = 86400
-
-[[rules]]
-type = "Text"
-globs = ["**/*.svg", "**/*.ico"]
-browser_ttl = 31536000
