@@ -18,7 +18,7 @@ export default function Section1() {
         try {
             await emailjs.sendForm(
                 process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-                process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+                process.env.NEXT_PUBLIC_EMAILJS_VACANCY_TEMPLATE_ID!,
                 e.target as HTMLFormElement,
                 process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
             );
