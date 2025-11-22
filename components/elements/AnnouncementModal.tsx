@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { WHATSAPP } from "@/util/config";
+import Link from "next/link";
 
 export default function AnnouncementModal() {
     const [isOpen, setIsOpen] = useState(false);
@@ -124,6 +125,33 @@ export default function AnnouncementModal() {
                                 </a>
                             )}
                         </div>
+
+                        {/* Vacancy Link */}
+                        <div className="announcement-vacancy" style={{
+                            marginTop: '20px',
+                            padding: '16px',
+                            backgroundColor: '#f8f9fa',
+                            borderRadius: '8px',
+                            borderLeft: '4px solid #007bff'
+                        }}>
+                            <p style={{ margin: 0, fontSize: '14px', color: '#333' }}>
+                                <strong>Kom ons team versterken!</strong> We zoeken tandartsen, assistenten en mondhygiënisten.
+                            </p>
+                            <Link
+                                href="/vacancy"
+                                onClick={handleClose}
+                                style={{
+                                    display: 'inline-block',
+                                    marginTop: '8px',
+                                    color: '#007bff',
+                                    fontWeight: '500',
+                                    textDecoration: 'none'
+                                }}
+                            >
+                                Bekijk vacatures →
+                            </Link>
+                        </div>
+
                         <p className="announcement-footer">
                             info@dentalign.be
                         </p>
