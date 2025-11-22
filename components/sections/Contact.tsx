@@ -2,6 +2,7 @@
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
 import { useState } from "react";
+import { verifyEmail } from "@/util/emailVerifier";
 
 type FormStatus = "idle" | "loading" | "success" | "error";
 
@@ -14,22 +15,27 @@ export default function Contact() {
         setStatus("loading");
         setErrorMessage("");
 
+        const form = e.target as HTMLFormElement;
+        const formData = new FormData(form);
+        const email = formData.get("email") as string;
+
+        // Verify email before sending
+        const verification = await verifyEmail(email);
+        if (!verification.isValid) {
+            setStatus("error");
+            setErrorMessage(verification.errorMessage);
+            return;
+        }
+
         try {
             await emailjs.sendForm(
                 process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
                 process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
-                e.target as HTMLFormElement,
+                form,
                 process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
             );
-            // await fetch(
-            //     "https://ydatalabs.app.n8n.cloud/webhook/mailjet-inbound",
-            //     {
-            //         method: "POST",
-            //         body: JSON.stringify(e.target as HTMLFormElement),
-            //     }
-            // );
             setStatus("success");
-            (e.target as HTMLFormElement).reset();
+            form.reset();
 
             // Reset success message after 5 seconds
             setTimeout(() => setStatus("idle"), 5000);
