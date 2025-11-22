@@ -86,13 +86,13 @@ export default function Section1() {
                                                     className="mb-20"
                                                     type="tel"
                                                     name="phone"
-                                                    pattern="^(?:\+32[1-9][0-9]{7,8}|0[1-9][0-9]{7,8}|[0-9]{9,10})$"
+                                                    pattern="^(?:\+(?:31|32)[1-9][0-9]{7,8}|0[1-9][0-9]{7,8}|[0-9]{9,10})$"
                                                     placeholder="Telefoonnummer"
                                                     disabled={
                                                         status === "loading"
                                                     }
                                                     aria-label="Telefoonnummer"
-                                                    title="Voer een geldig telefoonnummer in (bijv. 0494143115 of +32494143115)"
+                                                    title="Voer een geldig telefoonnummer in (bijv. 0494143115, +32494143115 of +31612345678)"
                                                 />
                                             </div>
                                             <div className="col-lg-6">
