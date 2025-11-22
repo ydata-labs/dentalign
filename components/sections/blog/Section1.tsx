@@ -18,7 +18,7 @@ export default function Section1() {
     useEffect(() => {
         fetch("../data/blog.json")
             .then((res) => res.json())
-            .then((data) => setBlog(data));
+            .then((data: BlogMember[]) => setBlog(data));
     }, []);
 
     // Pagination
