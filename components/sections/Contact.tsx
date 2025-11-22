@@ -1,13 +1,12 @@
 "use client";
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { verifyEmail } from "@/util/emailVerifier";
 
 type FormStatus = "idle" | "loading" | "success" | "error";
 
 export default function Contact() {
-    const formRef = useRef<HTMLFormElement>(null);
     const [status, setStatus] = useState<FormStatus>("idle");
     const [errorMessage, setErrorMessage] = useState<string>("");
 
@@ -16,9 +15,8 @@ export default function Contact() {
         setStatus("loading");
         setErrorMessage("");
 
-        if (!formRef.current) return;
-
-        const formData = new FormData(formRef.current);
+        const form = e.target as HTMLFormElement;
+        const formData = new FormData(form);
         const email = formData.get("email") as string;
 
         // Verify email before sending
@@ -42,7 +40,7 @@ export default function Contact() {
                 process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
             );
             setStatus("success");
-            formRef.current.reset();
+            form.reset();
 
             // Reset success message after 5 seconds
             setTimeout(() => setStatus("idle"), 5000);
@@ -82,7 +80,7 @@ export default function Contact() {
                                     data-aos-duration={800}
                                     data-aos-delay={300}
                                 >
-                                    <form ref={formRef} onSubmit={sendEmail}>
+                                    <form onSubmit={sendEmail}>
                                         <div className="row">
                                             <div className="col-lg-6 mb-24">
                                                 <input
