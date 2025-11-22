@@ -21,6 +21,9 @@ export interface EmailVerificationResult {
 
 export async function verifyEmail(email: string): Promise<EmailVerificationResult> {
     try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 5000);
+
         const response = await fetch(
             `https://rapid-email-verifier.fly.dev/api/validate?email=${encodeURIComponent(email)}`,
             {
@@ -28,8 +31,12 @@ export async function verifyEmail(email: string): Promise<EmailVerificationResul
                 headers: {
                     accept: "application/json",
                 },
+                mode: "cors",
+                signal: controller.signal,
             }
         );
+
+        clearTimeout(timeoutId);
 
         if (!response.ok) {
             // If API fails, allow form submission (fail open)
