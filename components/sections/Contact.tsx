@@ -107,18 +107,18 @@ export default function Contact() {
                                                     aria-label="E-mailadres"
                                                 />
                                             </div>
-                                            <div className="col-lg-12 mb-24">
+                                            <div className="col-lg-6 mb-24">
                                                 <input
                                                     name="phone"
                                                     type="tel"
-                                                    pattern="^(?:\+32[1-9][0-9]{7,8}|0[1-9][0-9]{7,8}|[0-9]{9,10})$"
+                                                    pattern="^(?:\+(?:31|32)[1-9][0-9]{7,8}|0[1-9][0-9]{7,8}|[0-9]{9,10})$"
                                                     placeholder="Telefoonnummer"
                                                     required
                                                     disabled={
                                                         status === "loading"
                                                     }
                                                     aria-label="Telefoonnummer"
-                                                    title="Voer een geldig telefoonnummer in (bijv. 0494143115 of +32494143115)"
+                                                    title="Voer een geldig telefoonnummer in (bijv. 0494143115, +32494143115 of +31612345678)"
                                                 />
                                             </div>
                                             {/* <div className="col-lg-6 mb-24">
