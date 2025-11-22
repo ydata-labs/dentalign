@@ -7,6 +7,10 @@ export default function AnnouncementModal() {
     const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
+        // Check if modal was already shown this session
+        const wasShown = sessionStorage.getItem('announcementModalShown');
+        if (wasShown) return;
+
         // Open modal after a short delay to ensure page is loaded
         const timer = setTimeout(() => {
             setIsOpen(true);
@@ -17,6 +21,7 @@ export default function AnnouncementModal() {
 
     const handleClose = () => {
         setIsOpen(false);
+        sessionStorage.setItem('announcementModalShown', 'true');
     };
 
     // Prevent body scroll when modal is open
