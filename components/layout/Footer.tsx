@@ -107,6 +107,11 @@ export default function Footer() {
                                                 Afspraak
                                             </Link>
                                         </li>
+                                        <li>
+                                            <Link href="/vacancy">
+                                                Vacatures
+                                            </Link>
+                                        </li>
                                         {/* <li>
                                             <Link href="/blog">
                                                 News &amp; Blog
