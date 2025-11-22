@@ -104,15 +104,16 @@ export default function Contact() {
                                             </div>
                                             <div className="col-lg-12 mb-24">
                                                 <input
-                                                    name="title"
-                                                    type="text"
-                                                    placeholder="Onderwerp"
+                                                    name="phone"
+                                                    type="tel"
+                                                    pattern="^(?:\+32[1-9][0-9]{7,8}|0[1-9][0-9]{7,8}|[0-9]{9,10})$"
+                                                    placeholder="Telefoonnummer"
                                                     required
                                                     disabled={
                                                         status === "loading"
                                                     }
-                                                    aria-label="Onderwerp"
-                                                    minLength={3}
+                                                    aria-label="Telefoonnummer"
+                                                    title="Voer een geldig telefoonnummer in (bijv. 0494143115 of +32494143115)"
                                                 />
                                             </div>
                                             {/* <div className="col-lg-6 mb-24">
