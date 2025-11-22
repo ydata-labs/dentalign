@@ -28,10 +28,15 @@ export default function Contact() {
         }
 
         try {
-            await emailjs.sendForm(
+            await emailjs.send(
                 process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
                 process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
-                form,
+                {
+                    name: formData.get("name"),
+                    email: formData.get("email"),
+                    phone: formData.get("phone"),
+                    message: formData.get("message"),
+                },
                 process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
             );
             setStatus("success");
@@ -75,7 +80,7 @@ export default function Contact() {
                                     data-aos-duration={800}
                                     data-aos-delay={300}
                                 >
-                                    <form action="#" onSubmit={sendEmail}>
+                                    <form onSubmit={sendEmail}>
                                         <div className="row">
                                             <div className="col-lg-6 mb-24">
                                                 <input

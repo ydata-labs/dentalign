@@ -6,3 +6,14 @@ compatibility_flags = ["nodejs_compat"]
 [assets]
 directory = ".open-next/assets"
 binding = "ASSETS"
+
+[vars]
+NEXT_PUBLIC_ADDRESS = "Dokter Haubenlaan 17, 3630 Maasmachelen"
+NEXT_PUBLIC_EMAIL = "info@dentalign.be"
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY = "S4lh_Bwh4exk0J0E4"
+NEXT_PUBLIC_EMAILJS_SERVICE_ID = "service_lu5dq1w"
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID = "template_2kxwjx9"
+NEXT_PUBLIC_EMAILJS_VACANCY_TEMPLATE_ID = "template_cjdyyls"
+NEXT_PUBLIC_PHONE = "0494 14 31 15"
+NEXT_PUBLIC_WHATSAPP = "32494143115"
+
