@@ -9083,11 +9083,12 @@ textarea {
 }
 
 .vl-contact-form input[type="text"],
-.vl-contact-form input[type="email"] {
+.vl-contact-form input[type="email"],
+.vl-contact-form input[type="tel"] {
   background: var(--vkl-text-text-1);
   border-radius: 8px;
   border: 1px solid var(--vkl-bg-bg-3);
-  color: var(--vkl-text-text-3);
+  color: var(--vkl-text-text-2);
   height: 48px;
   transition: 0.3s;
   font-size: var(--vkl-font-size-font-s16);
@@ -9095,7 +9096,8 @@ textarea {
   font-weight: var(--vkl-weight-medium);
 }
 .vl-contact-form input[type="text"]::placeholder,
-.vl-contact-form input[type="email"]::placeholder {
+.vl-contact-form input[type="email"]::placeholder,
+.vl-contact-form input[type="tel"]::placeholder {
   color: var(--vkl-text-text-3);
 }
 .vl-contact-form textarea {
