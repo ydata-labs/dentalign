@@ -16,8 +16,8 @@ export default function Section1() {
 
     useEffect(() => {
         fetch("../data/testimonial.json")
-            .then((res) => res.json())
-            .then((data) => setTestimonial(data));
+            .then(res => res.json())
+            .then(data => setTestimonial(data as TestimonialMember[]));
     }, []);
 
     // Pagination

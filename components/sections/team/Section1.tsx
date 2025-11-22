@@ -16,8 +16,8 @@ export default function Section1() {
 
     useEffect(() => {
         fetch("../data/team.json")
-            .then((res) => res.json())
-            .then((data) => setTeam(data));
+            .then(res => res.json())
+            .then(data => setTeam(data as TeamMember[]));
     }, []);
 
     // Pagination
