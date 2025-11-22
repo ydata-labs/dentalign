@@ -8,10 +8,8 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "Tandheelkundige Diensten Maasmechelen | Dentalign",
     description:
-        "Tandheelkundige diensten Maasmechelen ⭐ Orthodontie ✓ Invisalign ✓ Implantaten ✓ Cosmetische tandheelkunde ✓ Tanden bleken ✓ Spoedzorg ✓ Bel 0494 14 31 15",
+        "Tandheelkundige diensten Maasmechelen ⭐ Implantaten ✓ Cosmetische tandheelkunde ✓ Tanden bleken ✓ Spoedzorg ✓ Bel 0494 14 31 15",
     keywords: [
-        "orthodontie maasmechelen",
-        "invisalign maasmechelen",
         "tandimplantaten maasmechelen",
         "tanden bleken maasmechelen",
         "cosmetische tandheelkunde maasmechelen",
@@ -21,7 +19,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Tandheelkundige Diensten Maasmechelen | Dentalign",
         description:
-            "Uitgebreide tandheelkundige diensten in Maasmechelen. Orthodontie, implantaten, cosmetische tandheelkunde en meer. Direct afspraak mogelijk.",
+            "Uitgebreide tandheelkundige diensten in Maasmechelen. Implantaten, cosmetische tandheelkunde en meer. Direct afspraak mogelijk.",
         url: "https://dentalign.be/service",
     },
 };

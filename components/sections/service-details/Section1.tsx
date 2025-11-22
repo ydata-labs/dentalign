@@ -42,14 +42,6 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                                         <ul>
                                             <li>
                                                 <Link href="/service">
-                                                    Geavanceerde orthodontie
-                                                    <span>
-                                                        <i className="fa-regular fa-angle-right" />
-                                                    </span>
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/service">
                                                     Parodontale therapie
                                                     <span>
                                                         <i className="fa-regular fa-angle-right" />

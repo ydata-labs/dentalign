@@ -14,7 +14,7 @@
     {
         "id": 3,
         "name": "Harry Hickle V",
-        "position": "Orthopedics",
+        "position": "Endodontics",
         "avatar": "assets/img/team/vl-team-thumb-3.3.png"
     },
     {
@@ -32,13 +32,13 @@
     {
         "id": 6,
         "name": "Angel Hayes Jr.",
-        "position": "Orthopedics",
+        "position": "Endodontics",
         "avatar": "assets/img/team/vl-team-thumb-3.6.png"
     },
     {
         "id": 7,
         "name": "Chester Reynolds",
-        "position": "Orthopedics",
+        "position": "Endodontics",
         "avatar": "assets/img/team/vl-team-thumb-3.7.png"
     },
     {
@@ -50,7 +50,7 @@
     {
         "id": 9,
         "name": "Chester Reynolds",
-        "position": "Orthopedics",
+        "position": "Endodontics",
         "avatar": "assets/img/team/vl-team-thumb-3.7.png"
     },
     {
@@ -62,7 +62,7 @@
     {
         "id": 11,
         "name": "Chester Reynolds",
-        "position": "Orthopedics",
+        "position": "Endodontics",
         "avatar": "assets/img/team/vl-team-thumb-3.7.png"
     },
     {
@@ -75,13 +75,13 @@
     {
         "id": 13,
         "name": "Chester Reynolds",
-        "position": "Orthopedics",
+        "position": "Endodontics",
         "avatar": "assets/img/team/vl-team-thumb-3.7.png"
     },
     {
         "id": 14,
         "name": "Chester Reynolds",
-        "position": "Orthopedics",
+        "position": "Endodontics",
         "avatar": "assets/img/team/vl-team-thumb-3.7.png"
     },
     {
@@ -93,7 +93,7 @@
     {
         "id": 16,
         "name": "Chester Reynolds",
-        "position": "Orthopedics",
+        "position": "Endodontics",
         "avatar": "assets/img/team/vl-team-thumb-3.7.png"
     }
 ]

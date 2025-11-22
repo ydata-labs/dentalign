@@ -55,14 +55,6 @@ export default function FAQSchema() {
             },
             {
                 "@type": "Question",
-                name: "How does Invisalign compare to traditional braces?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text: "Invisalign uses clear, removable aligners that are nearly invisible and can be taken out for eating and cleaning. Traditional braces use metal brackets and wires. Invisalign is more comfortable and convenient for many patients, though traditional braces may be better for complex cases. Both are effective orthodontic treatments.",
-                },
-            },
-            {
-                "@type": "Question",
                 name: "What should I do if I have a toothache?",
                 acceptedAnswer: {
                     "@type": "Answer",
@@ -98,7 +90,7 @@ export default function FAQSchema() {
                 name: "Do you offer treatments for TMJ or jaw pain?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Yes, at Dentalign we treat TMJ (temporomandibular joint) disorders. Treatment options may include custom night guards, physical therapy exercises, lifestyle modifications, and in some cases, orthodontic treatment. We'll conduct a thorough evaluation to determine the cause of your jaw pain and create an appropriate treatment plan.",
+                    text: "Yes, at Dentalign we treat TMJ (temporomandibular joint) disorders. Treatment options may include custom night guards, physical therapy exercises, and lifestyle modifications. We'll conduct a thorough evaluation to determine the cause of your jaw pain and create an appropriate treatment plan.",
                 },
             },
             {
