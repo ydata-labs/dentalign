@@ -9,12 +9,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "Prijzen & Tarieven",
     description:
-        "Ontdek onze transparante prijzen en tarieven voor tandheelkundige behandelingen. Bekijk onze betaalbare pakketten voor orthodontie, cosmetische tandheelkunde en preventieve zorg.",
+        "Ontdek onze transparante prijzen en tarieven voor tandheelkundige behandelingen. Bekijk onze betaalbare pakketten voor cosmetische tandheelkunde en preventieve zorg.",
     keywords: [
         "prijzen",
         "tarieven",
         "tandheelkundige behandelingen",
-        "orthodontie",
         "cosmetische tandheelkunde",
         "preventieve zorg",
         "betaalbare pakketten",
@@ -22,7 +21,6 @@ export const metadata: Metadata = {
         "pricing",
         "rates",
         "dental treatments",
-        "orthodontics",
         "cosmetic dentistry",
         "preventive care",
         "affordable packages",
@@ -31,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Prijzen & Tarieven - Dentalign Tandkliniek | Transparante Prijzen",
         description:
-            "Ontdek onze transparante prijzen en tarieven voor tandheelkundige behandelingen. Bekijk onze betaalbare pakketten voor orthodontie, cosmetische tandheelkunde en preventieve zorg.",
+            "Ontdek onze transparante prijzen en tarieven voor tandheelkundige behandelingen. Bekijk onze betaalbare pakketten voor cosmetische tandheelkunde en preventieve zorg.",
         url: "https://dentalign.be/pricing-plan",
         locale: "nl_BE",
         alternateLocale: "en_US",

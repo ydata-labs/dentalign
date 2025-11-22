@@ -12,18 +12,16 @@ export const metadata: Metadata = {
     },
     title: "Blog Details",
     description:
-        "Lees gedetailleerde artikelen over tandheelkundige behandelingen, orthodontie en mondgezondheid. Deskundige inzichten van onze tandartsen.",
+        "Lees gedetailleerde artikelen over tandheelkundige behandelingen en mondgezondheid. Deskundige inzichten van onze tandartsen.",
     keywords: [
         "blog details",
         "tandheelkundige artikelen",
         "behandelingen",
-        "orthodontie",
         "mondgezondheid",
         "deskundige inzichten",
         "tandartsen",
         "dental articles",
         "treatments",
-        "orthodontics",
         "oral health",
         "expert insights",
         "dentists",
@@ -31,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Blog Details - Dentalign Tandkliniek | Tandheelkundige Artikelen",
         description:
-            "Lees gedetailleerde artikelen over tandheelkundige behandelingen, orthodontie en mondgezondheid. Deskundige inzichten van onze tandartsen.",
+            "Lees gedetailleerde artikelen over tandheelkundige behandelingen en mondgezondheid. Deskundige inzichten van onze tandartsen.",
         url: "https://dentalign.be/blog-left",
         locale: "nl_BE",
         alternateLocale: "en_US",

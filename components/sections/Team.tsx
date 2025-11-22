@@ -211,7 +211,7 @@ export default function Team({ text_2 }: any) {
                                         <Link href="/team">Harry Hickle V</Link>
                                     </h4>
                                     <span className="description">
-                                        Orthopedics
+                                        Endodontics
                                     </span>
                                 </div>
                             </SwiperSlide>
@@ -297,7 +297,7 @@ export default function Team({ text_2 }: any) {
                                         <Link href="/team">Harry Hickle V</Link>
                                     </h4>
                                     <span className="description">
-                                        Orthopedics
+                                        Endodontics
                                     </span>
                                 </div>
                             </SwiperSlide>

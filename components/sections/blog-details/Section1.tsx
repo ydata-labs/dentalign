@@ -138,7 +138,7 @@ export default function Section1({
                                             </div>
                                             <h3 className="title">
                                                 <Link href="/blog-single">
-                                                    Beugel of Invisalign?
+                                                    Tandenbleken thuis of bij de tandarts?
                                                 </Link>
                                             </h3>
                                         </div>

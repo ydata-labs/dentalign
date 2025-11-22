@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "Blog",
     description:
-        "Lees onze nieuwste artikelen over tandzorg, orthodontie en mondgezondheid. Deskundige inzichten en tips van onze tandheelkundige professionals.",
+        "Lees onze nieuwste artikelen over tandzorg en mondgezondheid. Deskundige inzichten en tips van onze tandheelkundige professionals.",
     robots: {
         index: false,
         follow: true,
@@ -16,13 +16,11 @@ export const metadata: Metadata = {
         "blog",
         "tandheelkundige tips",
         "mondgezondheid",
-        "orthodontie",
         "tandzorg",
         "artikelen",
         "deskundige inzichten",
         "dental tips",
         "oral health",
-        "orthodontics",
         "dental care",
         "articles",
         "expert insights"
@@ -30,7 +28,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Blog - Dentalign Tandkliniek | Tandheelkundige Tips & Nieuws",
         description:
-            "Lees onze nieuwste artikelen over tandzorg, orthodontie en mondgezondheid. Deskundige inzichten en tips van onze tandheelkundige professionals.",
+            "Lees onze nieuwste artikelen over tandzorg en mondgezondheid. Deskundige inzichten en tips van onze tandheelkundige professionals.",
         url: "https://dentalign.be/blog",
         locale: "nl_BE",
         alternateLocale: "en_US",

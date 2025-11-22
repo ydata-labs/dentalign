@@ -90,10 +90,9 @@ export default function StructuredData() {
                 "@id": "https://dentalign.be/#medicalbusiness",
                 name: "Dentalign Tandkliniek",
                 description:
-                    "Professionele tandheelkundige zorg inclusief orthodontie, cosmetische tandheelkunde, implantaten en preventieve zorg in Maasmechelen, België.",
+                    "Professionele tandheelkundige zorg inclusief cosmetische tandheelkunde, implantaten en preventieve zorg in Maasmechelen, België.",
                 medicalSpecialty: [
                     "Dentistry",
-                    "Orthodontics",
                     "Cosmetic Dentistry",
                     "Oral Surgery",
                 ],
@@ -163,15 +162,6 @@ export default function StructuredData() {
                                 name: "Cosmetische Tandheelkunde",
                                 description:
                                     "Tanden bleken, veneers, smile makeovers",
-                            },
-                        },
-                        {
-                            "@type": "Offer",
-                            itemOffered: {
-                                "@type": "Service",
-                                name: "Orthodontie",
-                                description:
-                                    "Beugels, Invisalign, tandcorrectie",
                             },
                         },
                         {

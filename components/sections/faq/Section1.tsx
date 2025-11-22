@@ -177,7 +177,7 @@ export default function Section1() {
                                                         <div className="vl-accordion-item">
                                                             <h2 className="accordion-header" id="heading8">
                                                                 <button className="vl-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
-                                                                    How does Invisalign compare to traditional braces?
+                                                                    How long does a dental crown or filling last?
                                                                     <span className="vl-faqarrow">
                                                                         <i className="fa-regular fa-angle-down" />
                                                                     </span>
@@ -441,7 +441,7 @@ export default function Section1() {
                                                         <div className="vl-accordion-item">
                                                             <h2 className="accordion-header" id="heading22">
                                                                 <button className="vl-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
-                                                                    How does Invisalign compare to traditional braces?
+                                                                    How long does a dental crown or filling last?
                                                                     <span className="vl-faqarrow">
                                                                         <i className="fa-regular fa-angle-down" />
                                                                     </span>
@@ -705,7 +705,7 @@ export default function Section1() {
                                                         <div className="vl-accordion-item">
                                                             <h2 className="accordion-header" id="heading36">
                                                                 <button className="vl-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse36" aria-expanded="false" aria-controls="collapse36">
-                                                                    How does Invisalign compare to traditional braces?
+                                                                    How long does a dental crown or filling last?
                                                                     <span className="vl-faqarrow">
                                                                         <i className="fa-regular fa-angle-down" />
                                                                     </span>
@@ -969,7 +969,7 @@ export default function Section1() {
                                                         <div className="vl-accordion-item">
                                                             <h2 className="accordion-header" id="heading50">
                                                                 <button className="vl-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse50" aria-expanded="false" aria-controls="collapse50">
-                                                                    How does Invisalign compare to traditional braces?
+                                                                    How long does a dental crown or filling last?
                                                                     <span className="vl-faqarrow">
                                                                         <i className="fa-regular fa-angle-down" />
                                                                     </span>

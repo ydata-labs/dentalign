@@ -24,17 +24,15 @@ export const metadata: Metadata = {
         template: "%s | Dentalign Tandkliniek Maasmechelen",
     },
     description:
-        "Tandkliniek Dentalign in Maasmechelen ✓ Professionele tandheelkundige zorg ✓ Orthodontie ✓ Cosmetische tandheelkunde ✓ Implantaten ✓ Afspraak binnen 24u ✓ Spoeddienst beschikbaar",
+        "Tandkliniek Dentalign in Maasmechelen ✓ Professionele tandheelkundige zorg ✓ Cosmetische tandheelkunde ✓ Implantaten ✓ Afspraak binnen 24u ✓ Spoeddienst beschikbaar",
     keywords: [
         "tandarts Maasmechelen",
         "tandkliniek Maasmechelen",
         "Dentalign",
         "tandheelkunde Limburg",
-        "orthodontie Maasmechelen",
         "cosmetische tandheelkunde",
         "tandimplantaten België",
         "tanden bleken Maasmechelen",
-        "invisalign Limburg",
         "spoedtandarts",
         "tandarts spoeddienst",
         "preventieve tandzorg",
@@ -66,7 +64,7 @@ export const metadata: Metadata = {
         siteName: "Dentalign Tandkliniek Maasmechelen",
         title: "Dentalign - Professionele Tandarts in Maasmechelen",
         description:
-            "Welkom bij Dentalign, uw vertrouwde tandkliniek in Maasmechelen. Moderne tandheelkundige zorg met 15+ jaar ervaring. Orthodontie, implantaten, cosmetische tandheelkunde en spoeddienst.",
+            "Welkom bij Dentalign, uw vertrouwde tandkliniek in Maasmechelen. Moderne tandheelkundige zorg met 15+ jaar ervaring. Implantaten, cosmetische tandheelkunde en spoeddienst.",
         images: [
             {
                 url: "/assets/img/og-image.jpg",
@@ -83,7 +81,7 @@ export const metadata: Metadata = {
         creator: "@dentalign",
         title: "Dentalign - Moderne Tandkliniek Maasmechelen",
         description:
-            "Professionele tandheelkundige zorg in Maasmechelen. Orthodontie, implantaten, cosmetische tandheelkunde. Maak vandaag nog een afspraak!",
+            "Professionele tandheelkundige zorg in Maasmechelen. Implantaten, cosmetische tandheelkunde. Maak vandaag nog een afspraak!",
         images: ["/assets/img/og-image.jpg"],
     },
     verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION

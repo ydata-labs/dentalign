@@ -13,7 +13,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "Tandarts Maasmechelen | Dentalign - Direct Afspraak Mogelijk",
     description:
-        "Tandarts Maasmechelen ⭐ Dentalign Tandkliniek ✓ Ook spoedzorg ✓ Ervaren tandartsen ✓ Moderne kliniek ✓ Invisalign & Implantaten ✓ Direct afspraak ✓ Bel 0494 14 31 15",
+        "Tandarts Maasmechelen ⭐ Dentalign Tandkliniek ✓ Ook spoedzorg ✓ Ervaren tandartsen ✓ Moderne kliniek ✓ Implantaten ✓ Direct afspraak ✓ Bel 0494 14 31 15",
     keywords: [
         "tandarts Maasmechelen",
         "tandartspraktijk Maasmechelen",
@@ -22,8 +22,6 @@ export const metadata: Metadata = {
         "dental Maasmechelen",
         "dentist Maasmechelen",
         "tandkliniek Maasmechelen",
-        "orthodontie Maasmechelen",
-        "invisalign Maasmechelen",
         "tandimplantaten Maasmechelen",
         "tanden bleken Maasmechelen",
         "tandarts spoeddienst Maasmechelen",
@@ -37,7 +35,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Tandarts Maasmechelen | Dentalign Tandkliniek - Direct Afspraak",
         description:
-            "Uw vertrouwde tandarts in Maasmechelen. Direct afspraak mogelijk. Ook spoedzorg. Ervaren team, moderne kliniek. Orthodontie, implantaten, cosmetische tandheelkunde.",
+            "Uw vertrouwde tandarts in Maasmechelen. Direct afspraak mogelijk. Ook spoedzorg. Ervaren team, moderne kliniek. Implantaten, cosmetische tandheelkunde.",
         url: "https://dentalign.be",
         type: "website",
         locale: "nl_BE",

@@ -8,12 +8,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "Veelgestelde Vragen | Tandarts Maasmechelen",
     description:
-        "FAQ Tandarts Maasmechelen ⭐ Antwoorden op vragen over behandelingen, afspraken, implantaten, Invisalign en spoedzorg ✓ Dentalign ✓ Bel 0494 14 31 15",
+        "FAQ Tandarts Maasmechelen ⭐ Antwoorden op vragen over behandelingen, afspraken, implantaten en spoedzorg ✓ Dentalign ✓ Bel 0494 14 31 15",
     keywords: [
         "tandarts maasmechelen faq",
         "vragen tandarts",
         "tandimplantaten vragen",
-        "invisalign vragen",
         "tandarts spoedzorg",
         "kosten tandarts",
         "afspraak maken tandarts",

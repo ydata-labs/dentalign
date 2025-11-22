@@ -152,42 +152,6 @@ export default function Section1() {
                         </div>
                         {/* single service box end */}
                         {/* single service box start */}
-                        <div className="col-lg-6 col-md-6 mb-30">
-                            <div className="vl-service-icon-bo2x-iner text-center">
-                                <div className="icon">
-                                    <span>
-                                        <img
-                                            src="assets/img/icons/vl-service-icon-iner1.5.svg"
-                                            alt=""
-                                        />
-                                    </span>
-                                </div>
-                                <div className="content">
-                                    <h4 className="title">
-                                        <Link href="/service">
-                                            Geavanceerde orthodontie
-                                        </Link>
-                                    </h4>
-                                    <p className="para">
-                                        Moderne orthodontische behandelingen
-                                        zoals beugels en Invisalign voor een
-                                        perfect rechte glimlach en gezonde
-                                        tandstand.
-                                    </p>
-                                    <Link
-                                        href="/service"
-                                        className="service-learnmore"
-                                    >
-                                        Meer informatie
-                                        <span>
-                                            <i className="fa-regular fa-arrow-right" />
-                                        </span>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        {/* single service box end */}
-                        {/* single service box start */}
                         <div className="col-lg-4 col-md-6 mb-30">
                             <div className="vl-service-icon-bo2x-iner text-center">
                                 <div className="icon">
