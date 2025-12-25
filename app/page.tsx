@@ -8,7 +8,9 @@ import Blog from "@/components/sections/Blog";
 import Subscribe from "@/components/sections/Subscribe";
 import Services from "@/components/sections/Services";
 import Work from "@/components/sections/Work";
+import ChristmasModal from "@/components/elements/ChristmasModal";
 import type { Metadata } from "next";
+import AnnouncementModal from "@/components/elements/AnnouncementModal";
 
 export const metadata: Metadata = {
     title: "Tandarts Maasmechelen | Dentalign - Direct Afspraak Mogelijk",
@@ -60,6 +62,9 @@ export const metadata: Metadata = {
 export default function Home() {
     return (
         <>
+            <ChristmasModal />
+            <AnnouncementModal />
+
             <Layout>
                 <Banner />
                 <AboutUs />

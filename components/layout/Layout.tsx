@@ -18,10 +18,9 @@ const BootstrapComponents = dynamic<BootstrapComponentsProps>(
     { ssr: false }
 ) as FC<BootstrapComponentsProps>;
 
-const AnimationComponents = dynamic(
-    () => import("./AnimationComponents"),
-    { ssr: false }
-);
+const AnimationComponents = dynamic(() => import("./AnimationComponents"), {
+    ssr: false,
+});
 
 interface LayoutProps {
     headerStyle?: Number;
@@ -75,8 +74,6 @@ export default function Layout({
                 <BootstrapComponents />
                 <AnimationComponents />
             </ClientOnly>
-
-            <AnnouncementModal />
 
             <Header
                 mainMenuStyle={mainMenuStyle}
