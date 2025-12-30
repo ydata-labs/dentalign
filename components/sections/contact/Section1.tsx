@@ -314,7 +314,8 @@ export default function Section1() {
             <div className="vl-map-area pb-100">
                 <div className="container">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2512.8610091938845!2d5.697383774171536!3d50.96327397193167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0c4873f013af5%3A0x6adbd80389834a12!2sDokter%20Haubenlaan%2017%2C%203630%20Maasmechelen%2C%20Bel%C3%A7ika!5e0!3m2!1str!2str!4v1749140795053!5m2!1str!2str"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2512.8517546047574!2d5.694989012121482!3d50.96344507157677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0c548ea8e59a9%3A0xce5cdb9b50efa6c5!2sDentalign%20Tandartspraktijk!5e0!3m2!1snl!2snl!4v1767096373935!5m2!1snl!2snl"
+                        loading="lazy"
                         className="vl-maps"
                     />
                 </div>
