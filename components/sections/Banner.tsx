@@ -51,12 +51,14 @@ export default function Banner() {
                                 <img
                                     src="assets/img/shape/vl-hero-shape-1.1.svg"
                                     alt=""
+                                    aria-hidden="true"
                                 />
                             </div>
                             <div className="shap3e circle">
                                 <img
                                     src="assets/img/shape/vl-star-shape-1.1.svg"
                                     alt=""
+                                    aria-hidden="true"
                                 />
                             </div>
                             <div className="container">

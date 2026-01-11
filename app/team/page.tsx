@@ -22,13 +22,11 @@ export const metadata: Metadata = {
             "Maak kennis met ons ervaren team van tandheelkundige professionals. Onze deskundige tandartsen en medewerkers zijn toegewijd aan het bieden van uitzonderlijke tandheelkundige zorg en persoonlijke behandelplannen.",
         url: "https://dentalign.be/team",
         locale: "nl_BE",
-        alternateLocale: "en_US",
     },
     alternates: {
         canonical: "https://dentalign.be/team",
         languages: {
             "nl-BE": "https://dentalign.be/team",
-            "en-US": "https://dentalign.be/en/team",
         },
     },
 };

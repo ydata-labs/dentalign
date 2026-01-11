@@ -13,7 +13,7 @@ export default function AboutUs() {
                                     <img
                                         className="w-100"
                                         src="assets/img/about/about-new-2.jpg"
-                                        alt=""
+                                        alt="about-new-2"
                                     />
                                 </div>
                                 <div className="vl-about-star-shape">
@@ -21,7 +21,7 @@ export default function AboutUs() {
                                         <img
                                             className="circle"
                                             src="assets/img/shape/vl-star-shape-1.2.svg"
-                                            alt=""
+                                            alt="vl-star-shape-1.2"
                                         />
                                     </div>
                                 </div>
@@ -74,7 +74,7 @@ export default function AboutUs() {
                                 <img
                                     className="w-100"
                                     src="assets/img/about/about-new-1.jpg"
-                                    alt=""
+                                    alt="about-new-1"
                                 />
                             </div>
                         </div>

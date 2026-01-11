@@ -17,7 +17,7 @@ export default function Section1({ background }: { background: string }) {
                                 <img
                                     className="w-100"
                                     src="assets/img/about/vl-about-inner1.1.png"
-                                    alt=""
+                                    alt="Moderne tandheelkundige apparatuur"
                                 />
                                 <div className="vl-video-pla4y">
                                     <div

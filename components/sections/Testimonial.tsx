@@ -53,7 +53,7 @@ export default function Testimonial() {
                                 <img
                                     className="w-100 br-8"
                                     src="assets/img/testimonial/vl-testimonial-large-thumb-1.1.png"
-                                    alt=""
+                                    alt="Tevreden patiënt bij tandarts"
                                 />
                             </div>
                         </div>
@@ -73,6 +73,7 @@ export default function Testimonial() {
                                                 <img
                                                     src="assets/img/icons/vl-testimonial-quote1.1.svg"
                                                     alt=""
+                                                    aria-hidden="true"
                                                 />
                                             </span>
                                         </div>
@@ -93,7 +94,7 @@ export default function Testimonial() {
                                             <div className="vl-auth-thumb">
                                                 <img
                                                     src="assets/img/testimonial/vl-testimonal-sm-thumb-1.1.png"
-                                                    alt=""
+                                                    alt="Foto van Shakib Mahmud"
                                                 />
                                             </div>
                                             <div className="vl-auth-content">
@@ -115,6 +116,7 @@ export default function Testimonial() {
                                                 <img
                                                     src="assets/img/icons/vl-testimonial-quote1.1.svg"
                                                     alt=""
+                                                    aria-hidden="true"
                                                 />
                                             </span>
                                         </div>
@@ -135,7 +137,7 @@ export default function Testimonial() {
                                             <div className="vl-auth-thumb">
                                                 <img
                                                     src="assets/img/testimonial/vl-testimonal-sm-thumb-1.1.png"
-                                                    alt=""
+                                                    alt="Foto van Shakib Mahmud"
                                                 />
                                             </div>
                                             <div className="vl-auth-content">
@@ -157,6 +159,7 @@ export default function Testimonial() {
                                                 <img
                                                     src="assets/img/icons/vl-testimonial-quote1.1.svg"
                                                     alt=""
+                                                    aria-hidden="true"
                                                 />
                                             </span>
                                         </div>
@@ -177,7 +180,7 @@ export default function Testimonial() {
                                             <div className="vl-auth-thumb">
                                                 <img
                                                     src="assets/img/testimonial/vl-testimonal-sm-thumb-1.1.png"
-                                                    alt=""
+                                                    alt="Foto van Shakib Mahmud"
                                                 />
                                             </div>
                                             <div className="vl-auth-content">

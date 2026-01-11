@@ -50,9 +50,6 @@ importers:
       swiper:
         specifier: ^11.2.6
         version: 11.2.8
-      wowjs:
-        specifier: ^1.1.3
-        version: 1.1.3
     devDependencies:
       '@types/aos':
         specifier: ^3.0.7
@@ -1698,9 +1695,6 @@ packages:
 
   ajv@6.12.6:
     resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==}
-
-  animate.css@4.1.1:
-    resolution: {integrity: sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==}
 
   ansi-colors@4.1.3:
     resolution: {integrity: sha512-/6w/C21Pm1A7aZitlI5Ni/2J6FFQN8i1Cvz3kHABAAbw93v/NlvKdVOqz7CCWz/3iv/JplRSEEZ83XION15ovw==}
@@ -3411,9 +3405,6 @@ packages:
     resolution: {integrity: sha512-Om5ns0Lyx/LKtYI04IV0bjIrkBgoFNg0p6urzr2asekJlfP18RqFzyqMFZKf0i9Gnjtz/JfAS/Ol6tjCe5JJsQ==}
     engines: {node: '>=16'}
     hasBin: true
-
-  wowjs@1.1.3:
-    resolution: {integrity: sha512-HQp1gi56wYmjOYYOMZ08TnDGpT+AO21RJVa0t1NJ3jU8l3dMyP+sY7TO/lilzVp4JFjW88bBY87RnpxdpSKofA==}
 
   wrangler@4.50.0:
     resolution: {integrity: sha512-+nuZuHZxDdKmAyXOSrHlciGshCoAPiy5dM+t6mEohWm7HpXvTHmWQGUf/na9jjWlWJHCJYOWzkA1P5HBJqrIEA==}
@@ -5839,8 +5830,6 @@ snapshots:
       json-schema-traverse: 0.4.1
       uri-js: 4.4.1
 
-  animate.css@4.1.1: {}
-
   ansi-colors@4.1.3: {}
 
   ansi-regex@5.0.1: {}
@@ -7904,10 +7893,6 @@ snapshots:
       '@cloudflare/workerd-linux-64': 1.20251118.0
       '@cloudflare/workerd-linux-arm64': 1.20251118.0
       '@cloudflare/workerd-windows-64': 1.20251118.0
-
-  wowjs@1.1.3:
-    dependencies:
-      animate.css: 4.1.1
 
   wrangler@4.50.0:
     dependencies:

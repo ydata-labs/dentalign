@@ -47,7 +47,6 @@ export const metadata: Metadata = {
         canonical: "https://dentalign.be",
         languages: {
             "nl-BE": "https://dentalign.be",
-            "en-US": "https://dentalign.be/en",
         },
     },
 };

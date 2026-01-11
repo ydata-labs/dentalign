@@ -139,7 +139,7 @@ export default function MobileMenu({
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-footer-icon-1.1.svg"
-                                            alt=""
+                                            alt="Telefoon icoon"
                                         />
                                     </span>
                                     {PHONE}
@@ -152,7 +152,7 @@ export default function MobileMenu({
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-footer-icon-1.3.svg"
-                                            alt=""
+                                            alt="E-mail icoon"
                                         />
                                     </span>
                                     {EMAIL}
@@ -165,7 +165,7 @@ export default function MobileMenu({
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-footer-icon-1.2.svg"
-                                            alt=""
+                                            alt="Locatie icoon"
                                         />
                                     </span>
                                     {ADDRESS}

@@ -50,7 +50,7 @@ export default function Work() {
                                                 <span className="icon">
                                                     <img
                                                         src="assets/img/icons/vl-work-icon1.1.svg"
-                                                        alt=""
+                                                        alt="Icoon behandeling"
                                                     />
                                                 </span>
                                             </div>
@@ -84,7 +84,7 @@ export default function Work() {
                                                 <span className="icon">
                                                     <img
                                                         src="assets/img/icons/vl-work-icon1.2.svg"
-                                                        alt=""
+                                                        alt="Icoon nazorg"
                                                     />
                                                 </span>
                                             </div>
@@ -117,7 +117,7 @@ export default function Work() {
                                                 <span className="icon">
                                                     <img
                                                         src="assets/img/icons/vl-work-icon1.3.svg"
-                                                        alt=""
+                                                        alt="Icoon behandelplan"
                                                     />
                                                 </span>
                                             </div>
@@ -150,7 +150,7 @@ export default function Work() {
                                                 <span className="icon">
                                                     <img
                                                         src="assets/img/icons/vl-work-icon1.4.svg"
-                                                        alt=""
+                                                        alt="Icoon eerste consult"
                                                     />
                                                 </span>
                                             </div>
@@ -184,6 +184,7 @@ export default function Work() {
                                         className="circle"
                                         src="assets/img/shape/vl-star-shape-1.2.svg"
                                         alt=""
+                                        aria-hidden="true"
                                     />
                                 </div>
                                 <div
@@ -201,7 +202,7 @@ export default function Work() {
                                             <img
                                                 className="w-100 br-8"
                                                 src="assets/img/portfolio/vl-work-thumb-1.1.png"
-                                                alt=""
+                                                alt="Tandheelkundige behandeling in moderne praktijk"
                                             />
                                         </div>
                                     </div>
@@ -216,7 +217,7 @@ export default function Work() {
                                             <img
                                                 className="w-100 br-8"
                                                 src="assets/img/portfolio/vl-work-thumb-1.2.png"
-                                                alt=""
+                                                alt="Nazorg en follow-up bij tandarts"
                                             />
                                         </div>
                                     </div>
@@ -231,7 +232,7 @@ export default function Work() {
                                             <img
                                                 className="w-100 br-8"
                                                 src="assets/img/portfolio/vl-work-thumb-1.3.png"
-                                                alt=""
+                                                alt="Persoonlijk behandelplan bespreken"
                                             />
                                         </div>
                                     </div>
@@ -246,7 +247,7 @@ export default function Work() {
                                             <img
                                                 className="w-100 br-8"
                                                 src="assets/img/portfolio/vl-work-thumb-1.2.png"
-                                                alt=""
+                                                alt="Nazorg en follow-up bij tandarts"
                                             />
                                         </div>
                                     </div>

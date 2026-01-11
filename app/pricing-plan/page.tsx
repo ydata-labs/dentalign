@@ -25,13 +25,11 @@ export const metadata: Metadata = {
             "Ontdek onze transparante prijzen en tarieven voor tandheelkundige behandelingen. Bekijk onze betaalbare pakketten voor cosmetische tandheelkunde en preventieve zorg.",
         url: "https://dentalign.be/pricing-plan",
         locale: "nl_BE",
-        alternateLocale: "en_US",
     },
     alternates: {
         canonical: "https://dentalign.be/pricing-plan",
         languages: {
             "nl-BE": "https://dentalign.be/pricing-plan",
-            "en-US": "https://dentalign.be/en/pricing-plan",
         },
     },
 };

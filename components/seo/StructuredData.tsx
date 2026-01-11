@@ -1,6 +1,4 @@
-"use client";
-
-import { ADDRESS, EMAIL, PHONE } from "@/util/config";
+import { EMAIL, PHONE } from "@/util/config";
 
 export default function StructuredData() {
     // Get review data from environment variables if available

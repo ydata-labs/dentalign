@@ -24,13 +24,11 @@ export const metadata: Metadata = {
             "Vind antwoorden op veelgestelde vragen over tandheelkundige behandelingen, afspraken, verzekering en meer. Krijg deskundige informatie over uw tandheelkundige zorg.",
         url: "https://dentalign.be/faq",
         locale: "nl_BE",
-        alternateLocale: "en_US",
     },
     alternates: {
         canonical: "https://dentalign.be/faq",
         languages: {
             "nl-BE": "https://dentalign.be/faq",
-            "en-US": "https://dentalign.be/en/faq",
         },
     },
 };

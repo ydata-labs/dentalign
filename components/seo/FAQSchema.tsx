@@ -1,5 +1,3 @@
-"use client";
-
 export default function FAQSchema() {
     const faqData = {
         "@context": "https://schema.org",

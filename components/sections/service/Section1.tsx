@@ -14,7 +14,7 @@ export default function Section1() {
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-service-icon-iner1.1.svg"
-                                            alt=""
+                                            alt="Icoon herstellende behandelingen"
                                         />
                                     </span>
                                 </div>
@@ -50,7 +50,7 @@ export default function Section1() {
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-service-icon-iner1.2.svg"
-                                            alt=""
+                                            alt="Icoon wortelkanaalbehandeling"
                                         />
                                     </span>
                                 </div>
@@ -86,7 +86,7 @@ export default function Section1() {
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-service-icon-iner1.3.svg"
-                                            alt=""
+                                            alt="Icoon tanden bleken"
                                         />
                                     </span>
                                 </div>
@@ -122,7 +122,7 @@ export default function Section1() {
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-service-icon-iner1.4.svg"
-                                            alt=""
+                                            alt="Icoon spoedzorg"
                                         />
                                     </span>
                                 </div>
@@ -158,7 +158,7 @@ export default function Section1() {
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-service-icon-iner1.6.svg"
-                                            alt=""
+                                            alt="Icoon tanden bleken"
                                         />
                                     </span>
                                 </div>
@@ -194,7 +194,7 @@ export default function Section1() {
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-service-icon-iner1.7.svg"
-                                            alt=""
+                                            alt="Icoon tanden bleken"
                                         />
                                     </span>
                                 </div>
@@ -230,7 +230,7 @@ export default function Section1() {
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-service-icon-iner1.1.svg"
-                                            alt=""
+                                            alt="Icoon herstellende behandelingen"
                                         />
                                     </span>
                                 </div>

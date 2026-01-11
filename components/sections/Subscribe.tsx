@@ -12,6 +12,7 @@ export default function Subscribe() {
                             <img
                                 src="assets/img/shape/cta-left-arrow-shape-1.1.svg"
                                 alt=""
+                                aria-hidden="true"
                             />
                         </div>
                         <div className="row">
@@ -45,6 +46,7 @@ export default function Subscribe() {
                                             className="circle"
                                             src="assets/img/shape/vl-star-shape-1.1.svg"
                                             alt=""
+                                            aria-hidden="true"
                                         />
                                     </div>
                                 </div>

@@ -26,13 +26,11 @@ export const metadata: Metadata = {
             "Lees gedetailleerde artikelen over tandheelkundige behandelingen en mondgezondheid. Deskundige inzichten van onze tandartsen.",
         url: "https://dentalign.be/blog-left",
         locale: "nl_BE",
-        alternateLocale: "en_US",
     },
     alternates: {
         canonical: "https://dentalign.be/blog-left",
         languages: {
             "nl-BE": "https://dentalign.be/blog-left",
-            "en-US": "https://dentalign.be/en/blog-left",
         },
     },
 };

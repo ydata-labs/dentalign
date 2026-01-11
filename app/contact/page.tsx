@@ -23,13 +23,11 @@ export const metadata: Metadata = {
             "Neem contact op met Tandartspraktijk Maasmechelen. Plan uw afspraak, stel vragen of ontdek onze locatie. Onze vriendelijke medewerkers helpen u graag verder.",
         url: "https://dentalign.be/contact",
         locale: "nl_BE",
-        alternateLocale: "en_US",
     },
     alternates: {
         canonical: "https://dentalign.be/contact",
         languages: {
             "nl-BE": "https://dentalign.be/contact",
-            "en-US": "https://dentalign.be/en/contact",
         },
     },
 };

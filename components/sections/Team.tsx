@@ -90,7 +90,7 @@ export default function Team({ text_2 }: any) {
                                     <img
                                         className="w-100"
                                         src="assets/img/team/vl-team-thumb-3.1.png"
-                                        alt=""
+                                        alt="Desiree Wolf - Kindertandarts"
                                     />
                                     {/* team social icon */}
                                     <div className="team-social">
@@ -133,7 +133,7 @@ export default function Team({ text_2 }: any) {
                                     <img
                                         className="w-100"
                                         src="assets/img/team/vl-team-thumb-3.2.png"
-                                        alt=""
+                                        alt="Preston Padberg - Tandarts"
                                     />
                                     {/* team social icon */}
                                     <div className="team-social">
@@ -178,7 +178,7 @@ export default function Team({ text_2 }: any) {
                                     <img
                                         className="w-100"
                                         src="assets/img/team/vl-team-thumb-3.3.png"
-                                        alt=""
+                                        alt="Harry Hickle V - Endodontist"
                                     />
                                     {/* team social icon */}
                                     <div className="team-social">
@@ -221,7 +221,7 @@ export default function Team({ text_2 }: any) {
                                     <img
                                         className="w-100"
                                         src="assets/img/team/vl-team-thumb-3.4.png"
-                                        alt=""
+                                        alt="Harry Hickle V - Dermatoloog"
                                     />
                                     {/* team social icon */}
                                     <div className="team-social">
@@ -264,7 +264,7 @@ export default function Team({ text_2 }: any) {
                                     <img
                                         className="w-100"
                                         src="assets/img/team/vl-team-thumb-3.3.png"
-                                        alt=""
+                                        alt="Harry Hickle V - Endodontist"
                                     />
                                     {/* team social icon */}
                                     <div className="team-social">

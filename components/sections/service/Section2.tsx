@@ -31,7 +31,7 @@ export default function Section2() {
                                       <span className="icon1">
                                           <img
                                               src="assets/img/icons/vl-service-icon-1.1.svg"
-                                              alt=""
+                                              alt="Icoon herstellende behandelingen"
                                           />
                                       </span>
                                   </div>
@@ -67,7 +67,7 @@ export default function Section2() {
                                       <span className="icon1">
                                           <img
                                               src="./assets/img/icons/vl-service-icon-1.2.svg"
-                                              alt=""
+                                              alt="Icoon parodontale therapie"
                                           />
                                       </span>
                                   </div>
@@ -104,7 +104,7 @@ export default function Section2() {
                                       <span className="icon1">
                                           <img
                                               src="./assets/img/icons/vl-service-icon-1.4.svg"
-                                              alt=""
+                                              alt="Icoon kindertandheelkunde"
                                           />
                                       </span>
                                   </div>
@@ -141,7 +141,7 @@ export default function Section2() {
                                       <span className="icon1">
                                           <img
                                               src="./assets/img/icons/vl-service-icon-1.3.svg"
-                                              alt=""
+                                              alt="Icoon herstellende behandelingen"
                                           />
                                       </span>
                                   </div>

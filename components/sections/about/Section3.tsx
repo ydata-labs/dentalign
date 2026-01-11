@@ -27,7 +27,7 @@ export default function Section3() {
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-service-icon-inner1.1.svg"
-                                            alt=""
+                                            alt="Dienst icoon"
                                         />
                                     </span>
                                     <div className="number">1</div>
@@ -51,7 +51,7 @@ export default function Section3() {
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-service-icon-inner1.1.svg"
-                                            alt=""
+                                            alt="Dienst icoon"
                                         />
                                     </span>
                                     <div className="number">2</div>
@@ -74,7 +74,7 @@ export default function Section3() {
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-service-icon-inner1.1.svg"
-                                            alt=""
+                                            alt="Dienst icoon"
                                         />
                                     </span>
                                     <div className="number">3</div>

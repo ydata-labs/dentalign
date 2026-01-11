@@ -58,7 +58,7 @@ export default function Header({
                                                 <span>
                                                     <img
                                                         src="assets/img/icons/vl-header-top-icon-1.1.svg"
-                                                        alt=""
+                                                        alt="Telefoon icoon"
                                                     />
                                                 </span>
                                             </div>
@@ -85,7 +85,7 @@ export default function Header({
                                     >
                                         <img
                                             src="assets/img/icons/vl-line-1.1.svg"
-                                            alt=""
+                                            alt="Menu openen"
                                         />
                                     </button>
                                 </div>

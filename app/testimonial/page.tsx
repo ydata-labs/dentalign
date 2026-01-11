@@ -21,13 +21,11 @@ export const metadata: Metadata = {
             "Lees wat onze patiënten zeggen over hun ervaring bij Tandartspraktijk Maasmechelen. Echte verhalen en beoordelingen van onze tevreden patiënten over onze tandheelkundige zorg.",
         url: "https://dentalign.be/testimonial",
         locale: "nl_BE",
-        alternateLocale: "en_US",
     },
     alternates: {
         canonical: "https://dentalign.be/testimonial",
         languages: {
             "nl-BE": "https://dentalign.be/testimonial",
-            "en-US": "https://dentalign.be/en/testimonial",
         },
     },
 };

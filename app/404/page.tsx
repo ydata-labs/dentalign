@@ -21,13 +21,11 @@ export const metadata: Metadata = {
             "De pagina die u zoekt kon niet worden gevonden. Ga terug naar de homepage of neem contact met ons op voor hulp.",
         url: "https://dentalign.be/404",
         locale: "nl_BE",
-        alternateLocale: "en_US",
     },
     alternates: {
         canonical: "https://dentalign.be/404",
         languages: {
             "nl-BE": "https://dentalign.be/404",
-            "en-US": "https://dentalign.be/en/404",
         },
     },
 };

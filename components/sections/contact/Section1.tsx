@@ -234,7 +234,7 @@ export default function Section1() {
                                 <img
                                     className="w-100 br-8"
                                     src="assets/img/contact/vl-contact-thum-1.1.png"
-                                    alt=""
+                                    alt="Receptie van tandartspraktijk"
                                 />
                             </div>
                         </div>
@@ -247,7 +247,7 @@ export default function Section1() {
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-contact-ic-iner1.1.svg"
-                                            alt=""
+                                            alt="Locatie icoon"
                                         />
                                     </span>
                                 </div>
@@ -265,7 +265,7 @@ export default function Section1() {
                                         <span>
                                             <img
                                                 src="assets/img/icons/vl-contact-ic-iner1.2.svg"
-                                                alt=""
+                                                alt="Telefoon icoon"
                                             />
                                         </span>
                                     </div>
@@ -291,7 +291,7 @@ export default function Section1() {
                                         <span>
                                             <img
                                                 src="assets/img/icons/vl-contact-ic-iner1.3.svg"
-                                                alt=""
+                                                alt="E-mail icoon"
                                             />
                                         </span>
                                     </div>

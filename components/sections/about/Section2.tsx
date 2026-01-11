@@ -229,7 +229,7 @@ export default function Section2() {
                                     <img
                                         className="w-100"
                                         src="assets/img/about/vl-mission-thumb-iner1.1.png"
-                                        alt=""
+                                        alt="Tandarts met patiënt in behandelkamer"
                                     />
                                 </div>
                                 {/* counter */}
@@ -239,7 +239,7 @@ export default function Section2() {
                                             <img
                                                 className="circle"
                                                 src="assets/img/icons/vl-counter-icon-1.1.svg"
-                                                alt=""
+                                                alt="Ervaring icoon"
                                             />
                                         </span>
                                     </div>
