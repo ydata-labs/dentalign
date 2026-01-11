@@ -12,7 +12,7 @@ export default function StructuredData() {
     const dentistObject: any = {
         "@type": "Dentist",
         "@id": "https://dentalign.be/#dentist",
-        name: "Dentalign",
+        name: "Tandartspraktijk Maasmechelen",
         image: "https://dentalign.be/assets/img/logo/logo.png",
         url: "https://dentalign.be",
         telephone: PHONE,
@@ -62,10 +62,7 @@ export default function StructuredData() {
             },
             geoRadius: "50000", // 50km radius
         },
-        sameAs: [
-            "https://www.facebook.com/dentalign",
-            "https://www.instagram.com/dentalign",
-        ],
+        sameAs: [],
     };
 
     // Add aggregate rating if reviews are available
@@ -88,7 +85,7 @@ export default function StructuredData() {
             {
                 "@type": "MedicalBusiness",
                 "@id": "https://dentalign.be/#medicalbusiness",
-                name: "Dentalign Tandkliniek",
+                name: "Tandartspraktijk Maasmechelen",
                 description:
                     "Professionele tandheelkundige zorg inclusief cosmetische tandheelkunde, implantaten en preventieve zorg in Maasmechelen, België.",
                 medicalSpecialty: [
@@ -101,7 +98,7 @@ export default function StructuredData() {
             {
                 "@type": "Organization",
                 "@id": "https://dentalign.be/#organization",
-                name: "Dentalign",
+                name: "Tandartspraktijk Maasmechelen",
                 url: "https://dentalign.be",
                 logo: {
                     "@type": "ImageObject",
@@ -122,9 +119,9 @@ export default function StructuredData() {
                 "@type": "WebSite",
                 "@id": "https://dentalign.be/#website",
                 url: "https://dentalign.be",
-                name: "Dentalign",
+                name: "Tandartspraktijk Maasmechelen",
                 description:
-                    "Moderne tandkliniek in Maasmechelen - Professionele tandheelkundige zorg",
+                    "Moderne tandartspraktijk in Maasmechelen - Professionele tandheelkundige zorg",
                 publisher: {
                     "@id": "https://dentalign.be/#organization",
                 },

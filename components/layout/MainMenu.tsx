@@ -5,7 +5,7 @@ export default function MainMenu() {
     return (
         <ul>
             <li className="has-dropdown">
-                <Link href="/">Home</Link>
+                <Link href="/">Startpagina</Link>
             </li>
             <li>
                 <Link href="/about">Over ons</Link>
@@ -31,7 +31,7 @@ export default function MainMenu() {
                         <Link href="/faq">FAQ</Link>
                     </li>
                     <li>
-                        <Link href="/pricing-plan">Pricing Plan</Link>
+                        <Link href="/pricing-plan">Prijzen</Link>
                     </li>
                     <li>
                         <Link href="/404">404</Link>

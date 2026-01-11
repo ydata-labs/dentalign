@@ -7,106 +7,106 @@ export default function FAQSchema() {
         mainEntity: [
             {
                 "@type": "Question",
-                name: "What are the options for replacing missing teeth?",
+                name: "Wat zijn de opties voor het vervangen van ontbrekende tanden?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "At Dentalign, we offer several options for replacing missing teeth including dental implants, bridges, and dentures. Dental implants are the most permanent solution, offering a natural look and feel. The best option depends on your specific needs, budget, and oral health condition.",
+                    text: "In onze praktijk bieden we verschillende opties voor het vervangen van ontbrekende tanden, waaronder tandimplantaten, bruggen en protheses. Tandimplantaten zijn de meest permanente oplossing en bieden een natuurlijk uiterlijk en gevoel. De beste optie hangt af van uw specifieke behoeften, budget en mondgezondheid.",
                 },
             },
             {
                 "@type": "Question",
-                name: "What is the difference between a crown and a filling?",
+                name: "Wat is het verschil tussen een kroon en een vulling?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "A filling is used to repair small to moderate cavities by filling the damaged area with composite resin or other materials. A crown is a cap that covers the entire visible portion of a tooth, used when there's extensive damage or after a root canal. Crowns provide more comprehensive protection and restoration.",
+                    text: "Een vulling wordt gebruikt om kleine tot middelgrote gaatjes te repareren door het beschadigde gebied te vullen met composiet of andere materialen. Een kroon is een kapje dat het hele zichtbare deel van een tand bedekt, gebruikt bij uitgebreide schade of na een wortelkanaalbehandeling. Kronen bieden meer uitgebreide bescherming en herstel.",
                 },
             },
             {
                 "@type": "Question",
-                name: "How often should I brush and floss my teeth?",
+                name: "Hoe vaak moet ik mijn tanden poetsen en flossen?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "You should brush your teeth at least twice a day for two minutes each time, and floss once daily. Brushing removes plaque and food particles from tooth surfaces, while flossing cleans between teeth where your toothbrush can't reach. Regular brushing and flossing are essential for preventing cavities and gum disease.",
+                    text: "U moet uw tanden minstens twee keer per dag poetsen, elke keer twee minuten, en dagelijks flossen. Poetsen verwijdert tandplak en voedselresten van het tandoppervlak, terwijl flossen reinigt tussen de tanden waar uw tandenborstel niet kan komen. Regelmatig poetsen en flossen is essentieel voor het voorkomen van gaatjes en tandvleesaandoeningen.",
                 },
             },
             {
                 "@type": "Question",
-                name: "When should my child have their first dental visit?",
+                name: "Wanneer moet mijn kind voor het eerst naar de tandarts?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "We recommend bringing your child for their first dental visit by their first birthday or within six months after their first tooth appears. Early visits help establish good oral health habits and allow us to monitor dental development. These visits are usually quick and help your child become comfortable with the dentist.",
+                    text: "Wij raden aan om uw kind voor het eerst naar de tandarts te brengen tegen de eerste verjaardag of binnen zes maanden na het doorkomen van de eerste tand. Vroege bezoeken helpen bij het opbouwen van goede mondgezondheidgewoonten en stellen ons in staat de gebits­ontwikkeling te volgen. Deze bezoeken zijn meestal kort en helpen uw kind vertrouwd te raken met de tandarts.",
                 },
             },
             {
                 "@type": "Question",
-                name: "How can I schedule or reschedule an appointment?",
+                name: "Hoe kan ik een afspraak maken of verzetten?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "You can schedule or reschedule an appointment by calling us at 0494 14 31 15 or using our online contact form at dentalign.be/contact. We offer flexible scheduling including emergency appointments. Our office is located at Dokter Haubenlaan 17, 3630 Maasmechelen.",
+                    text: "U kunt een afspraak maken of verzetten door ons te bellen op 0494 14 31 15 of via ons online contactformulier op dentalign.be/contact. Wij bieden flexibele planning inclusief spoedafspraken. Onze praktijk is gevestigd aan Dokter Haubenlaan 17, 3630 Maasmechelen.",
                 },
             },
             {
                 "@type": "Question",
-                name: "What should I expect during my first appointment?",
+                name: "Wat kan ik verwachten tijdens mijn eerste afspraak?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "During your first appointment at Dentalign, we'll conduct a comprehensive oral examination, take necessary X-rays, and discuss your dental history and any concerns. We'll create a personalized treatment plan and answer all your questions. The visit typically takes 45-60 minutes.",
+                    text: "Tijdens uw eerste afspraak in onze praktijk voeren we een uitgebreid mondonderzoek uit, maken we de benodigde röntgenfoto's en bespreken we uw tandheelkundige geschiedenis en eventuele zorgen. We stellen een persoonlijk behandelplan op en beantwoorden al uw vragen. Het bezoek duurt doorgaans 45-60 minuten.",
                 },
             },
             {
                 "@type": "Question",
-                name: "What should I do if I have a toothache?",
+                name: "Wat moet ik doen als ik kiespijn heb?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "If you have a toothache, rinse your mouth with warm salt water, gently floss to remove any trapped food, and take over-the-counter pain medication. Contact Dentalign immediately at 0494 14 31 15 for an appointment. Persistent toothaches may indicate infection or decay that requires professional treatment.",
+                    text: "Bij kiespijn spoelt u uw mond met warm zoutwater, flost u voorzichtig om vastgezet voedsel te verwijderen en neemt u pijnstillers. Neem direct contact op met onze praktijk via 0494 14 31 15 voor een afspraak. Aanhoudende kiespijn kan wijzen op een infectie of gaatje dat professionele behandeling vereist.",
                 },
             },
             {
                 "@type": "Question",
-                name: "How do I handle a knocked-out tooth?",
+                name: "Hoe ga ik om met een uitgeslagen tand?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "If a tooth is knocked out, handle it by the crown (not the root), rinse gently if dirty, and try to reinsert it in the socket. If that's not possible, place it in milk or between your cheek and gum. Contact us immediately - time is critical. If treated within an hour, there's a good chance the tooth can be saved.",
+                    text: "Als een tand is uitgeslagen, pak deze dan vast bij de kroon (niet de wortel), spoel voorzichtig af indien vuil en probeer de tand terug in de kas te plaatsen. Als dat niet lukt, bewaar de tand in melk of tussen uw wang en tandvlees. Neem direct contact met ons op - tijd is cruciaal. Bij behandeling binnen een uur is er een goede kans dat de tand behouden kan worden.",
                 },
             },
             {
                 "@type": "Question",
-                name: "What is the process for getting dental implants?",
+                name: "Wat is het proces voor het krijgen van tandimplantaten?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "The dental implant process involves several steps: initial consultation and X-rays, surgical placement of the titanium implant into the jawbone, a healing period of 3-6 months for osseointegration, and finally attachment of the abutment and crown. The entire process typically takes 4-8 months but results in a permanent, natural-looking tooth replacement.",
+                    text: "Het tandimplantaatproces omvat verschillende stappen: eerste consultatie en röntgenfoto's, chirurgische plaatsing van het titanium implantaat in het kaakbot, een genezingsperiode van 3-6 maanden voor osseo-integratie, en tenslotte bevestiging van het abutment en de kroon. Het hele proces duurt doorgaans 4-8 maanden maar resulteert in een permanente, natuurlijk ogende tandvervanging.",
                 },
             },
             {
                 "@type": "Question",
-                name: "Are veneers the right choice for me?",
+                name: "Zijn facings de juiste keuze voor mij?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Veneers are ideal if you want to improve the appearance of your teeth by correcting discoloration, chips, gaps, or minor misalignment. They're thin porcelain shells bonded to the front of teeth. Good candidates have healthy teeth and gums. During a consultation at Dentalign, we can determine if veneers or another cosmetic treatment is best for your smile goals.",
+                    text: "Facings zijn ideaal als u het uiterlijk van uw tanden wilt verbeteren door verkleuring, chips, spleten of kleine scheefstand te corrigeren. Het zijn dunne porseleinen schillen die aan de voorkant van tanden worden bevestigd. Goede kandidaten hebben gezonde tanden en tandvlees. Tijdens een consultatie in onze praktijk kunnen we bepalen of facings of een andere cosmetische behandeling het beste is voor uw glimlach.",
                 },
             },
             {
                 "@type": "Question",
-                name: "Do you offer treatments for TMJ or jaw pain?",
+                name: "Biedt u behandelingen voor TMJ of kaakpijn?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Yes, at Dentalign we treat TMJ (temporomandibular joint) disorders. Treatment options may include custom night guards, physical therapy exercises, and lifestyle modifications. We'll conduct a thorough evaluation to determine the cause of your jaw pain and create an appropriate treatment plan.",
+                    text: "Ja, in onze praktijk behandelen we TMJ (temporomandibulair gewricht) aandoeningen. Behandelopties kunnen bestaan uit aangepaste nachtbeugels, fysiotherapie-oefeningen en leefstijlaanpassingen. We voeren een grondig onderzoek uit om de oorzaak van uw kaakpijn vast te stellen en stellen een passend behandelplan op.",
                 },
             },
             {
                 "@type": "Question",
-                name: "How long does it take to recover from oral surgery?",
+                name: "Hoe lang duurt het herstel na een mondingreep?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Recovery time varies depending on the procedure. Simple tooth extractions typically heal in 3-5 days, while wisdom teeth removal may take 1-2 weeks. Dental implant surgery requires 3-6 months for complete osseointegration. We provide detailed post-operative instructions and are available for any questions during your recovery.",
+                    text: "De hersteltijd varieert afhankelijk van de ingreep. Eenvoudige tandextracties genezen doorgaans in 3-5 dagen, terwijl het verwijderen van verstandskiezen 1-2 weken kan duren. Bij tandimplantaatchirurgie is 3-6 maanden nodig voor volledige osseo-integratie. We geven gedetailleerde postoperatieve instructies en zijn beschikbaar voor vragen tijdens uw herstel.",
                 },
             },
             {
                 "@type": "Question",
-                name: "What foods should I avoid after a dental procedure?",
+                name: "Welke voedingsmiddelen moet ik vermijden na een tandheelkundige ingreep?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "After dental procedures, avoid hard, crunchy, sticky, or very hot foods. Stick to soft foods like yogurt, mashed potatoes, smoothies, and soups for the first few days. Avoid alcohol and smoking as they can delay healing. Gradually reintroduce normal foods as recommended by your dentist at Dentalign.",
+                    text: "Na tandheelkundige ingrepen vermijdt u harde, knapperige, plakkerige of zeer warme voedingsmiddelen. Eet de eerste dagen zachte voeding zoals yoghurt, aardappelpuree, smoothies en soepen. Vermijd alcohol en roken omdat deze de genezing kunnen vertragen. Voer geleidelijk normale voeding weer in zoals aanbevolen door uw tandarts.",
                 },
             },
         ],

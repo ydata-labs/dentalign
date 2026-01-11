@@ -7,26 +7,18 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "Patiëntbeoordelingen",
     description:
-        "Lees wat onze patiënten zeggen over hun ervaring bij Dentalign. Echte verhalen en beoordelingen van onze tevreden patiënten over onze tandheelkundige zorg.",
+        "Lees wat onze patiënten zeggen over hun ervaring bij Tandartspraktijk Maasmechelen. Echte verhalen en beoordelingen van onze tevreden patiënten over onze tandheelkundige zorg.",
     keywords: [
         "patiëntbeoordelingen",
-        "ervaringen",
+        "ervaringen tandarts",
         "tevreden patiënten",
         "tandheelkundige zorg",
-        "verhalen",
-        "beoordelingen",
-        "testimonials",
-        "patient reviews",
-        "experiences",
-        "satisfied patients",
-        "dental care",
-        "stories",
-        "reviews"
+        "beoordelingen tandarts maasmechelen",
     ],
     openGraph: {
-        title: "Patiëntbeoordelingen - Dentalign Tandkliniek | Ervaringen",
+        title: "Patiëntbeoordelingen - Tandartspraktijk Maasmechelen | Ervaringen",
         description:
-            "Lees wat onze patiënten zeggen over hun ervaring bij Dentalign. Echte verhalen en beoordelingen van onze tevreden patiënten over onze tandheelkundige zorg.",
+            "Lees wat onze patiënten zeggen over hun ervaring bij Tandartspraktijk Maasmechelen. Echte verhalen en beoordelingen van onze tevreden patiënten over onze tandheelkundige zorg.",
         url: "https://dentalign.be/testimonial",
         locale: "nl_BE",
         alternateLocale: "en_US",
@@ -45,11 +37,11 @@ export default function Home() {
         <>
             <Layout>
                 <SectionHeader
-                    title="Our Testimonials"
+                    title="Beoordelingen"
                     isGroup={false}
                     linkGroup=""
                     pageGroup=""
-                    current="Our Testimonials"
+                    current="Beoordelingen"
                 />
                 <Section1 />
                 <Subscribe />

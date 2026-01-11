@@ -11,23 +11,16 @@ export const metadata: Metadata = {
     description:
         "Ontdek onze transparante prijzen en tarieven voor tandheelkundige behandelingen. Bekijk onze betaalbare pakketten voor cosmetische tandheelkunde en preventieve zorg.",
     keywords: [
-        "prijzen",
-        "tarieven",
-        "tandheelkundige behandelingen",
-        "cosmetische tandheelkunde",
+        "prijzen tandarts maasmechelen",
+        "tarieven tandarts",
+        "tandheelkundige behandelingen kosten",
+        "cosmetische tandheelkunde prijzen",
         "preventieve zorg",
-        "betaalbare pakketten",
+        "betaalbare tandarts",
         "transparante prijzen",
-        "pricing",
-        "rates",
-        "dental treatments",
-        "cosmetic dentistry",
-        "preventive care",
-        "affordable packages",
-        "transparent pricing"
     ],
     openGraph: {
-        title: "Prijzen & Tarieven - Dentalign Tandkliniek | Transparante Prijzen",
+        title: "Prijzen & Tarieven - Tandartspraktijk Maasmechelen | Transparante Prijzen",
         description:
             "Ontdek onze transparante prijzen en tarieven voor tandheelkundige behandelingen. Bekijk onze betaalbare pakketten voor cosmetische tandheelkunde en preventieve zorg.",
         url: "https://dentalign.be/pricing-plan",
@@ -47,11 +40,11 @@ export default function Home() {
         <>
             <Layout>
                 <SectionHeader
-                    title="Pricing Plan"
+                    title="Prijzen & Tarieven"
                     isGroup={false}
                     linkGroup=""
                     pageGroup=""
-                    current="Pricing Plan"
+                    current="Prijzen & Tarieven"
                 />
                 <Section1 />
                 <Section2 />

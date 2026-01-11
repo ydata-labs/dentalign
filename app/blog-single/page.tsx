@@ -8,11 +8,11 @@ export default function Home() {
         <>
             <Layout>
                 <SectionHeader
-                    title="Our Blog Details"
+                    title="Blog Artikel"
                     isGroup={true}
                     linkGroup="/blog"
-                    pageGroup="Our Blog"
-                    current="Our Blog Details"
+                    pageGroup="Onze Blog"
+                    current="Blog Artikel"
                 />
                 <Section1 single={true} />
                 <Section2 />

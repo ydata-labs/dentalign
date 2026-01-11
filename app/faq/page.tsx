@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "Veelgestelde Vragen | Tandarts Maasmechelen",
     description:
-        "FAQ Tandarts Maasmechelen ⭐ Antwoorden op vragen over behandelingen, afspraken, implantaten en spoedzorg ✓ Dentalign ✓ Bel 0494 14 31 15",
+        "FAQ Tandarts Maasmechelen ⭐ Antwoorden op vragen over behandelingen, afspraken, implantaten en spoedzorg ✓ Tandartspraktijk Maasmechelen ✓ Bel 0494 14 31 15",
     keywords: [
         "tandarts maasmechelen faq",
         "vragen tandarts",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         "tandarts angst",
     ],
     openGraph: {
-        title: "Veelgestelde Vragen - Dentalign Tandkliniek | FAQ",
+        title: "Veelgestelde Vragen - Tandartspraktijk Maasmechelen | FAQ",
         description:
             "Vind antwoorden op veelgestelde vragen over tandheelkundige behandelingen, afspraken, verzekering en meer. Krijg deskundige informatie over uw tandheelkundige zorg.",
         url: "https://dentalign.be/faq",

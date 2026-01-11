@@ -9,19 +9,14 @@ export const metadata: Metadata = {
     description:
         "De pagina die u zoekt kon niet worden gevonden. Ga terug naar de homepage of neem contact met ons op voor hulp.",
     keywords: [
-        "404",
         "pagina niet gevonden",
-        "error",
-        "tandkliniek",
+        "tandartspraktijk maasmechelen",
         "homepage",
         "contact",
         "hulp",
-        "page not found",
-        "dental clinic",
-        "help",
     ],
     openGraph: {
-        title: "Pagina Niet Gevonden - Dentalign Tandkliniek | 404 Error",
+        title: "Pagina Niet Gevonden - Tandartspraktijk Maasmechelen | 404 Error",
         description:
             "De pagina die u zoekt kon niet worden gevonden. Ga terug naar de homepage of neem contact met ons op voor hulp.",
         url: "https://dentalign.be/404",
@@ -41,11 +36,11 @@ export default function Home() {
         <>
             <Layout>
                 <SectionHeader
-                    title="404 Error"
+                    title="Pagina Niet Gevonden"
                     isGroup={false}
                     linkGroup=""
                     pageGroup=""
-                    current="404 Error"
+                    current="Pagina Niet Gevonden"
                 />
                 <Section1 />
                 <Subscribe />

@@ -10,20 +10,14 @@ export const metadata: Metadata = {
         "Maak kennis met ons ervaren team van tandheelkundige professionals. Onze deskundige tandartsen en medewerkers zijn toegewijd aan het bieden van uitzonderlijke tandheelkundige zorg en persoonlijke behandelplannen.",
     keywords: [
         "ons team",
-        "tandartsen",
+        "tandartsen maasmechelen",
         "tandheelkundige professionals",
         "ervaren team",
         "deskundige zorg",
         "persoonlijke behandeling",
-        "our team",
-        "dentists",
-        "dental professionals",
-        "experienced team",
-        "expert care",
-        "personal treatment",
     ],
     openGraph: {
-        title: "Ons Team - Dentalign Tandkliniek | Ervaren Tandartsen",
+        title: "Ons Team - Tandartspraktijk Maasmechelen | Ervaren Tandartsen",
         description:
             "Maak kennis met ons ervaren team van tandheelkundige professionals. Onze deskundige tandartsen en medewerkers zijn toegewijd aan het bieden van uitzonderlijke tandheelkundige zorg en persoonlijke behandelplannen.",
         url: "https://dentalign.be/team",
@@ -44,11 +38,11 @@ export default function Home() {
         <>
             <Layout>
                 <SectionHeader
-                    title="Our Team"
+                    title="Ons Team"
                     isGroup={false}
                     linkGroup=""
                     pageGroup=""
-                    current="Our Team"
+                    current="Ons Team"
                 />
                 <Section1 />
                 <Subscribe />

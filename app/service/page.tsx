@@ -6,7 +6,7 @@ import SectionHeader from "@/components/layout/SectionHeader";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Tandheelkundige Diensten Maasmechelen | Dentalign",
+    title: "Tandheelkundige Diensten Maasmechelen | Tandartspraktijk Maasmechelen",
     description:
         "Tandheelkundige diensten Maasmechelen ⭐ Implantaten ✓ Cosmetische tandheelkunde ✓ Tanden bleken ✓ Spoedzorg ✓ Bel 0494 14 31 15",
     keywords: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
         "tandarts spoedzorg maasmechelen",
     ],
     openGraph: {
-        title: "Tandheelkundige Diensten Maasmechelen | Dentalign",
+        title: "Tandheelkundige Diensten Maasmechelen | Tandartspraktijk Maasmechelen",
         description:
             "Uitgebreide tandheelkundige diensten in Maasmechelen. Implantaten, cosmetische tandheelkunde en meer. Direct afspraak mogelijk.",
         url: "https://dentalign.be/service",

@@ -63,11 +63,11 @@ export default function Team({ text_2 }: any) {
                                         data-aos-duration={800}
                                         data-aos-delay={300}
                                     >
-                                        Our Team
+                                        Ons Team
                                     </h5>
                                     <h2 className="title pt-16 text-anime-style-3">
-                                        Meet the Professionals Who Make You
-                                        Smile
+                                        Maak kennis met de professionals die u
+                                        laten glimlachen
                                     </h2>
                                 </div>
                             </div>

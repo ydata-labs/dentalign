@@ -68,8 +68,8 @@ export default function Banner() {
                                                 begint hier
                                             </h5>
                                             <h1 className="title text-anime-style-3 pt-16 pb-16">
-                                                Tandarts in Maasmechelen -
-                                                Dentalign Tandkliniek
+                                                Tandarts in Maasmechelen - Uw
+                                                Tandartspraktijk
                                             </h1>
                                             <p className="para pb-16">
                                                 Ons toegewijde team van

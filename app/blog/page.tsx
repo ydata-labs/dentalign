@@ -13,20 +13,15 @@ export const metadata: Metadata = {
         follow: true,
     },
     keywords: [
-        "blog",
+        "tandheelkundige blog",
         "tandheelkundige tips",
         "mondgezondheid",
         "tandzorg",
-        "artikelen",
+        "tandarts artikelen",
         "deskundige inzichten",
-        "dental tips",
-        "oral health",
-        "dental care",
-        "articles",
-        "expert insights"
     ],
     openGraph: {
-        title: "Blog - Dentalign Tandkliniek | Tandheelkundige Tips & Nieuws",
+        title: "Blog - Tandartspraktijk Maasmechelen | Tandheelkundige Tips & Nieuws",
         description:
             "Lees onze nieuwste artikelen over tandzorg en mondgezondheid. Deskundige inzichten en tips van onze tandheelkundige professionals.",
         url: "https://dentalign.be/blog",
@@ -47,11 +42,11 @@ export default function Home() {
         <>
             <Layout>
                 <SectionHeader
-                    title="Our Blog"
+                    title="Onze Blog"
                     isGroup={false}
                     linkGroup=""
                     pageGroup=""
-                    current="Our Blog"
+                    current="Onze Blog"
                 />
                 <Section1 />
                 <Subscribe />

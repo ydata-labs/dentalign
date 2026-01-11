@@ -60,7 +60,7 @@ export default function MobileMenu({
                         <nav>
                             <ul>
                                 <li>
-                                    <Link href="/">Home</Link>
+                                    <Link href="/">Startpagina</Link>
                                 </li>
                                 <li>
                                     <Link href="/about">Over ons</Link>
@@ -105,7 +105,7 @@ export default function MobileMenu({
                                         </li>
                                         <li>
                                             <Link href="/pricing-plan">
-                                                Pricing Plan
+                                                Prijzen
                                             </Link>
                                         </li>
                                         <li>

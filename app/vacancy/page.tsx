@@ -5,21 +5,21 @@ import Subscribe from "@/components/sections/Subscribe";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Vacatures | Tandarts Maasmechelen - Werken bij Dentalign",
+    title: "Vacatures | Tandarts Maasmechelen - Werken bij Tandartspraktijk Maasmechelen",
     description:
-        "Werken bij Dentalign Tandkliniek Maasmechelen. Vacatures voor tandarts, tandartsassistent en mondhygiënist. Moderne praktijk met nieuwste technologieën.",
+        "Werken bij Tandartspraktijk Maasmechelen. Vacatures voor tandarts, tandartsassistent en mondhygiënist. Moderne praktijk met nieuwste technologieën.",
     keywords: [
         "vacature tandarts maasmechelen",
         "tandartsassistent vacature",
         "mondhygiënist vacature",
-        "werken tandkliniek maasmechelen",
-        "dental jobs belgium",
+        "werken tandartspraktijk maasmechelen",
         "tandarts baan limburg",
+        "vacature tandheelkunde België",
     ],
     openGraph: {
-        title: "Vacatures - Dentalign Tandkliniek | Werken bij ons",
+        title: "Vacatures - Tandartspraktijk Maasmechelen | Werken bij ons",
         description:
-            "Word onderdeel van ons team bij Dentalign. Wij zoeken tandartsen, tandartsassistenten en mondhygiënisten voor onze moderne praktijk in Maasmechelen.",
+            "Word onderdeel van ons team bij Tandartspraktijk Maasmechelen. Wij zoeken tandartsen, tandartsassistenten en mondhygiënisten voor onze moderne praktijk in Maasmechelen.",
         url: "https://dentalign.be/vacancy",
         locale: "nl_BE",
         alternateLocale: "en_US",

@@ -142,13 +142,19 @@ export default function Footer() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service">Tanden bleken</Link>
+                                            <Link href="/service">
+                                                Tanden bleken
+                                            </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service">Implantaten</Link>
+                                            <Link href="/service">
+                                                Implantaten
+                                            </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service">Tandverzorging</Link>
+                                            <Link href="/service">
+                                                Tandverzorging
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -223,15 +229,17 @@ export default function Footer() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6">
                                 <p className="para">
-                                    © 2025 Dentalign, Inc. Alle rechten
-                                    voorbehouden.
+                                    © 2025 Tandartspraktijk Maasmechelen. Alle
+                                    rechten voorbehouden.
                                 </p>
                             </div>
                             <div className="col-lg-6 col-md-6">
                                 <div className="copy-right-menu">
                                     <ul>
                                         <li>
-                                            <Link href="/contact">Privacybeleid </Link>
+                                            <Link href="/contact">
+                                                Privacybeleid{" "}
+                                            </Link>
                                         </li>
                                         <li>
                                             <Link href="/contact">
