@@ -91,7 +91,7 @@ export default function AnnouncementModal() {
                         </p>
                         <div className="announcement-cta">
                             <a
-                                href="mailto:info@dentalign.be"
+                                href="mailto:info@dentalijn.be"
                                 className="announcement-button announcement-button-email"
                             >
                                 <svg
@@ -114,9 +114,9 @@ export default function AnnouncementModal() {
                                 <a
                                     href={`https://wa.me/${WHATSAPP.replace(
                                         /[^0-9]/g,
-                                        ""
+                                        "",
                                     )}?text=${encodeURIComponent(
-                                        "Hallo! Ik wil graag een afspraak reserveren voor na de opening op 1 februari 2026."
+                                        "Hallo! Ik wil graag een afspraak reserveren voor na de opening op 1 februari 2026.",
                                     )}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -173,7 +173,7 @@ export default function AnnouncementModal() {
                             </Link>
                         </div>
 
-                        <p className="announcement-footer">info@dentalign.be</p>
+                        <p className="announcement-footer">info@dentalijn.be</p>
                     </div>
                 </div>
             </div>

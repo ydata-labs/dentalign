@@ -20,13 +20,13 @@ export const metadata: Metadata = {
         title: "Vacatures - Tandartspraktijk Maasmechelen | Werken bij ons",
         description:
             "Word onderdeel van ons team bij Tandartspraktijk Maasmechelen. Wij zoeken tandartsen, tandartsassistenten en mondhygiënisten voor onze moderne praktijk in Maasmechelen.",
-        url: "https://dentalign.be/vacancy",
+        url: "https://dentalijn.be/vacancy",
         locale: "nl_BE",
     },
     alternates: {
-        canonical: "https://dentalign.be/vacancy",
+        canonical: "https://dentalijn.be/vacancy",
         languages: {
-            "nl-BE": "https://dentalign.be/vacancy",
+            "nl-BE": "https://dentalijn.be/vacancy",
         },
     },
 };

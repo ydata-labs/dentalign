@@ -18,7 +18,7 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://dentalign.be"),
+    metadataBase: new URL("https://dentalijn.be"),
     title: {
         default: "Tandarts Maasmechelen - Moderne Tandartspraktijk",
         template: "%s | Tandartspraktijk Maasmechelen",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     openGraph: {
         type: "website",
         locale: "nl_BE",
-        url: "https://dentalign.be",
+        url: "https://dentalijn.be",
         siteName: "Tandartspraktijk Maasmechelen",
         title: "Professionele Tandarts in Maasmechelen",
         description:
@@ -94,9 +94,9 @@ export const metadata: Metadata = {
           }
         : undefined,
     alternates: {
-        canonical: "https://dentalign.be",
+        canonical: "https://dentalijn.be",
         languages: {
-            "nl-BE": "https://dentalign.be",
+            "nl-BE": "https://dentalijn.be",
         },
     },
 };

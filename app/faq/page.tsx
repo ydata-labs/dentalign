@@ -22,13 +22,13 @@ export const metadata: Metadata = {
         title: "Veelgestelde Vragen - Tandartspraktijk Maasmechelen | FAQ",
         description:
             "Vind antwoorden op veelgestelde vragen over tandheelkundige behandelingen, afspraken, verzekering en meer. Krijg deskundige informatie over uw tandheelkundige zorg.",
-        url: "https://dentalign.be/faq",
+        url: "https://dentalijn.be/faq",
         locale: "nl_BE",
     },
     alternates: {
-        canonical: "https://dentalign.be/faq",
+        canonical: "https://dentalijn.be/faq",
         languages: {
-            "nl-BE": "https://dentalign.be/faq",
+            "nl-BE": "https://dentalijn.be/faq",
         },
     },
 };

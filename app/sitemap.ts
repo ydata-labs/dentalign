@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://dentalign.be'
+    const baseUrl = 'https://dentalijn.be'
     const lastModified = new Date()
 
     return [

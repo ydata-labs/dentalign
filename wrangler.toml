@@ -1,4 +1,4 @@
-name = "dentalign"
+name = "dentalijn"
 main = ".open-next/worker.js"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
@@ -8,8 +8,8 @@ directory = ".open-next/assets"
 binding = "ASSETS"
 
 [vars]
-NEXT_PUBLIC_ADDRESS = "Dokter Haubenlaan 17, 3630 Maasmachelen"
-NEXT_PUBLIC_EMAIL = "info@dentalign.be"
+NEXT_PUBLIC_ADDRESS = "Dokter Haubenlaan 17, 3630 Maasmechelen"
+NEXT_PUBLIC_EMAIL = "info@dentalijn.be"
 NEXT_PUBLIC_EMAILJS_PUBLIC_KEY = "S4lh_Bwh4exk0J0E4"
 NEXT_PUBLIC_EMAILJS_SERVICE_ID = "service_lu5dq1w"
 NEXT_PUBLIC_EMAILJS_TEMPLATE_ID = "template_2kxwjx9"

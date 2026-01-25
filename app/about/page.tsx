@@ -23,13 +23,13 @@ export const metadata: Metadata = {
         title: "Over Ons - Tandartspraktijk Maasmechelen | Onze Missie & Visie",
         description:
             "Leer meer over Tandartspraktijk Maasmechelen. Onze ervaren tandartsen en moderne faciliteiten bieden u de beste tandheelkundige zorg. Ontdek onze missie voor uw gezonde glimlach.",
-        url: "https://dentalign.be/about",
+        url: "https://dentalijn.be/about",
         locale: "nl_BE",
     },
     alternates: {
-        canonical: "https://dentalign.be/about",
+        canonical: "https://dentalijn.be/about",
         languages: {
-            "nl-BE": "https://dentalign.be/about",
+            "nl-BE": "https://dentalijn.be/about",
         },
     },
 };

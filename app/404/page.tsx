@@ -19,13 +19,13 @@ export const metadata: Metadata = {
         title: "Pagina Niet Gevonden - Tandartspraktijk Maasmechelen | 404 Error",
         description:
             "De pagina die u zoekt kon niet worden gevonden. Ga terug naar de homepage of neem contact met ons op voor hulp.",
-        url: "https://dentalign.be/404",
+        url: "https://dentalijn.be/404",
         locale: "nl_BE",
     },
     alternates: {
-        canonical: "https://dentalign.be/404",
+        canonical: "https://dentalijn.be/404",
         languages: {
-            "nl-BE": "https://dentalign.be/404",
+            "nl-BE": "https://dentalijn.be/404",
         },
     },
 };

@@ -16,6 +16,6 @@ export default function robots(): MetadataRoute.Robots {
                 allow: '/',
             },
         ],
-        sitemap: 'https://dentalign.be/sitemap.xml',
+        sitemap: 'https://dentalijn.be/sitemap.xml',
     }
 }
