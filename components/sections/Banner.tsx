@@ -99,7 +99,7 @@ export default function Banner() {
                                                     lineHeight: 1.2,
                                                 }}
                                             >
-                                                We openen op 1 februari 2026
+                                                Wij verwelkomen nu patiënten
                                             </div>
                                             {/* <div
                                                 className="vl-hero-btn"
