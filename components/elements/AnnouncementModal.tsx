@@ -82,12 +82,12 @@ export default function AnnouncementModal() {
                     <div className="announcement-modal-body">
                         <div className="announcement-icon">🎉</div>
                         <h2 id="modal-title" className="announcement-title">
-                            Wij openen op 1 februari 2026!
+                            Wij verwelkomen nu patiënten!
                         </h2>
                         <p className="announcement-text">
-                            Reserveer vandaag nog uw afspraak via e-mail of
-                            WhatsApp. Wij kijken ernaar uit om u na onze grote
-                            opening van dienst te zijn!
+                            Maak vandaag nog uw afspraak via e-mail of
+                            WhatsApp. Wij kijken ernaar uit om u van dienst te
+                            zijn!
                         </p>
                         <div className="announcement-cta">
                             <a
@@ -116,7 +116,7 @@ export default function AnnouncementModal() {
                                         /[^0-9]/g,
                                         ""
                                     )}?text=${encodeURIComponent(
-                                        "Hallo! Ik wil graag een afspraak reserveren voor na de opening op 1 februari 2026."
+                                        "Hallo! Ik wil graag een afspraak maken.",
                                     )}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
