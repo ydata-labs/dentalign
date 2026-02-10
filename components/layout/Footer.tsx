@@ -171,22 +171,28 @@ export default function Footer() {
                                         <RenderConditionally condition={PHONE}>
                                             <li>
                                                 <Link
-                                                    href={`https://wa.me/${WHATSAPP}`}
+                                                    href={`tel:${PHONE?.replace(/[^0-9+]/g, "")}`}
+                                                >
+                                                    <span>
+                                                        <img
+                                                            src="assets/img/icons/vl-footer-icon-1.1.svg"
+                                                            alt="Telefoon icoon"
+                                                        />
+                                                    </span>
+                                                    {PHONE}
+                                                </Link>
+                                            </li>
+                                        </RenderConditionally>
+                                        <RenderConditionally condition={WHATSAPP}>
+                                            <li>
+                                                <Link
+                                                    href={`https://wa.me/${WHATSAPP?.replace(/[^0-9]/g, "")}`}
                                                     target="_blank"
                                                 >
-                                                    <div>
-                                                        <span>
-                                                            <img
-                                                                src="assets/img/icons/vl-footer-icon-1.1.svg"
-                                                                alt="Telefoon icoon"
-                                                            />
-                                                        </span>
-                                                        {PHONE}
-                                                    </div>
-                                                    <div className="text-muted">
-                                                        alleen bericht /
-                                                        whatsapp
-                                                    </div>
+                                                    <span>
+                                                        <i className="fa-brands fa-whatsapp" style={{ fontSize: "24px", color: "#25D366" }} />
+                                                    </span>
+                                                    {WHATSAPP}
                                                 </Link>
                                             </li>
                                         </RenderConditionally>

@@ -270,14 +270,32 @@ export default function Section1() {
                                         </span>
                                     </div>
                                     <div className="content">
-                                        <h5 className="title">
-                                            alleen bericht / whatsapp
-                                        </h5>
+                                        <h5 className="title">Bel ons</h5>
                                         <Link
-                                            href={`https://wa.me/${WHATSAPP}`}
-                                            target="_blank"
+                                            href={`tel:${PHONE?.replace(/[^0-9+]/g, "")}`}
                                         >
                                             {PHONE}
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </RenderConditionally>
+                        <RenderConditionally condition={WHATSAPP}>
+                            <div className="col-lg-4 col-md-6 mb-30">
+                                {/* single icon box */}
+                                <div className="vl-contact-iner-icon-box">
+                                    <div className="icon">
+                                        <span>
+                                            <i className="fa-brands fa-whatsapp" style={{ fontSize: "48px", color: "#25D366" }} />
+                                        </span>
+                                    </div>
+                                    <div className="content">
+                                        <h5 className="title">WhatsApp</h5>
+                                        <Link
+                                            href={`https://wa.me/${WHATSAPP?.replace(/[^0-9]/g, "")}`}
+                                            target="_blank"
+                                        >
+                                            {WHATSAPP}
                                         </Link>
                                     </div>
                                 </div>

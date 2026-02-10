@@ -2,6 +2,7 @@
 
 import { ADDRESS, EMAIL, PHONE, WHATSAPP } from "@/util/config";
 import Link from "next/link";
+import RenderConditionally from "../elements/RenderConditonally";
 
 interface MobileMenuProps {
     isMobileMenu: boolean;
@@ -130,11 +131,10 @@ export default function MobileMenu({
                         <h3 className="vl-offcanvas-sm-title">
                             Neem contact op
                         </h3>
-                        {PHONE ? (
-                            <span>
+                        <RenderConditionally condition={PHONE}>
+                            <div>
                                 <Link
-                                    href={`https://wa.me/${WHATSAPP}`}
-                                    target="_blank"
+                                    href={`tel:${PHONE?.replace(/[^0-9+]/g, "")}`}
                                 >
                                     <span>
                                         <img
@@ -144,11 +144,24 @@ export default function MobileMenu({
                                     </span>
                                     {PHONE}
                                 </Link>
-                            </span>
-                        ) : null}
-                        {EMAIL ? (
+                            </div>
+                        </RenderConditionally>
+                        <RenderConditionally condition={WHATSAPP}>
                             <div>
-                                <Link href="#">
+                                <Link
+                                    href={`https://wa.me/${WHATSAPP?.replace(/[^0-9]/g, "")}`}
+                                    target="_blank"
+                                >
+                                    <span>
+                                        <i className="fa-brands fa-whatsapp" style={{ fontSize: "24px", color: "#25D366" }} />
+                                    </span>
+                                    {WHATSAPP}
+                                </Link>
+                            </div>
+                        </RenderConditionally>
+                        <RenderConditionally condition={EMAIL}>
+                            <div>
+                                <Link href={`mailto:${EMAIL}`}>
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-footer-icon-1.3.svg"
@@ -158,10 +171,10 @@ export default function MobileMenu({
                                     {EMAIL}
                                 </Link>
                             </div>
-                        ) : null}
-                        {ADDRESS ? (
+                        </RenderConditionally>
+                        <RenderConditionally condition={ADDRESS}>
                             <div>
-                                <Link href="#">
+                                <Link href="/contact">
                                     <span>
                                         <img
                                             src="assets/img/icons/vl-footer-icon-1.2.svg"
@@ -171,7 +184,7 @@ export default function MobileMenu({
                                     {ADDRESS}
                                 </Link>
                             </div>
-                        ) : null}
+                        </RenderConditionally>
                     </div>
                     {/* <div className="vl-offcanvas-social mb-40">
                         <h3 className="vl-offcanvas-sm-title">Follow Us</h3>

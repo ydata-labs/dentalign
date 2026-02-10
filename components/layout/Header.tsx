@@ -51,7 +51,7 @@ export default function Header({
                             </div>
                             <div className="col-lg-3 col-md-6 col-3">
                                 {/* header icon box */}
-                                <RenderConditionally condition={PHONE}>
+                                <RenderConditionally condition={PHONE || WHATSAPP}>
                                     <div className="d-none d-lg-block">
                                         <div className="vl-header-icon-box-flex">
                                             <div className="vl-icon">
@@ -64,15 +64,29 @@ export default function Header({
                                             </div>
                                             <div className="vl-content">
                                                 <div className="title">
-                                                    Hulplijn 24/7
+                                                    Neem contact op
                                                 </div>
-                                                <Link
-                                                    href={`https://wa.me/${WHATSAPP}`}
-                                                    target="_blank"
-                                                    className="number"
-                                                >
-                                                    {PHONE}
-                                                </Link>
+                                                <RenderConditionally condition={PHONE}>
+                                                    <Link
+                                                        href={`tel:${PHONE?.replace(/[^0-9+]/g, "")}`}
+                                                        className="number"
+                                                        style={{ display: "block", marginBottom: "4px" }}
+                                                    >
+                                                        <i className="fa fa-phone" style={{ marginRight: "6px", fontSize: "12px" }} />
+                                                        {PHONE}
+                                                    </Link>
+                                                </RenderConditionally>
+                                                <RenderConditionally condition={WHATSAPP}>
+                                                    <Link
+                                                        href={`https://wa.me/${WHATSAPP?.replace(/[^0-9]/g, "")}`}
+                                                        target="_blank"
+                                                        className="number"
+                                                        style={{ display: "block" }}
+                                                    >
+                                                        <i className="fa-brands fa-whatsapp" style={{ marginRight: "6px", fontSize: "14px", color: "#25D366" }} />
+                                                        {WHATSAPP}
+                                                    </Link>
+                                                </RenderConditionally>
                                             </div>
                                         </div>
                                     </div>
