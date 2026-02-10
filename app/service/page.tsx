@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         title: "Tandheelkundige Diensten Maasmechelen | Tandartspraktijk Maasmechelen",
         description:
             "Uitgebreide tandheelkundige diensten in Maasmechelen. Implantaten, cosmetische tandheelkunde en meer. Direct afspraak mogelijk.",
-        url: "https://dentalign.be/service",
+        url: "https://dentalijn.be/service",
     },
 };
 

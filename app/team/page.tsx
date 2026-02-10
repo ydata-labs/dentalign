@@ -20,13 +20,13 @@ export const metadata: Metadata = {
         title: "Ons Team - Tandartspraktijk Maasmechelen | Ervaren Tandartsen",
         description:
             "Maak kennis met ons ervaren team van tandheelkundige professionals. Onze deskundige tandartsen en medewerkers zijn toegewijd aan het bieden van uitzonderlijke tandheelkundige zorg en persoonlijke behandelplannen.",
-        url: "https://dentalign.be/team",
+        url: "https://dentalijn.be/team",
         locale: "nl_BE",
     },
     alternates: {
-        canonical: "https://dentalign.be/team",
+        canonical: "https://dentalijn.be/team",
         languages: {
-            "nl-BE": "https://dentalign.be/team",
+            "nl-BE": "https://dentalijn.be/team",
         },
     },
 };

@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         title: "Tandarts Maasmechelen | Moderne Tandartspraktijk - Direct Afspraak",
         description:
             "Uw vertrouwde tandarts in Maasmechelen. Direct afspraak mogelijk. Ook spoedzorg. Ervaren team, moderne kliniek. Implantaten, cosmetische tandheelkunde.",
-        url: "https://dentalign.be",
+        url: "https://dentalijn.be",
         type: "website",
         locale: "nl_BE",
         images: [
@@ -44,9 +44,9 @@ export const metadata: Metadata = {
         ],
     },
     alternates: {
-        canonical: "https://dentalign.be",
+        canonical: "https://dentalijn.be",
         languages: {
-            "nl-BE": "https://dentalign.be",
+            "nl-BE": "https://dentalijn.be",
         },
     },
 };

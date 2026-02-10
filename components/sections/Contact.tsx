@@ -241,10 +241,10 @@ export default function Contact() {
                                     </div> */}
                                     <div className="vl-contact-info-btn mt-12">
                                         <Link
-                                            href="mailto:info@dentalign.be"
+                                            href="mailto:info@dentalijn.be"
                                             className="w-100 text-center vl-btn-primary"
                                         >
-                                            info@dentalign.be
+                                            info@dentalijn.be
                                         </Link>
                                     </div>
                                 </div>

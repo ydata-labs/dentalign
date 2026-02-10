@@ -9,10 +9,10 @@ export default function StructuredData() {
     // Base dentist object
     const dentistObject: any = {
         "@type": "Dentist",
-        "@id": "https://dentalign.be/#dentist",
+        "@id": "https://dentalijn.be/#dentist",
         name: "Tandartspraktijk Maasmechelen",
-        image: "https://dentalign.be/assets/img/logo/logo.png",
-        url: "https://dentalign.be",
+        image: "https://dentalijn.be/assets/img/logo/logo-light.svg",
+        url: "https://dentalijn.be",
         telephone: PHONE,
         email: EMAIL,
         address: {
@@ -82,7 +82,7 @@ export default function StructuredData() {
             // Medical Business
             {
                 "@type": "MedicalBusiness",
-                "@id": "https://dentalign.be/#medicalbusiness",
+                "@id": "https://dentalijn.be/#medicalbusiness",
                 name: "Tandartspraktijk Maasmechelen",
                 description:
                     "Professionele tandheelkundige zorg inclusief cosmetische tandheelkunde, implantaten en preventieve zorg in Maasmechelen, België.",
@@ -95,14 +95,14 @@ export default function StructuredData() {
             // Organization
             {
                 "@type": "Organization",
-                "@id": "https://dentalign.be/#organization",
+                "@id": "https://dentalijn.be/#organization",
                 name: "Tandartspraktijk Maasmechelen",
-                url: "https://dentalign.be",
+                url: "https://dentalijn.be",
                 logo: {
                     "@type": "ImageObject",
-                    url: "https://dentalign.be/assets/img/logo/logo.png",
+                    url: "https://dentalijn.be/assets/img/logo/logo-light.svg",
                     width: 256,
-                    height: 148,
+                    height: 151,
                 },
                 contactPoint: {
                     "@type": "ContactPoint",
@@ -115,23 +115,23 @@ export default function StructuredData() {
             // Website
             {
                 "@type": "WebSite",
-                "@id": "https://dentalign.be/#website",
-                url: "https://dentalign.be",
+                "@id": "https://dentalijn.be/#website",
+                url: "https://dentalijn.be",
                 name: "Tandartspraktijk Maasmechelen",
                 description:
                     "Moderne tandartspraktijk in Maasmechelen - Professionele tandheelkundige zorg",
                 publisher: {
-                    "@id": "https://dentalign.be/#organization",
+                    "@id": "https://dentalijn.be/#organization",
                 },
                 inLanguage: "nl-BE",
             },
             // Service offerings
             {
                 "@type": "Service",
-                "@id": "https://dentalign.be/#services",
+                "@id": "https://dentalijn.be/#services",
                 serviceType: "Dental Services",
                 provider: {
-                    "@id": "https://dentalign.be/#dentist",
+                    "@id": "https://dentalijn.be/#dentist",
                 },
                 areaServed: {
                     "@type": "City",

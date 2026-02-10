@@ -49,7 +49,7 @@ export default function Section1() {
         } catch (error) {
             setStatus("error");
             setErrorMessage(
-                "Er is iets misgegaan bij het verzenden van uw sollicitatie. Probeer het later opnieuw of stuur een e-mail naar info@dentalign.be."
+                "Er is iets misgegaan bij het verzenden van uw sollicitatie. Probeer het later opnieuw of stuur een e-mail naar info@dentalijn.be."
             );
             console.error("EmailJS error:", error);
         }

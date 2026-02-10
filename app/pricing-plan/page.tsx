@@ -23,13 +23,13 @@ export const metadata: Metadata = {
         title: "Prijzen & Tarieven - Tandartspraktijk Maasmechelen | Transparante Prijzen",
         description:
             "Ontdek onze transparante prijzen en tarieven voor tandheelkundige behandelingen. Bekijk onze betaalbare pakketten voor cosmetische tandheelkunde en preventieve zorg.",
-        url: "https://dentalign.be/pricing-plan",
+        url: "https://dentalijn.be/pricing-plan",
         locale: "nl_BE",
     },
     alternates: {
-        canonical: "https://dentalign.be/pricing-plan",
+        canonical: "https://dentalijn.be/pricing-plan",
         languages: {
-            "nl-BE": "https://dentalign.be/pricing-plan",
+            "nl-BE": "https://dentalijn.be/pricing-plan",
         },
     },
 };

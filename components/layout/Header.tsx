@@ -31,10 +31,10 @@ export default function Header({
                                     <Link href="/">
                                         <img
                                             className="object-fit-scale"
-                                            src="assets/img/logo/logo.png"
+                                            src={scroll ? "assets/img/logo/logo-light.svg" : "assets/img/logo/logo-dark.svg"}
                                             alt="logo"
                                             width={256}
-                                            height={148}
+                                            height={151}
                                         />
                                     </Link>
                                 </div>

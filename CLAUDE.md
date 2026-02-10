@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**Dentalign** is a Next.js dental clinic website with TypeScript, deployed on **Cloudflare Workers** using OpenNext for full SSR support. The site is bilingual (Dutch/English) focused on dental services in Maasmechelen, Belgium.
+**Dentalijn** is a Next.js dental clinic website with TypeScript, deployed on **Cloudflare Workers** using OpenNext for full SSR support. The site is bilingual (Dutch/English) focused on dental services in Maasmechelen, Belgium.
 
 ## Build & Development Commands
 

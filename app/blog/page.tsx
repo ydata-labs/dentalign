@@ -24,13 +24,13 @@ export const metadata: Metadata = {
         title: "Blog - Tandartspraktijk Maasmechelen | Tandheelkundige Tips & Nieuws",
         description:
             "Lees onze nieuwste artikelen over tandzorg en mondgezondheid. Deskundige inzichten en tips van onze tandheelkundige professionals.",
-        url: "https://dentalign.be/blog",
+        url: "https://dentalijn.be/blog",
         locale: "nl_BE",
     },
     alternates: {
-        canonical: "https://dentalign.be/blog",
+        canonical: "https://dentalijn.be/blog",
         languages: {
-            "nl-BE": "https://dentalign.be/blog",
+            "nl-BE": "https://dentalijn.be/blog",
         },
     },
 };

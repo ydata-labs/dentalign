@@ -8,5 +8,5 @@ export default function cloudflareLoader({
     quality?: number
 }): string {
     const params = [`width=${width}`, `quality=${quality || 75}`, 'format=auto']
-    return `https://dentalign.be/cdn-cgi/image/${params.join(',')}/${src}`
+    return `https://dentalijn.be/cdn-cgi/image/${params.join(',')}/${src}`
 }

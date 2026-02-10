@@ -19,13 +19,13 @@ export const metadata: Metadata = {
         title: "Patiëntbeoordelingen - Tandartspraktijk Maasmechelen | Ervaringen",
         description:
             "Lees wat onze patiënten zeggen over hun ervaring bij Tandartspraktijk Maasmechelen. Echte verhalen en beoordelingen van onze tevreden patiënten over onze tandheelkundige zorg.",
-        url: "https://dentalign.be/testimonial",
+        url: "https://dentalijn.be/testimonial",
         locale: "nl_BE",
     },
     alternates: {
-        canonical: "https://dentalign.be/testimonial",
+        canonical: "https://dentalijn.be/testimonial",
         languages: {
-            "nl-BE": "https://dentalign.be/testimonial",
+            "nl-BE": "https://dentalijn.be/testimonial",
         },
     },
 };

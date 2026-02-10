@@ -40,7 +40,7 @@ export default function FAQSchema() {
                 name: "Hoe kan ik een afspraak maken of verzetten?",
                 acceptedAnswer: {
                     "@type": "Answer",
-                    text: "U kunt een afspraak maken of verzetten door ons te bellen op 0494 14 31 15 of via ons online contactformulier op dentalign.be/contact. Wij bieden flexibele planning inclusief spoedafspraken. Onze praktijk is gevestigd aan Dokter Haubenlaan 17, 3630 Maasmechelen.",
+                    text: "U kunt een afspraak maken of verzetten door ons te bellen op 0494 14 31 15 of via ons online contactformulier op dentalijn.be/contact. Wij bieden flexibele planning inclusief spoedafspraken. Onze praktijk is gevestigd aan Dokter Haubenlaan 17, 3630 Maasmechelen.",
                 },
             },
             {
