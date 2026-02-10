@@ -183,14 +183,23 @@ export default function Footer() {
                                                 </Link>
                                             </li>
                                         </RenderConditionally>
-                                        <RenderConditionally condition={WHATSAPP}>
+                                        <RenderConditionally
+                                            condition={WHATSAPP}
+                                        >
                                             <li>
                                                 <Link
                                                     href={`https://wa.me/${WHATSAPP?.replace(/[^0-9]/g, "")}`}
                                                     target="_blank"
                                                 >
                                                     <span>
-                                                        <i className="fa-brands fa-whatsapp" style={{ fontSize: "24px", color: "#25D366" }} />
+                                                        <i
+                                                            className="fa-brands fa-whatsapp"
+                                                            style={{
+                                                                fontSize:
+                                                                    "24px",
+                                                                color: "#25D366",
+                                                            }}
+                                                        />
                                                     </span>
                                                     {WHATSAPP}
                                                 </Link>
