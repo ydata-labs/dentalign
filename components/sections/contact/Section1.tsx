@@ -240,23 +240,25 @@ export default function Section1() {
                         </div>
                     </div>
                     <div className="row mt-18 pb-10">
-                        <div className="col-lg-4 col-md-6 mb-30">
-                            {/* single icon box */}
-                            <div className="vl-contact-iner-icon-box">
-                                <div className="icon">
-                                    <span>
-                                        <img
-                                            src="assets/img/icons/vl-contact-ic-iner1.1.svg"
-                                            alt="Locatie icoon"
-                                        />
-                                    </span>
-                                </div>
-                                <div className="content">
-                                    <h5 className="title">Bezoek ons</h5>
-                                    <Link href="#">{ADDRESS}</Link>
+                        <RenderConditionally condition={ADDRESS}>
+                            <div className="col-lg-4 col-md-6 mb-30">
+                                {/* single icon box */}
+                                <div className="vl-contact-iner-icon-box">
+                                    <div className="icon">
+                                        <span>
+                                            <img
+                                                src="assets/img/icons/vl-contact-ic-iner1.1.svg"
+                                                alt="Locatie icoon"
+                                            />
+                                        </span>
+                                    </div>
+                                    <div className="content">
+                                        <h5 className="title">Bezoek ons</h5>
+                                        <Link href="/contact">{ADDRESS}</Link>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </RenderConditionally>
                         <RenderConditionally condition={PHONE}>
                             <div className="col-lg-4 col-md-6 mb-30">
                                 {/* single icon box */}

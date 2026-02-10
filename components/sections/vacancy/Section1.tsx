@@ -4,6 +4,7 @@ import { verifyEmail } from "@/util/emailVerifier";
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
 import { useState } from "react";
+import RenderConditionally from "@/components/elements/RenderConditonally";
 
 type FormStatus = "idle" | "loading" | "success" | "error";
 
@@ -101,19 +102,21 @@ export default function Section1() {
                                     hoogste standaard van zorg te bieden.
                                 </p>
 
-                                <div className="vacancy-cta mb-30">
-                                    <p className="para">
-                                        <strong>
-                                            Stuur je CV naar{" "}
-                                            <Link
-                                                href={`mailto:${EMAIL}`}
-                                                className="text-primary"
-                                            >
-                                                {EMAIL}
-                                            </Link>
-                                        </strong>
-                                    </p>
-                                </div>
+                                <RenderConditionally condition={EMAIL}>
+                                    <div className="vacancy-cta mb-30">
+                                        <p className="para">
+                                            <strong>
+                                                Stuur je CV naar{" "}
+                                                <Link
+                                                    href={`mailto:${EMAIL}`}
+                                                    className="text-primary"
+                                                >
+                                                    {EMAIL}
+                                                </Link>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                </RenderConditionally>
                             </div>
                         </div>
                         <div className="col-lg-6 mb-30">
