@@ -26,6 +26,7 @@ const nextConfig = {
                             "img-src 'self' data: blob: https://cdn-cgi/ https://*.cloudflare.com",
                             "connect-src 'self' https://api.emailjs.com https://rapid-email-verifier.fly.dev https://cloudflareinsights.com https://static.cloudflareinsights.com",
                             "frame-src 'self' https://www.google.com",
+                            "frame-ancestors 'none'",
                             "object-src 'none'",
                             "base-uri 'self'",
                             "form-action 'self'",

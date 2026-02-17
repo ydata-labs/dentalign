@@ -1,0 +1,4 @@
+Contact: mailto:info@dentalijn.be
+Expires: 2027-02-17T00:00:00.000Z
+Preferred-Languages: nl, en
+Canonical: https://dentalijn.be/.well-known/security.txt
